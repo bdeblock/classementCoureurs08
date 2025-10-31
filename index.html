@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+  <title>Challenge Ardennes 2025</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div id="app" class="mx-auto p-2" style="max-width: 900px">
+    <div>
+      <input
+        type="radio"
+        id="classement"
+        value="classement"
+        v-model="typeTab"
+        class="mr-1"
+      />
+      <label for="classement" class="mr-2">classement</label>
+      <input type="radio" id="detail" value="detail" v-model="typeTab" class="mr-1"/>
+      <label for="detail" class="mr-2">détail</label>
+      
+      <select name="cat" v-model="catSelect" class="mr-2">
+        <option value="" v-if="width > 380">Catégorie</option>
+        <option value="" v-else>Cat.</option>
+        <option value="CA">CA</option>
+        <option value="JU">JU</option>
+        <option value="SE+">SE+</option>
+        <option value="V1">V1</option>
+        <option value="V2">V2</option>
+        <option value="V3+">V3+</option>
+        <option value="TC">TC</option>
+      </select>
+      <select name="sexe" v-model="sexeSelect">
+        <option value="">Sexe</option>
+        <option value="F">F</option>
+        <option value="M">M</option>
+      </select>
+    </div>
+    
+<!--##########################################Classement#########################"-->
+<div v-show="typeTab == 'classement'">
+    <div class="container-fluid text-center">
+      <div class="row font-weight-bold">
+        <div class="col-6 col-sm-5 border border-dark">Nom</div>
+        <div class="col-3 col-sm-4 border-top border-bottom border-right border-dark">
+			Cat<span v-if="width > 450">égorie</span><span v-else>.</span>
+		</div>
+        <div class="col-3 border-top border-bottom border-right border-dark">
+			<span v-if="width > 450">Points</span><span v-else>Points</span>
+		</div>
+      </div>
+      <div 
+        v-for="(line, index) in myClst"
+        :key="index"
+        class="row"
+        :class="{ rowColor: rankingRowChoice[index] % 2 }"
+        v-show="rankingRowChoice[index] > 0"
+       >
+        <div
+          class="clickable col-6 col-sm-5 border-right border-left border-dark"
+          @click="typeTab = 'detail'; typeTri = 'coureur' ; searchText = line.nom; numLien = line.numero"
+        >{{ line.nom }}</div>
+        <div class="col-3 col-sm-4 border-right border-dark">{{ line.categorie }}</div>
+        <div class="col-3 border-right border-dark">{{ line.points }}</div>
+      </div>
+      <div class="row border-bottom border-dark"></div>
+    </div>  
+</div>	  
+
+
+<div v-show="typeTab == 'detail'">
+	<div>Tri par : 
+      <input type="radio" id="course" value="course" v-model="typeTri" class="mr-1" @click="searchText=''; numLien=''"/>
+      <label for="course" class="mr-2">course</label>
+      <input type="radio" id="coureur" value="coureur" v-model="typeTri" class="mr-1" @click="searchRace=''; choixEpreuve={};"/>
+      <label for="coureur" class="mr-2">coureur</label>
+      <input type="radio" id="aucun" value="" v-model="typeTri" class="mr-1" @click="searchText=''; numLien=''; searchRace=''; choixEpreuve ={};"/>
+      <label for="aucun">aucun</label>
+    </div>
+
+    
+<!--##########################################ByRace#########################"-->
+	<div v-show="typeTri == 'course'" style="width: fit-content">
+	  <input type="text" v-model="searchRace" placeholder="Recherche ..." @keyup="filterByRace()" style="min-width: 300px"/> 
+      <div style="position: relative; z-index: 2">
+        <div class="myDropdown races">
+          <div v-for="(name, index) in myRaces" :key="index" @click="searchRace = name['compétition']; filterByRace(name);">
+			  {{ name['compétition'] }} <br/> {{name.epreuve}}
+		  </div>
+        </div>
+      </div>
+      <div v-if="choixEpreuve.lieu">
+        <!--div><a id="compet" :href="choixEpreuve.url" target="_blank">Compétition : {{ choixEpreuve['compétition'] }}</a></div-->
+	    <div><a id="epreuve" :href="choixEpreuve.url" target="_blank">Epreuve : {{ choixEpreuve['epreuve'] }}</a></div>
+	    <div style="display: inline-flex">
+	      <div id="coeff" class="mr-4">
+		    <span v-if="width > 450">Coefficient : </span>
+		    <span v-else>coeff x</span>
+		    {{ choixEpreuve['coeff'] }}
+		  </div>
+	      <div id="nbResultats" class="mr-4">Nb résultats : {{ choixEpreuve.nbResultats }}</div>
+	      <div id="ajoutPts">
+			<span v-if="width > 450">Ajout de points : </span>
+		    <span v-else>pts +</span>
+		    {{ choixEpreuve['pts+'] }}
+		  </div>
+	    </div>
+	  </div>
+    </div>
+    
+<!--##########################################ByName#########################"-->
+	<div v-if="typeTri == 'coureur'" style="width: fit-content">
+      <input type="text" v-model="searchText" placeholder="Recherche ..." @keyup="filterByName()" /> 
+      <div style="position: relative;">
+        <div class="myDropdown names">
+          <div
+            v-for="(name, index) in tabNames"
+            :key="index"
+            @click="searchText = name.nom; numLien = name.numAthlete; filterByName('all');"
+           >{{ name.nom }}
+          </div>
+        </div>
+      </div>
+      <!--a v-if="numLien" :href="'https://www.athle.fr/bases/athlete.aspx?seq='.concat(numLien)" target="_blank">lien fiche FFA</a-->
+    </div> 
+	<div class="container-fluid text-center">
+      <div class="row font-weight-bold">
+        <div class="col-6 col-sm-5 border border-dark">Nom</div>
+        <div class="col-2 col-sm-3 border-top border-bottom border-right border-dark">
+			Cat<span v-if="width > 575">égorie</span><span v-else>.</span>
+		</div>
+		<!--div class="col-3 col-sm-4 row"-->
+          <div class="col-2 border-top border-bottom border-right border-dark">
+		  	  Pl<span v-if="width > 575">ace</span><span v-else>.</span>
+		  </div>
+          <div class="col-2 border-top border-bottom border-right border-dark">
+			<span v-if="width > 575">Points</span><span v-else>Pts</span>
+		  </div>
+		<!--/div-->
+      </div>
+      <div 
+        v-for="(line, index) in myDatas"
+        :key="index"
+        class="row"
+        :class="{ rowColor: detailRowChoice[index] % 2 }"
+        v-show="detailRowChoice[index] > 0"
+      >
+        <div class="clickable col-6 col-sm-5 border-right border-left border-dark">
+			<span
+			  v-if="typeTri == 'course' || (typeTri == 'coureur' && !searchText) || !typeTri"
+			  @click="nameClick(line)"
+			> {{ line.nom }} <br/></span>
+			<span
+			  v-if="dictRaces[line['épreuve']] && (typeTri == 'coureur' || (typeTri == 'course' && !searchRace) || !typeTri)"
+			  @click="raceClick(line)"
+			>
+			  {{ dictRaces[line['épreuve']].compet }} <br/> {{ dictRaces[line['épreuve']].epreuve }}
+			</span>
+		</div>
+        <div class="col-2 col-sm-3 border-right border-dark d-flex align-items-center justify-content-center">
+		  <div>{{ line['cat.'] }}<span class="d-none d-sm-inline"> ({{ line['catégorie'] }})</span></div>
+		</div>	
+		<!--div class="col-3 col-sm-4 row"-->
+          <div class="col-2 border-right border-dark d-flex align-items-center justify-content-center">
+		    <div>{{ line['pl./cat.'] }}<span class="d-none d-sm-inline"> ({{ line.place }})</span></div>
+          </div>
+          <div class="col-2 border-right border-dark d-flex align-items-center justify-content-center">
+		    <div>{{ line.points }}</div>
+          </div>
+        <!--/div-->
+      </div>
+      <div class="row border-bottom border-dark"></div>
+    </div>
+</div>
+    
+  </div>
+</body>
+</html>
+
+<script type="module">
+  import { createApp, ref, computed, watch, onMounted, onUnmounted } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+  createApp({
+    setup() {
+      const message = ref('Hello Vue!')
+      const count = ref(0)
+      const hello = (param) => console.log('hello world function' + param)
+      const myDatas = ref([])
+      const myRaces = ref([])
+      const myClst = ref([])
+      const tabNames = ref([])
+      const dictRaces = ref({})
+      const searchText = ref('')
+      const searchRace = ref('')
+      const catSelect = ref('')
+      const sexeSelect = ref('')
+      const choixEpreuve = ref({})
+      const typeTab = ref('classement')
+      const typeTri = ref('')
+      const width = ref(window.innerWidth)
+      const numLien = ref('');
+      const syncWidth = () => {width.value = window.innerWidth; console.log(width.value);}
+      
+      watch(typeTab, (val) => {
+        choixEpreuve.value = {};
+        searchRace.value = '';
+        if (val == 'classement') {searchText.value = ''; numLien.value = ''};
+      })
+              
+      function nameClick(line){
+        typeTri.value = 'coureur';
+        searchRace.value = '';
+        choixEpreuve.value = {};
+        searchText.value = line.nom;
+        numLien.value = line.numero;
+      }
+      
+      function raceClick(line){
+        typeTri.value = 'course';
+        searchText.value = '';
+        numLien.value = '';
+        searchRace.value = dictRaces.value[line['épreuve']].compet;
+        for (let race of myRaces.value) {
+			//console.log(race['numéro']);
+          if (race['numéro'] == line['épreuve']){ choixEpreuve.value = race };
+	    };
+      }
+      
+      const detailRowChoice = computed(() => {
+		let tab=[];
+		let bool=true;
+		let i = 1;
+	    for (let line of myDatas.value){
+		  bool = (line.nom == searchText.value || !searchText.value)
+		  bool = bool && (line['épreuve'] == choixEpreuve.value['numéro'] || !searchRace.value);
+		  bool = bool && (line['cat.'].slice(0,2) == catSelect.value.slice(0,2) || !catSelect.value);
+		  bool = bool && (line['cat.'].slice(-1) == sexeSelect.value || !sexeSelect.value);
+	      if (bool){ tab.push(i); i=i+1; }else{ tab.push(0); };
+	    };
+	    return tab;
+      })
+      
+      const rankingRowChoice = computed(() => {
+		let tab=[];
+		let bool=true;
+		let i = 1;
+	    for (let line of myClst.value){
+		  bool = (line['categorie'].slice(0,2) == catSelect.value.slice(0,2) || !catSelect.value);
+		  bool = bool && (line['categorie'].slice(-1) == sexeSelect.value || !sexeSelect.value);
+	      if (bool){ tab.push(i); i=i+1; }else{ tab.push(0); };
+	    };
+	    return tab;
+      })
+      
+      function filterByName(all) {
+        //let input = document.getElementById("myInput");
+        //let filter = input.value.toUpperCase();
+        //let dropdown = document.getElementById("myDropdown");
+        //let div = dropdown.getElementsByTagName("div");
+        let filter = searchText.value.toUpperCase();
+        let  dropdowns = document.querySelectorAll(".myDropdown.names div");      
+        /*if (dropdowns.length > 0) {
+          dropdowns.forEach((dropdown) => {
+            console.log(dropdown.textContent);
+          });
+        }*/
+        for (const drpd of dropdowns) {
+          let txtValue = drpd.textContent || drpd.innerText;
+          if (filter && !all && txtValue.toUpperCase().indexOf(filter) > -1) {
+            drpd.style.display = "block";
+          } else {
+            drpd.style.display = "none";
+          }
+        }
+        
+        /*for (let i = 0; i < div.length; i++) {
+          let txtValue = div[i].textContent || div[i].innerText;
+          if (filter && txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "block";
+          } else {
+            div[i].style.display = "none";
+          }
+        }*/
+      }
+      
+      function filterByRace(name) {
+		//console.log(name['numéro']);
+        let filter = searchRace.value.toUpperCase();
+        let  dropdowns = document.querySelectorAll(".myDropdown.races div");      
+        for (const drpd of dropdowns) {
+          let txtValue = drpd.textContent || drpd.innerText;
+          if (filter && !name && txtValue.toUpperCase().indexOf(filter) > -1) {
+            drpd.style.display = "block";
+          } else {
+            drpd.style.display = "none";
+          }
+        }
+        if (name) { choixEpreuve.value = name; }
+      }
+      
+      async function getFileFromUrl(url, callback){
+        const response = await fetch(url);
+        const data = await response.blob();
+        return new Promise((resolve) => {
+          var reader = new FileReader();
+          reader.onload = function(e) {
+             resolve(callback(e.target.result));
+          };
+          reader.readAsText(data);
+	    });
+      }
+  
+      function processDataAsObj(csv){
+        let allTextLines = csv.replaceAll('"', '').split(/\r\n|\n/);
+        if (allTextLines.at(-1) == "") { allTextLines.pop() };
+        let lines = [];
+        let names= []
+	
+        //first line of csv
+        let keys = allTextLines.shift().split(',');
+	    
+        while (allTextLines.length) {
+          let arr = allTextLines.shift().split(',');
+          let obj = {};
+          for(let i = 0; i < keys.length; i++){
+            obj[keys[i]] = arr[i];
+	      }
+          lines.push(obj);
+          names.push(obj.nom);
+        }
+		//tabNames.value = [... new Set(names)].sort();
+		//console.log(tabNames.value);
+		//console.log(lines);
+		return lines;
+      }
+            
+      onMounted(async () => {
+		myRaces.value = await getFileFromUrl('liste_courses.csv', processDataAsObj);
+	    myDatas.value = await getFileFromUrl('fichier.csv', processDataAsObj);
+	    myClst.value = await getFileFromUrl('challenge_clst.csv', processDataAsObj);
+	    let tabNamesTri = [];
+	    let tabTemp = [];
+	    
+	    for (let data of myDatas.value){ 
+			tabNamesTri.push(data.nom);
+			tabTemp.push({nom: data.nom, numAthlete: data.numAthlete});
+		};
+	    //for (let data of myDatas.value){ tabNames.value.push(data.nom) };
+	    for (let race of myRaces.value){ 
+		  dictRaces.value[race['numéro']] = {compet: race['compétition'], epreuve: race.epreuve};
+		};
+		
+	    tabNamesTri = [... new Set(tabNamesTri)].sort();    
+	    for (let name of tabNamesTri){
+	      for (let temp of tabTemp){
+		    if (temp.nom == name) {
+			  tabNames.value.push(temp);
+			  break;
+			}
+	      };
+	    };
+	    //console.log(tabNames.value); // [... new Set(tabNames.value)].sort();
+	    //choixEpreuve.value = myRaces.value.at(-1);
+	    //searchRace.value = choixEpreuve.value['compétition'];  
+	    window.addEventListener('resize', syncWidth);
+	  })
+	  
+	  onUnmounted(() => window.removeEventListener('resize', syncWidth));
+          
+      return {
+        message,
+        count,
+        hello,
+        myDatas,
+        myRaces,
+        myClst,
+        tabNames,
+        dictRaces,
+        searchText,
+        searchRace,
+        catSelect,
+        sexeSelect,
+        choixEpreuve,
+        filterByName,
+        filterByRace,
+        typeTab,
+        typeTri,
+        detailRowChoice,
+        rankingRowChoice,
+        nameClick,
+        raceClick,
+        width,
+        numLien,
+      }
+    },
+
+    mounted() {
+      //console.log(this.myDatas) // 0
+    },
+  }).mount('#app')
+</script>
+<style>
+.clickable {
+  cursor: pointer;
+}	
+	
+.myDropdown {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ddd;
+  z-index: 1;
+  background-color: white;
+}
+
+.myDropdown div {
+  display: none;
+  cursor: pointer;
+  color: black;
+  padding: 0px 10px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.myDropdown div:hover {background-color: gainsboro}
+
+//.row:nth-child(even) {background-color: gainsboro}
+
+.rowColor {background-color: gainsboro}
+</style>
+<script>
+  console.log('hello');
+  
+//variante vue
+/*      const getFileFromUrl = async (url) => {
+        const response = await fetch(url)
+        const data = await response.blob()
+        let reader = new FileReader()
+        reader.onload = function(e) {
+           processDataAsObj(e.target.result)
+        }
+        reader.readAsText(data)
+      }
+      
+      const processDataAsObj = (csv) => {
+        let allTextLines = csv.split(/\r\n|\n/)
+        let lines = []
+	
+        //first line of csv
+        let keys = allTextLines.shift().split(',')
+	
+        while (allTextLines.length) {
+          let arr = allTextLines.shift().split(',')
+          let obj = {}
+          for(let i = 0; i < keys.length; i++){
+              obj[keys[i]] = arr[i]
+	      }
+          lines.push(obj)
+        }
+        //console.log(lines)
+        myDatas.value = lines
+      }
+      //obligatoirement après la déclaration des fonctions
+      getFileFromUrl('fichier.csv')*/
+//Fin variante      
+  
+/*  async function getFileFromUrl(url){
+    const response = await fetch(url);
+    const data = await response.blob();
+    var reader = new FileReader();
+    reader.onload = function(e) {
+       processDataAsObj(e.target.result);
+    };
+    reader.readAsText(data)
+  }
+  
+  function processDataAsObj(csv){
+    var allTextLines = csv.split(/\r\n|\n/);
+    var lines = [];
+	
+    //first line of csv
+    var keys = allTextLines.shift().split(',');
+	
+    while (allTextLines.length) {
+        var arr = allTextLines.shift().split(',');
+        var obj = {};
+        for(var i = 0; i < keys.length; i++){
+            obj[keys[i]] = arr[i];
+	}
+        lines.push(obj);
+    }
+        console.log(lines);
+    return lines
+	//drawOutputAsObj(lines);
+}
+  
+  const myDatas = getFileFromUrl('fichier.csv');*/
+</script>
