@@ -23,13 +23,13 @@
       <select name="cat" v-model="catSelect" class="mr-2">
         <option value="" v-if="width > 380">Catégorie</option>
         <option value="" v-else>Cat.</option>
-        <option value="CA">CA</option>
-        <option value="JU">JU</option>
-        <option value="SE+">SE+</option>
-        <option value="V1">V1</option>
-        <option value="V2">V2</option>
-        <option value="V3+">V3+</option>
-        <option value="TC">TC</option>
+        <option value="CA">Cadets</option>
+        <option value="JU">Juniors</option>
+        <option value="SE+">ES / SE / M0</option>
+        <option value="V1">M1 / M2</option>
+        <option value="V2">M3 / M4</option>
+        <option value="V3+">M5 et plus</option>
+        <option value="TC">Toutes Cat.</option>
       </select>
       <select name="sexe" v-model="sexeSelect">
         <option value="">Sexe</option>
@@ -75,8 +75,8 @@
       <label for="course" class="mr-2">course</label>
       <input type="radio" id="coureur" value="coureur" v-model="typeTri" class="mr-1" @click="searchRace=''; choixEpreuve={};"/>
       <label for="coureur" class="mr-2">coureur</label>
-      <input type="radio" id="aucun" value="" v-model="typeTri" class="mr-1" @click="searchText=''; numLien=''; searchRace=''; choixEpreuve ={};"/>
-      <label for="aucun">aucun</label>
+      <input v-show="false" type="radio" id="aucun" value="" v-model="typeTri" class="mr-1" @click="searchText=''; numLien=''; searchRace=''; choixEpreuve ={};"/>
+      <label v-show="false" for="aucun">aucun</label>
     </div>
 
     
@@ -131,7 +131,8 @@
 			Cat<span v-if="width > 575">égorie</span><span v-else>.</span>
 		</div>
 		<!--div class="col-3 col-sm-4 row"-->
-          <div class="col-2 border-top border-bottom border-right border-dark">
+          <div class="col-2 border-top border-bottom border-right border-dark" title="Pl. dans la catégorie 08
+(Pl. scratch course)">
 		  	  Pl<span v-if="width > 575">ace</span><span v-else>.</span>
 		  </div>
           <div class="col-2 border-top border-bottom border-right border-dark">
