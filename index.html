@@ -19,10 +19,9 @@
       <label for="classement" class="mr-2">classement</label>
       <input type="radio" id="detail" value="detail" v-model="typeTab" class="mr-1"/>
       <label for="detail" class="mr-2">détail</label>
-      
+      <br v-if="width < 420"/>
       <select name="cat" v-model="catSelect" class="mr-2">
-        <option value="" v-if="width > 380">Catégorie</option>
-        <option value="" v-else>Cat.</option>
+        <option value="">Catégorie</option>
         <option value="CA">Cadets</option>
         <option value="JU">Juniors</option>
         <option value="SE+">ES / SE / M0</option>
