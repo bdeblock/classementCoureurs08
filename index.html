@@ -209,11 +209,13 @@
       })
               
       function nameClick(line){
+		  //typeTab = 'detail'; typeTri = 'coureur' ; searchText = line.nom; numLien = line.numero
         typeTri.value = 'coureur';
         searchRace.value = '';
         choixEpreuve.value = {};
         searchText.value = line.nom;
         numLien.value = line.numAthlete;
+        //console.log(line);
       }
       
       function raceClick(line){
@@ -361,6 +363,7 @@
 	      };
 	    };
 	    //console.log(tabNames.value); // [... new Set(tabNames.value)].sort();
+	    //console.log(myRaces.value);
 	    //choixEpreuve.value = myRaces.value.at(-1);
 	    //searchRace.value = choixEpreuve.value['compétition'];  
 	    window.addEventListener('resize', syncWidth);
