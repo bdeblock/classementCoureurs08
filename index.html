@@ -73,7 +73,7 @@
         <div class="container-fluid col-3 col-sm-4 border-right border-dark">
 			<div class="row">
 				<div class="col-12 col-sm-6">{{ line.points }}</div>
-				<div class="col-12 col-sm-6 small">{{ line.nbCourses }} x {{ line.ptMoy }}</div>
+				<div class="col-12 col-sm-6 small">{{ Math.min(12, line.nbCourses) }} x {{ line.ptMoy }}</div>
 			</div>
 		</div>
       </div>
