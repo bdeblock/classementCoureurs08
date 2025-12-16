@@ -41,12 +41,20 @@
 <div v-show="typeTab == 'classement'">
     <div class="container-fluid text-center">
       <div class="row font-weight-bold">
-        <div class="col-6 col-sm-5 border border-dark">Nom</div>
-        <div class="col-3 col-sm-4 border-top border-bottom border-right border-dark">
-			Cat<span v-if="width > 450">égorie</span><span v-else>.</span>
+		<div class="col-1 border-top border-bottom border-left border-dark"></div>  
+        <div class="col-6 col-sm-5 border-top border-bottom border-right border-dark">Nom</div>
+        <div class="col-2 border-top border-bottom border-right border-dark">
+			Cat<span v-if="width > 574">égorie</span><span v-else>.</span>
 		</div>
-        <div class="col-3 border-top border-bottom border-right border-dark">
-			<span v-if="width > 450">Points</span><span v-else>Points</span>
+        <div class="container-fluid col-3 col-sm-4 border-top border-bottom border-right border-dark">
+			<div class="row">
+				<div class="col-12 col-sm-6">
+					<span v-if="width > 450">Points</span><span v-else>Pts</span>
+				</div>
+				<div class="col-12 col-sm-6 small">
+					<strong v-if="width > 450">Moyenne</strong><strong v-else>Moy.</strong>
+				</div>
+			</div>
 		</div>
       </div>
       <div 
@@ -56,12 +64,18 @@
         :class="{ rowColor: rankingRowChoice[index] % 2 }"
         v-show="rankingRowChoice[index] > 0"
        >
+        <div class="col-1 border-left border-dark">{{ line.rang }}</div>
         <div
-          class="clickable col-6 col-sm-5 border-right border-left border-dark"
+          class="clickable col-6 col-sm-5 border-right border-dark"
           @click="typeTab = 'detail'; typeTri = 'coureur' ; searchText = line.nom; numLien = line.numero"
         >{{ line.nom }}</div>
-        <div class="col-3 col-sm-4 border-right border-dark">{{ line.categorie }}</div>
-        <div class="col-3 border-right border-dark">{{ line.points }}</div>
+        <div class="col-2 border-right border-dark">{{ line.categorie }}</div>
+        <div class="container-fluid col-3 col-sm-4 border-right border-dark">
+			<div class="row">
+				<div class="col-12 col-sm-6">{{ line.points }}</div>
+				<div class="col-12 col-sm-6 small">{{ line.nbCourses }} x {{ line.ptMoy }}</div>
+			</div>
+		</div>
       </div>
       <div class="row border-bottom border-dark"></div>
     </div>  
