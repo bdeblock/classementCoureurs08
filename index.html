@@ -352,9 +352,9 @@
       }
             
       onMounted(async () => {
+		myClst.value = await getFileFromUrl('challenge_clst.csv', processDataAsObj);
 		myRaces.value = await getFileFromUrl('liste_courses.csv', processDataAsObj);
-	    myDatas.value = await getFileFromUrl('bdd.csv', processDataAsObj);
-	    myClst.value = await getFileFromUrl('challenge_clst.csv', processDataAsObj);
+	    myDatas.value = await getFileFromUrl('bdd.csv', processDataAsObj);	    
 	    let tabNamesTri = [];
 	    let tabTemp = [];
 	    
