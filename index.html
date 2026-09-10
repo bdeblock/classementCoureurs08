@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+  <title>Challenge coureurs Ardennes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <div id="app" class="mx-auto p-2" style="max-width: 900px">
+  <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <div>
+	    <button class="navbar-toggler" type="button" @click="showNavbar=!showNavbar; marquee = false; console.log(marquee);">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="marquee-container d-inline-flex ms-2" v-if = "marquee">
+          <div class="marquee-content">
+            < < < Menu < < <
+          </div>
+        </div>
+      </div>
+      <h4>20{{season}} / 20{{season + 1}}</h4>
+      <div class="collapse navbar-collapse" :class="{ show: showNavbar }" id="navbar">
+        <div class="navbar-nav" @click="showNavbar=!showNavbar">
+          <a class="nav-link">Classement 2026 / 2027, à venir ...</a>
+          <a class="nav-link active" href="#" @click="season = 25">Classement 2025 / 2026</a>
+          <a class="nav-link active" href="https://www.athle.fr/bases/liste.aspx?frmpostback=true&frmbase=calendrier&frmmode=1&frmdate1=2026-09-01&frmdate2=2027-08-31&frmdepartement=008" target="_blank">Calendrier / résultats</a>
+          <a class="nav-link active" href="https://drive.google.com/drive/folders/1qem0x7hX3VsSFzezGTfbqCIaG_imQAkA" target="_blank">Règlement / Challenge clubs</a>
+          <a class="nav-link">Aide, à venir ...</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+	<h4 style="text-align:center">Nouvelle saison, bientôt disponible ...</h4>
+	  <!--select name="link" v-model="linkSelect" :class="{ 'float-end': width > 615 }">
+      <option value="26">Classement 2026 / 2027</option>
+      <option value="25">Classement 2025 / 2026</option>
+      <option value="calendrier">Calendrier / résultats</option>
+      <option value="reglement">Règlement / Challenge clubs</option>
+      </select-->
+    <div class="mb-2">  
+      <input
+        type="radio"
+        id="classement"
+        value="classement"
+        v-model="typeTab"
+        class="me-1"
+      />
+      <label for="classement" class="me-2">classement</label>
+      <input type="radio" id="detail" value="detail" v-model="typeTab" class="me-1" @click="typeTri='course'"/>
+      <label for="detail" class="me-2">détail</label>
+      <br v-if="width < 420"/>
+      <select name="cat" v-model="catSelect" class="me-2">
+        <option value="">Catégorie</option>
+        <option value="CA">Cadets</option>
+        <option value="JU">Juniors</option>
+        <option value="SE+">ES / SE / M0</option>
+        <option value="V1">M1 / M2</option>
+        <option value="V2">M3 / M4</option>
+        <option value="V3+">M5 et plus</option>
+        <option value="TC">Toutes Cat.</option>
+      </select>
+      <select name="sexe" v-model="sexeSelect">
+        <option value="">Sexe</option>
+        <option value="F">F</option>
+        <option value="M">M</option>
+      </select>
+    </div>
+    
+<!--##########################################Classement#########################"-->
+  <div v-show="typeTab == 'classement'">
+    <div class="container-fluid text-center">
+	<div v-if="catSelect && sexeSelect">
+      <div class="row fw-bold">
+		<div class="col-1 border-top border-bottom border-start border-dark"></div>  
+        <div class="col-6 col-sm-5 border-top border-bottom border-end border-dark">Nom</div>
+        <div class="col-2 border-top border-bottom border-end border-dark">
+			Cat<span v-if="width > 574">égorie</span><span v-else>.</span>
+		</div>
+        <div class="container-fluid col-3 col-sm-4 border-top border-bottom border-end border-dark">
+			<div class="row">
+				<div class="col-12 col-sm-6">
+					<span v-if="width > 450">Points</span><span v-else>Pts</span>
+				</div>
+				<div class="col-12 col-sm-6 small">
+					<strong v-if="width > 450">Moyenne</strong><strong v-else>Moy.</strong>
+				</div>
+			</div>
+		</div>
+      </div>
+      <div 
+        v-for="(line, index) in myRanking"
+        :key="index"
+        class="row"
+        :class="{ rowColor: rankingRowChoice[index] % 2 }"
+        v-show="rankingRowChoice[index] > 0"
+       >
+        <div class="col-1 border-start border-dark">{{ line.rang }}</div>
+        <div
+          class="clickable col-6 col-sm-5 border-end border-dark"
+          @click="typeTab = 'detail'; typeTri = 'coureur' ; searchName = line.nom; numLien = line.numero"
+        >{{ line.nom }}</div>
+        <div class="col-2 border-end border-dark">{{ line.categorie }}</div>
+        <div class="container-fluid col-3 col-sm-4 border-end border-dark">
+			<div class="row">
+				<div class="col-12 col-sm-6">{{ line.points }}</div>
+				<div class="col-12 col-sm-6 small">{{ Math.min(12, line.nbCourses) }} x {{ line.ptMoy }}</div>
+			</div>
+		</div>
+      </div>
+      <div class="row border-bottom border-dark"></div>
+    </div>
+    <div v-else class="alert alert-primary" role="alert">Veuillez choisir la categorie et le sexe</div>
+    </div>  
+  </div>	  
+
+
+  <div v-show="typeTab == 'detail'">
+	<div>Tri par : 
+      <input type="radio" id="course" value="course" v-model="typeTri" class="me-1" @click="searchName=''; numLien=''"/>
+      <label for="course" class="me-2">course</label>
+      <input type="radio" id="coureur" value="coureur" v-model="typeTri" class="me-1" @click="searchRace=''; choixEpreuve={};"/>
+      <label for="coureur" class="me-2">coureur</label>
+      <input v-show="false" type="radio" id="aucun" value="" v-model="typeTri" class="me-1" @click="searchName=''; numLien=''; searchRace=''; choixEpreuve ={};"/>
+      <label v-show="false" for="aucun">aucun</label>
+    </div>
+
+    
+<!--##########################################ByRace#########################"-->
+	<div v-show="typeTri == 'course'" style="width: fit-content">
+	  <input v-model.lazy="searchRace" type="text" id="searchRaceInput" placeholder="Recherche ..." @keyup="filterByRace()" style="min-width: 300px"/> 
+      <div style="position: relative; z-index: 2">
+        <div class="myDropdown races">
+          <div v-for="(name, index) in myRaces" :key="index" @click="searchRace = name['competition']; filterByRace(name);">
+			  {{ name['competition'] }} <br/> {{name.epreuve}}
+		  </div>
+        </div>
+      </div>
+      <div v-if="choixEpreuve.lieu">
+        <!--div><a id="compet" :href="choixEpreuve.url" target="_blank">Compétition : {{ choixEpreuve['competition'] }}</a></div-->
+	    <div><a id="epreuve" :href="choixEpreuve.url" target="_blank">Epreuve : {{ choixEpreuve['epreuve'] }}</a></div>
+	    <div style="display: inline-flex">
+	      <div id="coeff" class="me-4">
+		    <span v-if="width > 450">Coefficient : </span>
+		    <span v-else>coeff x</span>
+		    {{ choixEpreuve['coeff'] }}
+		  </div>
+	      <div id="nbResultats" class="me-4">Nb résultats : {{ choixEpreuve.nbResultats }}</div>
+	      <div id="ajoutPts">
+			<span v-if="width > 450">Ajout de points : </span>
+		    <span v-else>pts +</span>
+		    {{ choixEpreuve['pts+'] }}
+		  </div>
+	    </div>
+	  </div>
+    </div>
+    
+<!--##########################################ByName#########################"-->
+	<div v-if="typeTri == 'coureur'" style="width: fit-content">
+      <input id="searchNameInput" v-model.lazy="searchName" type="text" placeholder="Recherche ..." @keyup="filterByName()" /> 
+      <div style="position: relative;">
+        <div class="myDropdown names">
+          <div
+            v-for="(name, index) in tabNames"
+            :key="index"
+            @click="nameClick(name)"
+           >{{ name.nom }}
+          </div>
+        </div>
+      </div>
+      <a v-if="numLien" :href="'https://www.athle.fr/athletes/'.concat(numLien)" target="_blank">lien fiche FFA</a>
+    </div> 
+
+<!--##########################################Table#########################"-->    
+	<div class="container-fluid text-center">
+	  <div v-if="searchName || searchRace">
+      <div class="row fw-bold">
+        <div class="col-6 col-sm-5 border border-dark">Nom</div>
+        <div class="col-2 col-sm-3 border-top border-bottom border-end border-dark">
+			Cat<span v-if="width > 575">égorie</span><span v-else>.</span>
+		</div>
+		<!--div class="col-3 col-sm-4 row"-->
+          <div class="col-2 border-top border-bottom border-end border-dark" title="Pl. dans la categorie 08
+(Pl. scratch course)">
+		  	  Pl<span v-if="width > 575">ace</span><span v-else>.</span>
+		  </div>
+          <div class="col-2 border-top border-bottom border-end border-dark">
+			<span v-if="width > 575">Points</span><span v-else>Pts</span>
+		  </div>
+		<!--/div myDatas-->
+      </div>
+      <div 
+        v-for="(line, index) in tabByName"
+        :key="index"
+        class="row"
+        :class="{ rowColor: detailRowChoice[index] % 2 }"
+        v-show="detailRowChoice[index] > 0"
+      >
+        <div class="clickable col-6 col-sm-5 border-end border-start border-dark">
+			<span
+			  v-if="typeTri == 'course' || (typeTri == 'coureur' && !searchName) || !typeTri"
+			  @click="nameClick(line)"
+			> {{ line.nom }} <br/></span>
+			<span
+			  v-if="dictRaces[line['epreuve']] && (typeTri == 'coureur' || (typeTri == 'course' && !searchRace) || !typeTri)"
+			  @click="raceClick(line)"
+			>
+			  {{ dictRaces[line['epreuve']].compet }} <br/> {{ dictRaces[line['epreuve']].epreuve }}
+			</span>
+		</div>
+        <div class="col-2 col-sm-3 border-end border-dark d-flex align-items-center justify-content-center">
+		  <div>{{ line['cat.'] }}<span class="d-none d-sm-inline"> ({{ line['categorie'] }})</span></div>
+		</div>	
+		<!--div class="col-3 col-sm-4 row"-->
+          <div class="col-2 border-end border-dark d-flex align-items-center justify-content-center">
+		    <div>{{ line['pl./cat.'] }}<span class="d-none d-sm-inline"> ({{ line.place }})</span></div>
+          </div>
+          <div class="col-2 border-end border-dark d-flex align-items-center justify-content-center">
+		    <div>{{ line.points }}</div>
+          </div>
+        <!--/div-->
+      </div>
+      <div class="row border-bottom border-dark"></div>
+    </div>
+      <div v-else class="alert alert-primary" role="alert">Veuillez utiliser la zone de recherche ci-dessus</div>
+    </div>
+    </div>
+    
+  </div>
+</body>
+</html>
+
+<script type="module">
+  import { createApp, ref, computed, watch, onMounted, onUnmounted } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
+  import { datas2025, races2025, ranking2025 } from "./challenge_db.js";
+  //import { races2025 } from "./liste_courses.js";
+  //import { ranking2025 } from "./challenge_clst.js";
+  //import { datas2025 } from "./challenge_db.json" assert { type: 'json' }; //non supporté
+  console.log(datas2025[0].nom);
+
+  createApp({
+    setup() {
+      const message = ref('Hello Vue!')
+      const count = ref(0)
+      const hello = (param) => console.log('hello world function' + param)
+      const myFiles = ref({'ranking': 'challenge_clst.csv', 'races': 'liste_courses.csv', 'datas': 'bdd.csv'})
+      const myDatas = ref(datas2025)
+      const myRaces = ref(races2025)
+      const myRanking = ref(ranking2025)
+      const tabNames = ref([])
+      const dictRaces = ref({})
+      const searchName = ref('')
+      const searchRace = ref('')
+      const showNavbar = ref(true)
+      const linkSelect = ref('25')
+      const season = ref(25)
+      const catSelect = ref('')
+      const sexeSelect = ref('')
+      const choixEpreuve = ref({})
+      const typeTab = ref('classement')
+      const typeTri = ref('')
+      const width = ref(window.innerWidth)
+      const numLien = ref('');
+      const marquee = ref(true);
+      const syncWidth = () => {width.value = window.innerWidth; console.log(width.value);}
+      
+      watch(typeTab, (val) => {
+        choixEpreuve.value = {};
+        searchRace.value = '';
+        if (val == 'classement') {searchName.value = ''; numLien.value = ''};
+      })
+      
+/*      watch(linkSelect, (val) => {
+        switch (val) {
+          case "calendrier":
+            open("https://www.athle.fr/bases/liste.aspx?frmpostback=true&frmbase=calendrier&frmmode=1&frmdate1=2026-09-01&frmdate2=2027-08-31&frmdepartement=008","_blank");
+            //linkSelect.value = "26";
+            break;
+          case "reglement":
+            open("https://drive.google.com/drive/folders/1qem0x7hX3VsSFzezGTfbqCIaG_imQAkA","_blank");
+            //linkSelect.value = "26";
+            break;
+          case "25":
+          case "26":
+            console.log("Challenge");
+            break;
+          default:
+            console.log(`Sorry, we are out of ${val}.`);
+        }
+      })*/
+              
+      function nameClick(line){
+		  //typeTab = 'detail'; typeTri = 'coureur' ; searchName = line.nom; numLien = line.numero
+        typeTri.value = 'coureur';
+        searchRace.value = '';
+        choixEpreuve.value = {};
+        searchName.value = line.nom;
+        numLien.value = line.numAthlete;
+        filterByName('all');
+        //console.log(line);
+      }
+      
+      function raceClick(line){
+        typeTri.value = 'course';
+        searchName.value = '';
+        numLien.value = '';
+        searchRace.value = dictRaces.value[line['epreuve']].compet;
+        for (let race of myRaces.value) {
+			//console.log(race['numero']);
+          if (race['numero'] == line['epreuve']){ choixEpreuve.value = race };
+	    };
+      }
+      
+      const tabByName = computed(() => {
+		let tab=[];
+		let tabTC = [];
+		let bool=true;
+		let i = 1;
+	    for (let line of myDatas.value){
+		  bool = (line.nom == searchName.value || !searchName.value)
+		  bool = bool && (line['epreuve'] == choixEpreuve.value['numero'] || !searchRace.value);
+		  bool = bool && (line['cat.'].slice(0,2) == catSelect.value.slice(0,2) || !catSelect.value);
+		  bool = bool && (line['cat.'].slice(-1) == sexeSelect.value || !sexeSelect.value);
+	      if (bool){ 
+			  if (line['cat.'].slice(0,2)=='TC') { tabTC.push(line) }else{ tab.push(line) };
+		  };
+	    };
+	    return tab.concat(tabTC);
+      })
+      
+      const detailRowChoice = computed(() => {
+		let tab=[];
+		let bool=true;
+		let i = 1;
+	    for (let line of tabByName.value){//myDatas
+		  bool = (line.nom == searchName.value || !searchName.value)
+		  bool = bool && (line['epreuve'] == choixEpreuve.value['numero'] || !searchRace.value);
+		  //bool = bool && (line['cat.'].slice(0,2) == catSelect.value.slice(0,2) || !catSelect.value);
+		  bool = bool && (line['cat.'].slice(-1) == sexeSelect.value || !sexeSelect.value);
+	      if (bool){ tab.push(i); i=i+1; }else{ tab.push(0); };
+	    };
+	    return tab;
+      })
+      
+      const rankingRowChoice = computed(() => {
+		let tab=[];
+		let bool=true;
+		let i = 1;
+	    for (let line of myRanking.value){
+		  bool = (line['categorie'].slice(0,2) == catSelect.value.slice(0,2) || !catSelect.value);
+		  bool = bool && (line['categorie'].slice(-1) == sexeSelect.value || !sexeSelect.value);
+	      if (bool){ tab.push(i); i=i+1; }else{ tab.push(0); };
+	    };
+	    return tab;
+      })
+      
+      function filterByName(all) {
+        let searchNameInput = document.getElementById("searchNameInput");
+        if (searchNameInput){
+          let filter = searchNameInput.value.toUpperCase();
+          let  dropdowns = document.querySelectorAll(".myDropdown.names div");    
+          for (const drpd of dropdowns) {
+            let txtValue = drpd.textContent || drpd.innerText;
+            if (filter && !all && txtValue.toUpperCase().indexOf(filter) > -1) {
+              drpd.style.display = "block";
+            } else {
+              drpd.style.display = "none";
+            }
+          }
+        }
+      }
+      
+      function filterByRace(name) {
+		//console.log(name['numero']);
+		let searchRaceInput = document.getElementById("searchRaceInput");
+        let filter = searchRaceInput.value.toUpperCase();
+        let  dropdowns = document.querySelectorAll(".myDropdown.races div");      
+        for (const drpd of dropdowns) {
+          let txtValue = drpd.textContent || drpd.innerText;
+          if (filter && !name && txtValue.toUpperCase().indexOf(filter) > -1) {
+            drpd.style.display = "block";
+          } else {
+            drpd.style.display = "none";
+          }
+        }
+        if (name) { choixEpreuve.value = name; }
+      }
+
+      async function getFileFromUrl(url, callback){
+		var t0 = performance.now();
+        const response = await fetch(url);
+        var t1 = performance.now();
+        console.log("getFile" + (t1 - t0) + "ms");
+        const data = await response.blob();
+        
+        return new Promise((resolve) => {
+          var reader = new FileReader();
+          reader.onload = function(e) {
+             resolve(callback(e.target.result));
+          };
+          reader.readAsText(data);
+	    });
+      }
+  
+      function processDataAsObj(csv){
+        let allTextLines = csv.replaceAll('"', '').split(/\r\n|\n/);
+        if (allTextLines.at(-1) == "") { allTextLines.pop() };
+        let lines = [];
+        let keys = allTextLines.shift().split(','); //first line of csv
+	    	    
+        while (allTextLines.length) {
+          let arr = allTextLines.shift().split(',');
+          let obj = {};
+          for(let i = 0; i < keys.length; i++){
+            obj[keys[i]] = arr[i];
+	      }
+          lines.push(obj);
+        }
+		return lines;
+      }
+      
+      async function sleep(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+      
+      async function uploadFiles(season){
+		  console.log("saison de function ", season.toString());
+		let t0 = performance.now();
+	    //myRanking.value = await getFileFromUrl("./20" + season.toString() + "/" + myFiles.value.ranking, processDataAsObj);
+	    //myRaces.value = await getFileFromUrl("./20" + season.toString() + "/" + myFiles.value.races, processDataAsObj);
+	    //myDatas.value = await getFileFromUrl("./20" + season.toString() + "/" + myFiles.value.datas, processDataAsObj);
+	    //fillDictRaces();
+	    //fillTabNames();
+	    let t1 = performance.now();
+        console.log("L'appel de fetch a demandé " + (t1 - t0) + "ms");
+      }
+      
+      function fillTabNames() {
+		let tabNamesTri = [];
+	    let tabTemp = [];
+	    let tab = [];
+	    
+	    for (let data of myDatas.value){ 
+			tabNamesTri.push(data.nom);
+			tabTemp.push({nom: data.nom, numAthlete: data.numAthlete});
+		};
+	    //for (let data of myDatas.value){ tabNames.value.push(data.nom) };
+	    //A VOIR
+	    //for (let race of myRaces.value){ 
+		//  dictRaces.value[race['numero']] = {compet: race['competition'], epreuve: race.epreuve};
+		//};
+						
+	    tabNamesTri = [... new Set(tabNamesTri)].sort();    
+	    for (let name of tabNamesTri){
+	      for (let temp of tabTemp){
+		    if (temp.nom == name) {
+			  tabNames.value.push(temp);
+			  break;
+			}
+	      };
+	    };
+	    //console.log(tabNames.value); // [... new Set(tabNames.value)].sort();
+	    //console.log(myRaces.value);
+	    //choixEpreuve.value = myRaces.value.at(-1);
+	    //searchRace.value = choixEpreuve.value['competition']; 
+      }
+      
+      function fillDictRaces() {
+	    for (let race of myRaces.value){ 
+		  dictRaces.value[race['numero']] = {compet: race['competition'], epreuve: race.epreuve};
+		};
+      }
+      
+      
+            
+      onMounted( async () => {
+		  console.log("ma saison ", season.value);
+		await uploadFiles(season.value);
+		let t0 = performance.now();
+		fillDictRaces();
+	    fillTabNames();
+	    let t1 = performance.now();
+        console.log("L'appel de fill a demandé " + (t1 - t0) + "ms");
+	    //await sleep(1000);
+	    showNavbar.value = false;
+	    //await sleep(1000);
+	    //catSelect.value = "SE+";
+	    //await sleep(1000);
+	    //sexeSelect.value = "M";
+	    window.addEventListener('resize', syncWidth);
+	    await sleep(10000);
+	    marquee.value = false;
+	    //console.log(myDatas.value[0]);
+	  })
+	  
+	  onUnmounted(() => window.removeEventListener('resize', syncWidth));
+          
+      return {
+        message,
+        count,
+        hello,
+        myFiles,
+        myDatas,
+        myRaces,
+        myRanking,
+        tabNames,
+        dictRaces,
+        searchName,
+        searchRace,
+        showNavbar,
+        linkSelect,
+        season,
+        catSelect,
+        sexeSelect,
+        choixEpreuve,
+        filterByName,
+        filterByRace,
+        typeTab,
+        typeTri,
+        detailRowChoice,
+        rankingRowChoice,
+        nameClick,
+        raceClick,
+        width,
+        numLien,
+        uploadFiles,
+        tabByName,
+        marquee,
+      }
+    },
+
+    mounted() {
+      //console.log(this.myDatas) // 0
+    },
+  }).mount('#app')
+</script>
+<style>
+.clickable {
+  cursor: pointer;
+}	
+	
+.myDropdown {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ddd;
+  z-index: 1;
+  background-color: white;
+}
+
+.myDropdown div {
+  display: none;
+  cursor: pointer;
+  color: black;
+  padding: 0px 10px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.myDropdown div:hover {background-color: gainsboro}
+
+//.row:nth-child(even) {background-color: gainsboro}
+
+.rowColor {background-color: gainsboro}
+
+    .marquee-container {
+        overflow: hidden;
+    }
+
+    .marquee-content {
+        padding: 10px;
+        animation: marquee 3s linear infinite;
+    }
+
+    @keyframes marquee {
+        0% { transform: translateX(60%); }
+        100% { transform: translateX(-60%); }
+    }
+</style>
+<script>
+  console.log('hello');
+      /*race = {
+  "numero": "294509001",
+  "date": "14/09/25",
+  "lieu": "CHARLEVILLE MEZIERES",
+  "competition": "Prix pédestre de Mézières",
+  "epreuve": " 75 éme Prix pédestre Mézières / TCX",
+  "coeff": "1",
+  "pts+": "2",
+  "nbResultats": "146",
+  "url": "https://www.athle.fr/bases/liste.aspx?frmbase=resultats&frmmode=1&frmespace=0&frmcompetition=294509&frmepreuve=75+%c3%a9me+Prix+p%c3%a9destre+M%c3%a9zi%c3%a8res+%2f+TCX"
+}*/
+  
+	    /*tableaux d'objet datas: {
+  "nom": "PINHEIRO Ambre",
+  "place": "50",
+  "categorie": "M0",
+  "pl./cat.": "2",
+  "cat.": "TCF",
+  "points": "18",
+  "epreuve": "301729001",
+  "numAthlete": "1743340"
+}
+	   ranking:
+	   {
+  "numero": "2561489",
+  "categorie": "CAF",
+  "nom": "BRICHET Lea",
+  "points": "218",
+  "nbCourses": "10",
+  "rang": "2",
+  "ptMoy": "21.8"
+} */
+
+//let input = document.getElementById("myInput");
+        //let filter = input.value.toUpperCase();
+        //let dropdown = document.getElementById("myDropdown");
+        //let div = dropdown.getElementsByTagName("div");
+
+        /*if (dropdowns.length > 0) {
+          dropdowns.forEach((dropdown) => {
+            console.log(dropdown.textContent);
+          });
+        }*/
+               
+        /*for (let i = 0; i < div.length; i++) {
+          let txtValue = div[i].textContent || div[i].innerText;
+          if (filter && txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "block";
+          } else {
+            div[i].style.display = "none";
+          }
+        }*/
+  
+//variante vue
+/*      const getFileFromUrl = async (url) => {
+        const response = await fetch(url)
+        const data = await response.blob()
+        let reader = new FileReader()
+        reader.onload = function(e) {
+           processDataAsObj(e.target.result)
+        }
+        reader.readAsText(data)
+      }
+      
+      const processDataAsObj = (csv) => {
+        let allTextLines = csv.split(/\r\n|\n/)
+        let lines = []
+	
+        //first line of csv
+        let keys = allTextLines.shift().split(',')
+	
+        while (allTextLines.length) {
+          let arr = allTextLines.shift().split(',')
+          let obj = {}
+          for(let i = 0; i < keys.length; i++){
+              obj[keys[i]] = arr[i]
+	      }
+          lines.push(obj)
+        }
+        //console.log(lines)
+        myDatas.value = lines
+      }
+      //obligatoirement après la déclaration des fonctions
+      getFileFromUrl('bdd.csv')*/
+//Fin variante      
+  
+/*  async function getFileFromUrl(url){
+    const response = await fetch(url);
+    const data = await response.blob();
+    var reader = new FileReader();
+    reader.onload = function(e) {
+       processDataAsObj(e.target.result);
+    };
+    reader.readAsText(data)
+  }
+  
+  function processDataAsObj(csv){
+    var allTextLines = csv.split(/\r\n|\n/);
+    var lines = [];
+	
+    //first line of csv
+    var keys = allTextLines.shift().split(',');
+	
+    while (allTextLines.length) {
+        var arr = allTextLines.shift().split(',');
+        var obj = {};
+        for(var i = 0; i < keys.length; i++){
+            obj[keys[i]] = arr[i];
+	}
+        lines.push(obj);
+    }
+        console.log(lines);
+    return lines
+	//drawOutputAsObj(lines);
+}
+  
+  const myDatas = getFileFromUrl('bdd.csv');*/
+</script>
