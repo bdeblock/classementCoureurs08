@@ -100,7 +100,7 @@
         <div class="col-1 border-start border-dark">{{ line.rang }}</div>
         <div
           class="clickable col-6 col-sm-5 border-end border-dark"
-          @click="typeTab = 'detail'; typeTri = 'coureur' ; searchName = line.nom; numLien = line.numero"
+          @click="typeTab = 'detail'; typeTri = 'coureur' ; searchName = line.nom; numLien = line.num_athlete"
         >{{ line.nom }}</div>
         <div class="col-2 border-end border-dark">{{ line.categorie }}</div>
         <div class="container-fluid col-3 col-sm-4 border-end border-dark">
@@ -292,12 +292,12 @@
       })*/
               
       function nameClick(line){
-		  //typeTab = 'detail'; typeTri = 'coureur' ; searchName = line.nom; numLien = line.numero
+		  //typeTab = 'detail'; typeTri = 'coureur' ; searchName = line.nom; numLien = line.num_athlete
         typeTri.value = 'coureur';
         searchRace.value = '';
         choixEpreuve.value = {};
         searchName.value = line.nom;
-        numLien.value = line.numAthlete;
+        numLien.value = line.num_athlete;
         filterByName('all');
         //console.log(line);
       }
@@ -444,7 +444,7 @@
 	    
 	    for (let data of myDatas.value){ 
 			tabNamesTri.push(data.nom);
-			tabTemp.push({nom: data.nom, numAthlete: data.numAthlete});
+			tabTemp.push({nom: data.nom, num_athlete: data.num_athlete});
 		};
 	    //for (let data of myDatas.value){ tabNames.value.push(data.nom) };
 	    //A VOIR
@@ -600,11 +600,11 @@
   "cat.": "TCF",
   "points": "18",
   "epreuve": "301729001",
-  "numAthlete": "1743340"
+  "num_athlete": "1743340"
 }
 	   ranking:
 	   {
-  "numero": "2561489",
+  "num_athlete": "2561489",
   "categorie": "CAF",
   "nom": "BRICHET Lea",
   "points": "218",
