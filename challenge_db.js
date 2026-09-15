@@ -29731,23 +29731,13 @@ export let datas2025 =
     "epreuve": 311238002
   },
   {
-    "nom": "DELPEUT Philippe",
-    "num_athlete": 1576130,
-    "place": 90,
-    "categorie": "M6",
-    "pl./cat.": 4,
-    "cat.": "V3+M",
-    "points": 14,
-    "epreuve": 311238002
-  },
-  {
     "nom": "PELLERIN Eric",
     "num_athlete": 1806316,
     "place": 91,
     "categorie": "M5",
-    "pl./cat.": 5,
+    "pl./cat.": 4,
     "cat.": "V3+M",
-    "points": 12,
+    "points": 14,
     "epreuve": 311238002
   },
   {
@@ -29755,9 +29745,9 @@ export let datas2025 =
     "num_athlete": 612948,
     "place": 94,
     "categorie": "M5",
-    "pl./cat.": 6,
+    "pl./cat.": 5,
     "cat.": "V3+M",
-    "points": 10,
+    "points": 12,
     "epreuve": 311238002
   },
   {
@@ -29765,9 +29755,9 @@ export let datas2025 =
     "num_athlete": 898857,
     "place": 97,
     "categorie": "M5",
-    "pl./cat.": 7,
+    "pl./cat.": 6,
     "cat.": "V3+M",
-    "points": 8,
+    "points": 10,
     "epreuve": 311238002
   },
   {
@@ -34831,9 +34821,9 @@ export let datas2025 =
     "epreuve": 312870002
   },
   {
-    "nom": "ROBIN-PELLERIN Linda",
-    "num_athlete": 3696085,
-    "place": 209,
+    "nom": "DUJEUX Evelyne",
+    "num_athlete": 2918665,
+    "place": 237,
     "categorie": "M3",
     "pl./cat.": 3,
     "cat.": "V2F",
@@ -34841,23 +34831,13 @@ export let datas2025 =
     "epreuve": 312870002
   },
   {
-    "nom": "DUJEUX Evelyne",
-    "num_athlete": 2918665,
-    "place": 237,
-    "categorie": "M3",
-    "pl./cat.": 4,
-    "cat.": "V2F",
-    "points": 18,
-    "epreuve": 312870002
-  },
-  {
     "nom": "LEDOUX Beatrice",
     "num_athlete": 1697021,
     "place": 248,
     "categorie": "M4",
-    "pl./cat.": 5,
+    "pl./cat.": 4,
     "cat.": "V2F",
-    "points": 16,
+    "points": 18,
     "epreuve": 312870002
   },
   {
@@ -34865,9 +34845,9 @@ export let datas2025 =
     "num_athlete": 2337325,
     "place": 250,
     "categorie": "M3",
-    "pl./cat.": 6,
+    "pl./cat.": 5,
     "cat.": "V2F",
-    "points": 14,
+    "points": 16,
     "epreuve": 312870002
   },
   {
@@ -34875,9 +34855,9 @@ export let datas2025 =
     "num_athlete": 2924181,
     "place": 253,
     "categorie": "M3",
-    "pl./cat.": 7,
+    "pl./cat.": 6,
     "cat.": "V2F",
-    "points": 12,
+    "points": 14,
     "epreuve": 312870002
   },
   {
@@ -41881,9 +41861,9 @@ export let datas2025 =
     "epreuve": 315261001
   },
   {
-    "nom": "BOURGA Alexandre",
-    "num_athlete": 4358284,
-    "place": 55,
+    "nom": "RENARD Romain",
+    "num_athlete": 3063449,
+    "place": 63,
     "categorie": "SE",
     "pl./cat.": 7,
     "cat.": "SE+M",
@@ -41891,19 +41871,19 @@ export let datas2025 =
     "epreuve": 315261001
   },
   {
-    "nom": "RENARD Romain",
-    "num_athlete": 3063449,
-    "place": 63,
-    "categorie": "SE",
+    "nom": "MARINTHE Ludwig",
+    "num_athlete": 3419761,
+    "place": 65,
+    "categorie": "M0",
     "pl./cat.": 8,
     "cat.": "SE+M",
     "points": 8,
     "epreuve": 315261001
   },
   {
-    "nom": "MARINTHE Ludwig",
-    "num_athlete": 3419761,
-    "place": 65,
+    "nom": "NEMERY Maxence",
+    "num_athlete": 5204335,
+    "place": 118,
     "categorie": "M0",
     "pl./cat.": 9,
     "cat.": "SE+M",
@@ -41911,9 +41891,9 @@ export let datas2025 =
     "epreuve": 315261001
   },
   {
-    "nom": "NEMERY Maxence",
-    "num_athlete": 5204335,
-    "place": 118,
+    "nom": "DELATOUR Florian",
+    "num_athlete": 2478584,
+    "place": 131,
     "categorie": "M0",
     "pl./cat.": 10,
     "cat.": "SE+M",
@@ -51691,23 +51671,13 @@ export let datas2025 =
     "epreuve": 309557002
   },
   {
-    "nom": "BAZIN Baptiste",
-    "num_athlete": 2012143,
-    "place": 24,
-    "categorie": "M1",
-    "pl./cat.": 4,
-    "cat.": "TCM",
-    "points": 16,
-    "epreuve": 309557002
-  },
-  {
     "nom": "FLECHEUX Xavier",
     "num_athlete": 3028931,
     "place": 30,
     "categorie": "M2",
-    "pl./cat.": 5,
+    "pl./cat.": 4,
     "cat.": "TCM",
-    "points": 14,
+    "points": 16,
     "epreuve": 309557002
   },
   {
@@ -51715,9 +51685,9 @@ export let datas2025 =
     "num_athlete": 3265403,
     "place": 31,
     "categorie": "M1",
-    "pl./cat.": 6,
+    "pl./cat.": 5,
     "cat.": "TCM",
-    "points": 12,
+    "points": 14,
     "epreuve": 309557002
   },
   {
@@ -51725,9 +51695,9 @@ export let datas2025 =
     "num_athlete": 2923967,
     "place": 43,
     "categorie": "M4",
-    "pl./cat.": 7,
+    "pl./cat.": 6,
     "cat.": "TCM",
-    "points": 10,
+    "points": 12,
     "epreuve": 309557002
   },
   {
@@ -51735,9 +51705,9 @@ export let datas2025 =
     "num_athlete": 2184450,
     "place": 53,
     "categorie": "SE",
-    "pl./cat.": 8,
+    "pl./cat.": 7,
     "cat.": "TCM",
-    "points": 8,
+    "points": 10,
     "epreuve": 309557002
   },
   {
@@ -51745,9 +51715,9 @@ export let datas2025 =
     "num_athlete": 1301492,
     "place": 54,
     "categorie": "M0",
-    "pl./cat.": 9,
+    "pl./cat.": 8,
     "cat.": "TCM",
-    "points": 6,
+    "points": 8,
     "epreuve": 309557002
   },
   {
@@ -51755,6 +51725,16 @@ export let datas2025 =
     "num_athlete": 999547,
     "place": 61,
     "categorie": "M5",
+    "pl./cat.": 9,
+    "cat.": "TCM",
+    "points": 6,
+    "epreuve": 309557002
+  },
+  {
+    "nom": "DARDENNE Kevin",
+    "num_athlete": 2507266,
+    "place": 101,
+    "categorie": "M0",
     "pl./cat.": 10,
     "cat.": "TCM",
     "points": 4,
@@ -51811,23 +51791,13 @@ export let datas2025 =
     "epreuve": 309557002
   },
   {
-    "nom": "BAZIN Baptiste",
-    "num_athlete": 2012143,
-    "place": 24,
-    "categorie": "M1",
-    "pl./cat.": 2,
-    "cat.": "V1M",
-    "points": 20,
-    "epreuve": 309557002
-  },
-  {
     "nom": "FLECHEUX Xavier",
     "num_athlete": 3028931,
     "place": 30,
     "categorie": "M2",
-    "pl./cat.": 3,
+    "pl./cat.": 2,
     "cat.": "V1M",
-    "points": 18,
+    "points": 20,
     "epreuve": 309557002
   },
   {
@@ -51835,9 +51805,9 @@ export let datas2025 =
     "num_athlete": 3265403,
     "place": 31,
     "categorie": "M1",
-    "pl./cat.": 4,
+    "pl./cat.": 3,
     "cat.": "V1M",
-    "points": 16,
+    "points": 18,
     "epreuve": 309557002
   },
   {
@@ -51845,9 +51815,9 @@ export let datas2025 =
     "num_athlete": 2154136,
     "place": 104,
     "categorie": "M1",
-    "pl./cat.": 5,
+    "pl./cat.": 4,
     "cat.": "V1M",
-    "points": 14,
+    "points": 16,
     "epreuve": 309557002
   },
   {
@@ -51855,9 +51825,9 @@ export let datas2025 =
     "num_athlete": 2065072,
     "place": 105,
     "categorie": "M2",
-    "pl./cat.": 6,
+    "pl./cat.": 5,
     "cat.": "V1M",
-    "points": 12,
+    "points": 14,
     "epreuve": 309557002
   },
   {
@@ -51951,23 +51921,13 @@ export let datas2025 =
     "epreuve": 309557003
   },
   {
-    "nom": "LECLERE Clemence",
-    "num_athlete": 3011127,
-    "place": 125,
-    "categorie": "M0",
-    "pl./cat.": 7,
-    "cat.": "TCF",
-    "points": 12,
-    "epreuve": 309557003
-  },
-  {
     "nom": "CLAISSE Vanessa",
     "num_athlete": 3199208,
     "place": 129,
     "categorie": "M1",
-    "pl./cat.": 8,
+    "pl./cat.": 7,
     "cat.": "TCF",
-    "points": 10,
+    "points": 12,
     "epreuve": 309557003
   },
   {
@@ -51975,9 +51935,9 @@ export let datas2025 =
     "num_athlete": 3564562,
     "place": 143,
     "categorie": "M0",
-    "pl./cat.": 9,
+    "pl./cat.": 8,
     "cat.": "TCF",
-    "points": 8,
+    "points": 10,
     "epreuve": 309557003
   },
   {
@@ -51985,6 +51945,16 @@ export let datas2025 =
     "num_athlete": 2636313,
     "place": 150,
     "categorie": "M3",
+    "pl./cat.": 9,
+    "cat.": "TCF",
+    "points": 8,
+    "epreuve": 309557003
+  },
+  {
+    "nom": "RENAUX Amandine",
+    "num_athlete": 3477308,
+    "place": 167,
+    "categorie": "M0",
     "pl./cat.": 10,
     "cat.": "TCF",
     "points": 6,
@@ -52031,9 +52001,9 @@ export let datas2025 =
     "epreuve": 309557003
   },
   {
-    "nom": "LECLERE Clemence",
-    "num_athlete": 3011127,
-    "place": 125,
+    "nom": "MANDELLI Chloe",
+    "num_athlete": 3564562,
+    "place": 143,
     "categorie": "M0",
     "pl./cat.": 5,
     "cat.": "SE+F",
@@ -52041,9 +52011,9 @@ export let datas2025 =
     "epreuve": 309557003
   },
   {
-    "nom": "MANDELLI Chloe",
-    "num_athlete": 3564562,
-    "place": 143,
+    "nom": "RENAUX Amandine",
+    "num_athlete": 3477308,
+    "place": 167,
     "categorie": "M0",
     "pl./cat.": 6,
     "cat.": "SE+F",
@@ -52051,23 +52021,13 @@ export let datas2025 =
     "epreuve": 309557003
   },
   {
-    "nom": "RENAUX Amandine",
-    "num_athlete": 3477308,
-    "place": 167,
-    "categorie": "M0",
-    "pl./cat.": 7,
-    "cat.": "SE+F",
-    "points": 12,
-    "epreuve": 309557003
-  },
-  {
     "nom": "FEROT Pauline",
     "num_athlete": 3499530,
     "place": 225,
     "categorie": "M0",
-    "pl./cat.": 8,
+    "pl./cat.": 7,
     "cat.": "SE+F",
-    "points": 10,
+    "points": 12,
     "epreuve": 309557003
   },
   {
@@ -52191,9 +52151,9 @@ export let datas2025 =
     "epreuve": 309557003
   },
   {
-    "nom": "ROBIN-PELLERIN Linda",
-    "num_athlete": 3696085,
-    "place": 180,
+    "nom": "CHARBONNIER Virginie",
+    "num_athlete": 2263703,
+    "place": 213,
     "categorie": "M3",
     "pl./cat.": 3,
     "cat.": "V2F",
@@ -52201,23 +52161,13 @@ export let datas2025 =
     "epreuve": 309557003
   },
   {
-    "nom": "CHARBONNIER Virginie",
-    "num_athlete": 2263703,
-    "place": 213,
-    "categorie": "M3",
-    "pl./cat.": 4,
-    "cat.": "V2F",
-    "points": 18,
-    "epreuve": 309557003
-  },
-  {
     "nom": "PRUGNON Virginie",
     "num_athlete": 2337325,
     "place": 218,
     "categorie": "M3",
-    "pl./cat.": 5,
+    "pl./cat.": 4,
     "cat.": "V2F",
-    "points": 16,
+    "points": 18,
     "epreuve": 309557003
   },
   {
@@ -53231,9 +53181,9 @@ export let datas2025 =
     "epreuve": 309557004
   },
   {
-    "nom": "PERNELET Benjamin",
-    "num_athlete": 1357941,
-    "place": 85,
+    "nom": "PRZYBYLA Christophe",
+    "num_athlete": 2353814,
+    "place": 148,
     "categorie": "M3",
     "pl./cat.": 5,
     "cat.": "V2M",
@@ -53241,23 +53191,13 @@ export let datas2025 =
     "epreuve": 309557004
   },
   {
-    "nom": "PRZYBYLA Christophe",
-    "num_athlete": 2353814,
-    "place": 148,
-    "categorie": "M3",
-    "pl./cat.": 6,
-    "cat.": "V2M",
-    "points": 14,
-    "epreuve": 309557004
-  },
-  {
     "nom": "SOHIER Lionnel",
     "num_athlete": 1867271,
     "place": 160,
     "categorie": "M4",
-    "pl./cat.": 7,
+    "pl./cat.": 6,
     "cat.": "V2M",
-    "points": 12,
+    "points": 14,
     "epreuve": 309557004
   },
   {
@@ -53265,9 +53205,9 @@ export let datas2025 =
     "num_athlete": 3482746,
     "place": 177,
     "categorie": "M4",
-    "pl./cat.": 8,
+    "pl./cat.": 7,
     "cat.": "V2M",
-    "points": 10,
+    "points": 12,
     "epreuve": 309557004
   },
   {
@@ -53275,9 +53215,9 @@ export let datas2025 =
     "num_athlete": 1851038,
     "place": 206,
     "categorie": "M4",
-    "pl./cat.": 9,
+    "pl./cat.": 8,
     "cat.": "V2M",
-    "points": 8,
+    "points": 10,
     "epreuve": 309557004
   },
   {
@@ -67712,10 +67652,10 @@ export let ranking2025 =
     "num_athlete": 3477308,
     "categorie": "SE+F",
     "nom": "RENAUX Amandine",
-    "points": 136,
+    "points": 138,
     "nbCourses": 8,
     "rang": 26,
-    "ptMoy": 17
+    "ptMoy": 17.2
   },
   {
     "num_athlete": 2830876,
@@ -68402,12 +68342,21 @@ export let ranking2025 =
     "ptMoy": 15
   },
   {
+    "num_athlete": 3564562,
+    "categorie": "SE+F",
+    "nom": "MANDELLI Chloe",
+    "points": 30,
+    "nbCourses": 2,
+    "rang": 103,
+    "ptMoy": 15
+  },
+  {
     "num_athlete": 923291,
     "categorie": "SE+F",
     "nom": "ROLLIN Meline",
     "points": 30,
     "nbCourses": 1,
-    "rang": 103,
+    "rang": 104,
     "ptMoy": 30
   },
   {
@@ -68416,7 +68365,7 @@ export let ranking2025 =
     "nom": "CHOISELLE Sabrina",
     "points": 28,
     "nbCourses": 2,
-    "rang": 104,
+    "rang": 105,
     "ptMoy": 14
   },
   {
@@ -68425,22 +68374,13 @@ export let ranking2025 =
     "nom": "LAMY Lolita",
     "points": 28,
     "nbCourses": 2,
-    "rang": 105,
+    "rang": 106,
     "ptMoy": 14
   },
   {
     "num_athlete": 3282592,
     "categorie": "SE+F",
     "nom": "JACQUES Julie",
-    "points": 28,
-    "nbCourses": 2,
-    "rang": 106,
-    "ptMoy": 14
-  },
-  {
-    "num_athlete": 3564562,
-    "categorie": "SE+F",
-    "nom": "MANDELLI Chloe",
     "points": 28,
     "nbCourses": 2,
     "rang": 107,
@@ -68645,21 +68585,12 @@ export let ranking2025 =
     "ptMoy": 16
   },
   {
-    "num_athlete": 3011127,
-    "categorie": "SE+F",
-    "nom": "LECLERE Clemence",
-    "points": 16,
-    "nbCourses": 1,
-    "rang": 130,
-    "ptMoy": 16
-  },
-  {
     "num_athlete": 3012380,
     "categorie": "SE+F",
     "nom": "LEGROS Gaelle",
     "points": 16,
     "nbCourses": 2,
-    "rang": 131,
+    "rang": 130,
     "ptMoy": 8
   },
   {
@@ -68668,7 +68599,7 @@ export let ranking2025 =
     "nom": "CHARPENTIER Juliette",
     "points": 16,
     "nbCourses": 1,
-    "rang": 132,
+    "rang": 131,
     "ptMoy": 16
   },
   {
@@ -68677,7 +68608,7 @@ export let ranking2025 =
     "nom": "VAQUERO Marina",
     "points": 15,
     "nbCourses": 1,
-    "rang": 133,
+    "rang": 132,
     "ptMoy": 15
   },
   {
@@ -68686,7 +68617,7 @@ export let ranking2025 =
     "nom": "MILLE Angele",
     "points": 14,
     "nbCourses": 1,
-    "rang": 134,
+    "rang": 133,
     "ptMoy": 14
   },
   {
@@ -68695,7 +68626,7 @@ export let ranking2025 =
     "nom": "GUENARD Domitile",
     "points": 14,
     "nbCourses": 2,
-    "rang": 135,
+    "rang": 134,
     "ptMoy": 7
   },
   {
@@ -68704,7 +68635,7 @@ export let ranking2025 =
     "nom": "LAIRE Perrine",
     "points": 14,
     "nbCourses": 1,
-    "rang": 136,
+    "rang": 135,
     "ptMoy": 14
   },
   {
@@ -68713,7 +68644,7 @@ export let ranking2025 =
     "nom": "ALAME Sarah",
     "points": 14,
     "nbCourses": 1,
-    "rang": 137,
+    "rang": 136,
     "ptMoy": 14
   },
   {
@@ -68722,7 +68653,7 @@ export let ranking2025 =
     "nom": "LEBEAUX Priscilia",
     "points": 14,
     "nbCourses": 1,
-    "rang": 138,
+    "rang": 137,
     "ptMoy": 14
   },
   {
@@ -68731,7 +68662,7 @@ export let ranking2025 =
     "nom": "GLAIVE Coline",
     "points": 14,
     "nbCourses": 1,
-    "rang": 139,
+    "rang": 138,
     "ptMoy": 14
   },
   {
@@ -68740,7 +68671,7 @@ export let ranking2025 =
     "nom": "MARAGE Mathilde",
     "points": 12,
     "nbCourses": 1,
-    "rang": 140,
+    "rang": 139,
     "ptMoy": 12
   },
   {
@@ -68749,8 +68680,17 @@ export let ranking2025 =
     "nom": "THORN Laura",
     "points": 12,
     "nbCourses": 2,
-    "rang": 141,
+    "rang": 140,
     "ptMoy": 6
+  },
+  {
+    "num_athlete": 3499530,
+    "categorie": "SE+F",
+    "nom": "FEROT Pauline",
+    "points": 12,
+    "nbCourses": 1,
+    "rang": 141,
+    "ptMoy": 12
   },
   {
     "num_athlete": 1938267,
@@ -68780,21 +68720,12 @@ export let ranking2025 =
     "ptMoy": 10
   },
   {
-    "num_athlete": 3499530,
-    "categorie": "SE+F",
-    "nom": "FEROT Pauline",
-    "points": 10,
-    "nbCourses": 1,
-    "rang": 145,
-    "ptMoy": 10
-  },
-  {
     "num_athlete": 3515059,
     "categorie": "SE+F",
     "nom": "TRIONFINI Pauline",
     "points": 10,
     "nbCourses": 1,
-    "rang": 146,
+    "rang": 145,
     "ptMoy": 10
   },
   {
@@ -68803,7 +68734,7 @@ export let ranking2025 =
     "nom": "ANSIAUX Clemence",
     "points": 10,
     "nbCourses": 1,
-    "rang": 147,
+    "rang": 146,
     "ptMoy": 10
   },
   {
@@ -68812,7 +68743,7 @@ export let ranking2025 =
     "nom": "PAUL Chloe",
     "points": 10,
     "nbCourses": 1,
-    "rang": 148,
+    "rang": 147,
     "ptMoy": 10
   },
   {
@@ -68821,7 +68752,7 @@ export let ranking2025 =
     "nom": "VALENTE Laurine",
     "points": 10,
     "nbCourses": 1,
-    "rang": 149,
+    "rang": 148,
     "ptMoy": 10
   },
   {
@@ -68830,7 +68761,7 @@ export let ranking2025 =
     "nom": "GUILLAUME Lea",
     "points": 8,
     "nbCourses": 1,
-    "rang": 150,
+    "rang": 149,
     "ptMoy": 8
   },
   {
@@ -68839,7 +68770,7 @@ export let ranking2025 =
     "nom": "CHARTIER Cynthia",
     "points": 8,
     "nbCourses": 1,
-    "rang": 151,
+    "rang": 150,
     "ptMoy": 8
   },
   {
@@ -68848,7 +68779,7 @@ export let ranking2025 =
     "nom": "RANVE Clara",
     "points": 8,
     "nbCourses": 1,
-    "rang": 152,
+    "rang": 151,
     "ptMoy": 8
   },
   {
@@ -68857,7 +68788,7 @@ export let ranking2025 =
     "nom": "MIETTE Amandine",
     "points": 8,
     "nbCourses": 1,
-    "rang": 153,
+    "rang": 152,
     "ptMoy": 8
   },
   {
@@ -68866,7 +68797,7 @@ export let ranking2025 =
     "nom": "BAILLY Morgane",
     "points": 6,
     "nbCourses": 1,
-    "rang": 154,
+    "rang": 153,
     "ptMoy": 6
   },
   {
@@ -68875,7 +68806,7 @@ export let ranking2025 =
     "nom": "GUERIN Zelie",
     "points": 6,
     "nbCourses": 1,
-    "rang": 155,
+    "rang": 154,
     "ptMoy": 6
   },
   {
@@ -68884,7 +68815,7 @@ export let ranking2025 =
     "nom": "ERRARD Manon",
     "points": 6,
     "nbCourses": 1,
-    "rang": 156,
+    "rang": 155,
     "ptMoy": 6
   },
   {
@@ -68893,7 +68824,7 @@ export let ranking2025 =
     "nom": "FOURNIER Carolane",
     "points": 6,
     "nbCourses": 1,
-    "rang": 157,
+    "rang": 156,
     "ptMoy": 6
   },
   {
@@ -68902,7 +68833,7 @@ export let ranking2025 =
     "nom": "GROSDIDIER Marie",
     "points": 6,
     "nbCourses": 1,
-    "rang": 158,
+    "rang": 157,
     "ptMoy": 6
   },
   {
@@ -69941,12 +69872,21 @@ export let ranking2025 =
     "ptMoy": 13.3
   },
   {
+    "num_athlete": 3477308,
+    "categorie": "TCF",
+    "nom": "RENAUX Amandine",
+    "points": 40,
+    "nbCourses": 4,
+    "rang": 116,
+    "ptMoy": 10
+  },
+  {
     "num_athlete": 3555890,
     "categorie": "TCF",
     "nom": "HOURLIER Charline",
     "points": 40,
     "nbCourses": 3,
-    "rang": 116,
+    "rang": 117,
     "ptMoy": 13.3
   },
   {
@@ -69955,7 +69895,7 @@ export let ranking2025 =
     "nom": "AFRIBO Maeva",
     "points": 39,
     "nbCourses": 2,
-    "rang": 117,
+    "rang": 118,
     "ptMoy": 19.5
   },
   {
@@ -69964,7 +69904,7 @@ export let ranking2025 =
     "nom": "LIENARD Maelle",
     "points": 36,
     "nbCourses": 4,
-    "rang": 118,
+    "rang": 119,
     "ptMoy": 9
   },
   {
@@ -69973,7 +69913,7 @@ export let ranking2025 =
     "nom": "QUETIER Manon",
     "points": 36,
     "nbCourses": 2,
-    "rang": 119,
+    "rang": 120,
     "ptMoy": 18
   },
   {
@@ -69982,7 +69922,7 @@ export let ranking2025 =
     "nom": "GRUYER Helene",
     "points": 36,
     "nbCourses": 3,
-    "rang": 120,
+    "rang": 121,
     "ptMoy": 12
   },
   {
@@ -69991,8 +69931,17 @@ export let ranking2025 =
     "nom": "VALLEE Marieke",
     "points": 36,
     "nbCourses": 2,
-    "rang": 121,
+    "rang": 122,
     "ptMoy": 18
+  },
+  {
+    "num_athlete": 3199208,
+    "categorie": "TCF",
+    "nom": "CLAISSE Vanessa",
+    "points": 36,
+    "nbCourses": 4,
+    "rang": 123,
+    "ptMoy": 9
   },
   {
     "num_athlete": 3293720,
@@ -70000,7 +69949,7 @@ export let ranking2025 =
     "nom": "JACQUET Manon",
     "points": 36,
     "nbCourses": 2,
-    "rang": 122,
+    "rang": 124,
     "ptMoy": 18
   },
   {
@@ -70009,7 +69958,7 @@ export let ranking2025 =
     "nom": "LEGROS Valerie",
     "points": 36,
     "nbCourses": 4,
-    "rang": 123,
+    "rang": 125,
     "ptMoy": 9
   },
   {
@@ -70018,7 +69967,7 @@ export let ranking2025 =
     "nom": "SIMON Camille",
     "points": 34,
     "nbCourses": 2,
-    "rang": 124,
+    "rang": 126,
     "ptMoy": 17
   },
   {
@@ -70027,7 +69976,7 @@ export let ranking2025 =
     "nom": "GARNIER Marion",
     "points": 34,
     "nbCourses": 3,
-    "rang": 125,
+    "rang": 127,
     "ptMoy": 11.3
   },
   {
@@ -70036,17 +69985,8 @@ export let ranking2025 =
     "nom": "HEYMAN Severine",
     "points": 34,
     "nbCourses": 2,
-    "rang": 126,
+    "rang": 128,
     "ptMoy": 17
-  },
-  {
-    "num_athlete": 3199208,
-    "categorie": "TCF",
-    "nom": "CLAISSE Vanessa",
-    "points": 34,
-    "nbCourses": 4,
-    "rang": 127,
-    "ptMoy": 8.5
   },
   {
     "num_athlete": 3400629,
@@ -70054,17 +69994,8 @@ export let ranking2025 =
     "nom": "DESHAYES Lola",
     "points": 34,
     "nbCourses": 2,
-    "rang": 128,
-    "ptMoy": 17
-  },
-  {
-    "num_athlete": 3477308,
-    "categorie": "TCF",
-    "nom": "RENAUX Amandine",
-    "points": 34,
-    "nbCourses": 3,
     "rang": 129,
-    "ptMoy": 11.3
+    "ptMoy": 17
   },
   {
     "num_athlete": 188301,
@@ -70904,21 +70835,12 @@ export let ranking2025 =
     "ptMoy": 12
   },
   {
-    "num_athlete": 3011127,
-    "categorie": "TCF",
-    "nom": "LECLERE Clemence",
-    "points": 12,
-    "nbCourses": 1,
-    "rang": 223,
-    "ptMoy": 12
-  },
-  {
     "num_athlete": 3110052,
     "categorie": "TCF",
     "nom": "LAROCHE Estelle",
     "points": 12,
     "nbCourses": 1,
-    "rang": 224,
+    "rang": 223,
     "ptMoy": 12
   },
   {
@@ -70927,7 +70849,7 @@ export let ranking2025 =
     "nom": "LEGRAND Claire",
     "points": 12,
     "nbCourses": 1,
-    "rang": 225,
+    "rang": 224,
     "ptMoy": 12
   },
   {
@@ -70936,7 +70858,7 @@ export let ranking2025 =
     "nom": "BLANCHEMANCHE Suzon",
     "points": 12,
     "nbCourses": 1,
-    "rang": 226,
+    "rang": 225,
     "ptMoy": 12
   },
   {
@@ -70945,7 +70867,7 @@ export let ranking2025 =
     "nom": "CLAUDE Marine",
     "points": 12,
     "nbCourses": 1,
-    "rang": 227,
+    "rang": 226,
     "ptMoy": 12
   },
   {
@@ -70954,7 +70876,7 @@ export let ranking2025 =
     "nom": "BEAUMONT Emmeline",
     "points": 12,
     "nbCourses": 1,
-    "rang": 228,
+    "rang": 227,
     "ptMoy": 12
   },
   {
@@ -70963,7 +70885,7 @@ export let ranking2025 =
     "nom": "AZNAG Fazia",
     "points": 12,
     "nbCourses": 2,
-    "rang": 229,
+    "rang": 228,
     "ptMoy": 6
   },
   {
@@ -70972,7 +70894,7 @@ export let ranking2025 =
     "nom": "NOTTE Pauline",
     "points": 12,
     "nbCourses": 1,
-    "rang": 230,
+    "rang": 229,
     "ptMoy": 12
   },
   {
@@ -70981,7 +70903,7 @@ export let ranking2025 =
     "nom": "CHARPENTIER Juliette",
     "points": 12,
     "nbCourses": 1,
-    "rang": 231,
+    "rang": 230,
     "ptMoy": 12
   },
   {
@@ -70990,7 +70912,7 @@ export let ranking2025 =
     "nom": "RENOLLET Clemence",
     "points": 12,
     "nbCourses": 1,
-    "rang": 232,
+    "rang": 231,
     "ptMoy": 12
   },
   {
@@ -70999,7 +70921,7 @@ export let ranking2025 =
     "nom": "CHAUDRON Lorie",
     "points": 12,
     "nbCourses": 1,
-    "rang": 233,
+    "rang": 232,
     "ptMoy": 12
   },
   {
@@ -71008,7 +70930,7 @@ export let ranking2025 =
     "nom": "MARTINET Lydie",
     "points": 12,
     "nbCourses": 1,
-    "rang": 234,
+    "rang": 233,
     "ptMoy": 12
   },
   {
@@ -71017,7 +70939,7 @@ export let ranking2025 =
     "nom": "SADOUN Nora",
     "points": 12,
     "nbCourses": 1,
-    "rang": 235,
+    "rang": 234,
     "ptMoy": 12
   },
   {
@@ -71026,7 +70948,7 @@ export let ranking2025 =
     "nom": "COLODRO Linda",
     "points": 10,
     "nbCourses": 1,
-    "rang": 236,
+    "rang": 235,
     "ptMoy": 10
   },
   {
@@ -71035,7 +70957,7 @@ export let ranking2025 =
     "nom": "MOREAU Marie-Claire",
     "points": 10,
     "nbCourses": 1,
-    "rang": 237,
+    "rang": 236,
     "ptMoy": 10
   },
   {
@@ -71044,7 +70966,7 @@ export let ranking2025 =
     "nom": "CHOISELLE Sabrina",
     "points": 10,
     "nbCourses": 1,
-    "rang": 238,
+    "rang": 237,
     "ptMoy": 10
   },
   {
@@ -71053,7 +70975,7 @@ export let ranking2025 =
     "nom": "PONTOISE Celine",
     "points": 10,
     "nbCourses": 1,
-    "rang": 239,
+    "rang": 238,
     "ptMoy": 10
   },
   {
@@ -71062,7 +70984,7 @@ export let ranking2025 =
     "nom": "CARRE Marie-Caroline",
     "points": 10,
     "nbCourses": 2,
-    "rang": 240,
+    "rang": 239,
     "ptMoy": 5
   },
   {
@@ -71071,7 +70993,7 @@ export let ranking2025 =
     "nom": "MAILLARD Sandrine",
     "points": 10,
     "nbCourses": 1,
-    "rang": 241,
+    "rang": 240,
     "ptMoy": 10
   },
   {
@@ -71080,7 +71002,7 @@ export let ranking2025 =
     "nom": "WANSCHOOR Lucille",
     "points": 10,
     "nbCourses": 1,
-    "rang": 242,
+    "rang": 241,
     "ptMoy": 10
   },
   {
@@ -71089,7 +71011,7 @@ export let ranking2025 =
     "nom": "ROBERT Cindy",
     "points": 10,
     "nbCourses": 1,
-    "rang": 243,
+    "rang": 242,
     "ptMoy": 10
   },
   {
@@ -71098,7 +71020,7 @@ export let ranking2025 =
     "nom": "GILLET Elodie",
     "points": 10,
     "nbCourses": 1,
-    "rang": 244,
+    "rang": 243,
     "ptMoy": 10
   },
   {
@@ -71107,7 +71029,7 @@ export let ranking2025 =
     "nom": "RENAUDIN Lyse",
     "points": 10,
     "nbCourses": 1,
-    "rang": 245,
+    "rang": 244,
     "ptMoy": 10
   },
   {
@@ -71116,7 +71038,7 @@ export let ranking2025 =
     "nom": "MATER Jeanne",
     "points": 10,
     "nbCourses": 1,
-    "rang": 246,
+    "rang": 245,
     "ptMoy": 10
   },
   {
@@ -71125,7 +71047,7 @@ export let ranking2025 =
     "nom": "COUTEL Clara",
     "points": 10,
     "nbCourses": 1,
-    "rang": 247,
+    "rang": 246,
     "ptMoy": 10
   },
   {
@@ -71134,7 +71056,7 @@ export let ranking2025 =
     "nom": "BOSQUET Juliette",
     "points": 10,
     "nbCourses": 1,
-    "rang": 248,
+    "rang": 247,
     "ptMoy": 10
   },
   {
@@ -71143,7 +71065,7 @@ export let ranking2025 =
     "nom": "MORIEUX Roxane",
     "points": 10,
     "nbCourses": 1,
-    "rang": 249,
+    "rang": 248,
     "ptMoy": 10
   },
   {
@@ -71152,7 +71074,7 @@ export let ranking2025 =
     "nom": "GRAVELINES Aline",
     "points": 10,
     "nbCourses": 1,
-    "rang": 250,
+    "rang": 249,
     "ptMoy": 10
   },
   {
@@ -71161,7 +71083,7 @@ export let ranking2025 =
     "nom": "TINOT Carine",
     "points": 10,
     "nbCourses": 1,
-    "rang": 251,
+    "rang": 250,
     "ptMoy": 10
   },
   {
@@ -71170,13 +71092,22 @@ export let ranking2025 =
     "nom": "VOISIN Caroline",
     "points": 10,
     "nbCourses": 1,
-    "rang": 252,
+    "rang": 251,
     "ptMoy": 10
   },
   {
     "num_athlete": 3532611,
     "categorie": "TCF",
     "nom": "COUEGNAS Kelly",
+    "points": 10,
+    "nbCourses": 1,
+    "rang": 252,
+    "ptMoy": 10
+  },
+  {
+    "num_athlete": 3564562,
+    "categorie": "TCF",
+    "nom": "MANDELLI Chloe",
     "points": 10,
     "nbCourses": 1,
     "rang": 253,
@@ -71246,12 +71177,21 @@ export let ranking2025 =
     "ptMoy": 8
   },
   {
+    "num_athlete": 2636313,
+    "categorie": "TCF",
+    "nom": "BERTRAND Laure",
+    "points": 8,
+    "nbCourses": 1,
+    "rang": 261,
+    "ptMoy": 8
+  },
+  {
     "num_athlete": 3094133,
     "categorie": "TCF",
     "nom": "PETIT Vanessa",
     "points": 8,
     "nbCourses": 1,
-    "rang": 261,
+    "rang": 262,
     "ptMoy": 8
   },
   {
@@ -71260,7 +71200,7 @@ export let ranking2025 =
     "nom": "RIBEIRO Vanessa",
     "points": 8,
     "nbCourses": 1,
-    "rang": 262,
+    "rang": 263,
     "ptMoy": 8
   },
   {
@@ -71269,7 +71209,7 @@ export let ranking2025 =
     "nom": "BRANCOS Elodie",
     "points": 8,
     "nbCourses": 1,
-    "rang": 263,
+    "rang": 264,
     "ptMoy": 8
   },
   {
@@ -71278,7 +71218,7 @@ export let ranking2025 =
     "nom": "CIKOWSKI Magalie",
     "points": 8,
     "nbCourses": 1,
-    "rang": 264,
+    "rang": 265,
     "ptMoy": 8
   },
   {
@@ -71287,7 +71227,7 @@ export let ranking2025 =
     "nom": "JACQUEMART Mylene",
     "points": 8,
     "nbCourses": 1,
-    "rang": 265,
+    "rang": 266,
     "ptMoy": 8
   },
   {
@@ -71296,7 +71236,7 @@ export let ranking2025 =
     "nom": "DURBECQ Virginie",
     "points": 8,
     "nbCourses": 1,
-    "rang": 266,
+    "rang": 267,
     "ptMoy": 8
   },
   {
@@ -71305,22 +71245,13 @@ export let ranking2025 =
     "nom": "BILLAUDEL Aurelie",
     "points": 8,
     "nbCourses": 1,
-    "rang": 267,
+    "rang": 268,
     "ptMoy": 8
   },
   {
     "num_athlete": 3547020,
     "categorie": "TCF",
     "nom": "BELAIR Severine",
-    "points": 8,
-    "nbCourses": 1,
-    "rang": 268,
-    "ptMoy": 8
-  },
-  {
-    "num_athlete": 3564562,
-    "categorie": "TCF",
-    "nom": "MANDELLI Chloe",
     "points": 8,
     "nbCourses": 1,
     "rang": 269,
@@ -71399,21 +71330,12 @@ export let ranking2025 =
     "ptMoy": 6
   },
   {
-    "num_athlete": 2636313,
-    "categorie": "TCF",
-    "nom": "BERTRAND Laure",
-    "points": 6,
-    "nbCourses": 1,
-    "rang": 278,
-    "ptMoy": 6
-  },
-  {
     "num_athlete": 2956673,
     "categorie": "TCF",
     "nom": "COLLINET Coralie-Anne",
     "points": 6,
     "nbCourses": 1,
-    "rang": 279,
+    "rang": 278,
     "ptMoy": 6
   },
   {
@@ -71422,7 +71344,7 @@ export let ranking2025 =
     "nom": "RODRIGUEZ Tiffany",
     "points": 6,
     "nbCourses": 1,
-    "rang": 280,
+    "rang": 279,
     "ptMoy": 6
   },
   {
@@ -71431,7 +71353,7 @@ export let ranking2025 =
     "nom": "FERREIRA Fanny",
     "points": 6,
     "nbCourses": 1,
-    "rang": 281,
+    "rang": 280,
     "ptMoy": 6
   },
   {
@@ -71440,7 +71362,7 @@ export let ranking2025 =
     "nom": "GLAIVE Coline",
     "points": 6,
     "nbCourses": 1,
-    "rang": 282,
+    "rang": 281,
     "ptMoy": 6
   },
   {
@@ -71449,7 +71371,7 @@ export let ranking2025 =
     "nom": "DELALAIN Karine",
     "points": 6,
     "nbCourses": 1,
-    "rang": 283,
+    "rang": 282,
     "ptMoy": 6
   },
   {
@@ -71458,7 +71380,7 @@ export let ranking2025 =
     "nom": "BRIET Vanessa",
     "points": 6,
     "nbCourses": 1,
-    "rang": 284,
+    "rang": 283,
     "ptMoy": 6
   },
   {
@@ -71467,7 +71389,7 @@ export let ranking2025 =
     "nom": "ANSIAUX Clemence",
     "points": 6,
     "nbCourses": 1,
-    "rang": 285,
+    "rang": 284,
     "ptMoy": 6
   },
   {
@@ -71476,7 +71398,7 @@ export let ranking2025 =
     "nom": "VALLIET Emma",
     "points": 6,
     "nbCourses": 1,
-    "rang": 286,
+    "rang": 285,
     "ptMoy": 6
   },
   {
@@ -71485,7 +71407,7 @@ export let ranking2025 =
     "nom": "ROBERT Valerie",
     "points": 4,
     "nbCourses": 1,
-    "rang": 287,
+    "rang": 286,
     "ptMoy": 4
   },
   {
@@ -71494,7 +71416,7 @@ export let ranking2025 =
     "nom": "RICAULT Nadege",
     "points": 4,
     "nbCourses": 1,
-    "rang": 288,
+    "rang": 287,
     "ptMoy": 4
   },
   {
@@ -71503,7 +71425,7 @@ export let ranking2025 =
     "nom": "GUERIN Zelie",
     "points": 4,
     "nbCourses": 1,
-    "rang": 289,
+    "rang": 288,
     "ptMoy": 4
   },
   {
@@ -71512,7 +71434,7 @@ export let ranking2025 =
     "nom": "NICOLAY Christelle",
     "points": 4,
     "nbCourses": 1,
-    "rang": 290,
+    "rang": 289,
     "ptMoy": 4
   },
   {
@@ -71521,7 +71443,7 @@ export let ranking2025 =
     "nom": "POSTA Joannie",
     "points": 4,
     "nbCourses": 1,
-    "rang": 291,
+    "rang": 290,
     "ptMoy": 4
   },
   {
@@ -71530,7 +71452,7 @@ export let ranking2025 =
     "nom": "HENRY Ingrid",
     "points": 4,
     "nbCourses": 1,
-    "rang": 292,
+    "rang": 291,
     "ptMoy": 4
   },
   {
@@ -71539,7 +71461,7 @@ export let ranking2025 =
     "nom": "DAVRIL BAVOIS Celine",
     "points": 4,
     "nbCourses": 1,
-    "rang": 293,
+    "rang": 292,
     "ptMoy": 4
   },
   {
@@ -71548,7 +71470,7 @@ export let ranking2025 =
     "nom": "LAMBERT Tatiana",
     "points": 4,
     "nbCourses": 1,
-    "rang": 294,
+    "rang": 293,
     "ptMoy": 4
   },
   {
@@ -71557,7 +71479,7 @@ export let ranking2025 =
     "nom": "FLAN Romane",
     "points": 4,
     "nbCourses": 1,
-    "rang": 295,
+    "rang": 294,
     "ptMoy": 4
   },
   {
@@ -71566,7 +71488,7 @@ export let ranking2025 =
     "nom": "PIERROT Cathia",
     "points": 2,
     "nbCourses": 1,
-    "rang": 296,
+    "rang": 295,
     "ptMoy": 2
   },
   {
@@ -71575,7 +71497,7 @@ export let ranking2025 =
     "nom": "RENARD Marine",
     "points": 2,
     "nbCourses": 1,
-    "rang": 297,
+    "rang": 296,
     "ptMoy": 2
   },
   {
@@ -71584,7 +71506,7 @@ export let ranking2025 =
     "nom": "ANDRE Carole",
     "points": 2,
     "nbCourses": 1,
-    "rang": 298,
+    "rang": 297,
     "ptMoy": 2
   },
   {
@@ -72887,9 +72809,18 @@ export let ranking2025 =
     "num_athlete": 2337325,
     "categorie": "V2F",
     "nom": "PRUGNON Virginie",
-    "points": 174,
+    "points": 178,
     "nbCourses": 10,
     "rang": 11,
+    "ptMoy": 17.8
+  },
+  {
+    "num_athlete": 2263703,
+    "categorie": "V2F",
+    "nom": "CHARBONNIER Virginie",
+    "points": 174,
+    "nbCourses": 10,
+    "rang": 12,
     "ptMoy": 17.4
   },
   {
@@ -72898,17 +72829,8 @@ export let ranking2025 =
     "nom": "GORDZIEJ Sophie",
     "points": 173,
     "nbCourses": 6,
-    "rang": 12,
-    "ptMoy": 28.8
-  },
-  {
-    "num_athlete": 2263703,
-    "categorie": "V2F",
-    "nom": "CHARBONNIER Virginie",
-    "points": 172,
-    "nbCourses": 10,
     "rang": 13,
-    "ptMoy": 17.2
+    "ptMoy": 28.8
   },
   {
     "num_athlete": 2205852,
@@ -73244,12 +73166,21 @@ export let ranking2025 =
     "ptMoy": 17.3
   },
   {
+    "num_athlete": 2918665,
+    "categorie": "V2F",
+    "nom": "DUJEUX Evelyne",
+    "points": 50,
+    "nbCourses": 3,
+    "rang": 51,
+    "ptMoy": 16.7
+  },
+  {
     "num_athlete": 3485581,
     "categorie": "V2F",
     "nom": "VANNIER Valerie",
     "points": 50,
     "nbCourses": 3,
-    "rang": 51,
+    "rang": 52,
     "ptMoy": 16.7
   },
   {
@@ -73258,17 +73189,17 @@ export let ranking2025 =
     "nom": "DAUMONT Laurence",
     "points": 48,
     "nbCourses": 3,
-    "rang": 52,
+    "rang": 53,
     "ptMoy": 16
   },
   {
-    "num_athlete": 2918665,
+    "num_athlete": 1697021,
     "categorie": "V2F",
-    "nom": "DUJEUX Evelyne",
-    "points": 48,
+    "nom": "LEDOUX Beatrice",
+    "points": 42,
     "nbCourses": 3,
-    "rang": 53,
-    "ptMoy": 16
+    "rang": 54,
+    "ptMoy": 14
   },
   {
     "num_athlete": 1866635,
@@ -73276,7 +73207,7 @@ export let ranking2025 =
     "nom": "GALLERIN Sandrine",
     "points": 42,
     "nbCourses": 2,
-    "rang": 54,
+    "rang": 55,
     "ptMoy": 21
   },
   {
@@ -73285,26 +73216,8 @@ export let ranking2025 =
     "nom": "BENLOUKIL Sandra",
     "points": 41,
     "nbCourses": 3,
-    "rang": 55,
-    "ptMoy": 13.7
-  },
-  {
-    "num_athlete": 1697021,
-    "categorie": "V2F",
-    "nom": "LEDOUX Beatrice",
-    "points": 40,
-    "nbCourses": 3,
     "rang": 56,
-    "ptMoy": 13.3
-  },
-  {
-    "num_athlete": 3696085,
-    "categorie": "V2F",
-    "nom": "ROBIN-PELLERIN Linda",
-    "points": 40,
-    "nbCourses": 2,
-    "rang": 57,
-    "ptMoy": 20
+    "ptMoy": 13.7
   },
   {
     "num_athlete": 2815262,
@@ -73312,7 +73225,7 @@ export let ranking2025 =
     "nom": "PRUDHOMME Magali",
     "points": 38,
     "nbCourses": 2,
-    "rang": 58,
+    "rang": 57,
     "ptMoy": 19
   },
   {
@@ -73321,7 +73234,7 @@ export let ranking2025 =
     "nom": "MINETTE Nathalie",
     "points": 38,
     "nbCourses": 2,
-    "rang": 59,
+    "rang": 58,
     "ptMoy": 19
   },
   {
@@ -73330,7 +73243,7 @@ export let ranking2025 =
     "nom": "LANGLOIS Coralie",
     "points": 36,
     "nbCourses": 2,
-    "rang": 60,
+    "rang": 59,
     "ptMoy": 18
   },
   {
@@ -73339,7 +73252,7 @@ export let ranking2025 =
     "nom": "FANTI Murielle",
     "points": 36,
     "nbCourses": 2,
-    "rang": 61,
+    "rang": 60,
     "ptMoy": 18
   },
   {
@@ -73348,7 +73261,7 @@ export let ranking2025 =
     "nom": "DROUET Stephanie",
     "points": 36,
     "nbCourses": 2,
-    "rang": 62,
+    "rang": 61,
     "ptMoy": 18
   },
   {
@@ -73357,7 +73270,7 @@ export let ranking2025 =
     "nom": "RICAULT Nadege",
     "points": 30,
     "nbCourses": 2,
-    "rang": 63,
+    "rang": 62,
     "ptMoy": 15
   },
   {
@@ -73366,7 +73279,7 @@ export let ranking2025 =
     "nom": "PARENT Isabelle",
     "points": 30,
     "nbCourses": 3,
-    "rang": 64,
+    "rang": 63,
     "ptMoy": 10
   },
   {
@@ -73375,8 +73288,17 @@ export let ranking2025 =
     "nom": "MARQUET Berengere",
     "points": 28,
     "nbCourses": 1,
-    "rang": 65,
+    "rang": 64,
     "ptMoy": 28
+  },
+  {
+    "num_athlete": 2924181,
+    "categorie": "V2F",
+    "nom": "BODIN Karine",
+    "points": 24,
+    "nbCourses": 2,
+    "rang": 65,
+    "ptMoy": 12
   },
   {
     "num_athlete": 3325491,
@@ -73406,21 +73328,12 @@ export let ranking2025 =
     "ptMoy": 22
   },
   {
-    "num_athlete": 2924181,
-    "categorie": "V2F",
-    "nom": "BODIN Karine",
-    "points": 22,
-    "nbCourses": 2,
-    "rang": 69,
-    "ptMoy": 11
-  },
-  {
     "num_athlete": 812879,
     "categorie": "V2F",
     "nom": "HULOT Melina",
     "points": 22,
     "nbCourses": 1,
-    "rang": 70,
+    "rang": 69,
     "ptMoy": 22
   },
   {
@@ -73429,7 +73342,7 @@ export let ranking2025 =
     "nom": "LOIX Nathalie",
     "points": 22,
     "nbCourses": 1,
-    "rang": 71,
+    "rang": 70,
     "ptMoy": 22
   },
   {
@@ -73438,7 +73351,7 @@ export let ranking2025 =
     "nom": "MARY Frederique",
     "points": 18,
     "nbCourses": 1,
-    "rang": 72,
+    "rang": 71,
     "ptMoy": 18
   },
   {
@@ -73447,7 +73360,7 @@ export let ranking2025 =
     "nom": "RENOLLET Sophie",
     "points": 18,
     "nbCourses": 1,
-    "rang": 73,
+    "rang": 72,
     "ptMoy": 18
   },
   {
@@ -73456,7 +73369,7 @@ export let ranking2025 =
     "nom": "CANNIAUX Nadege",
     "points": 18,
     "nbCourses": 1,
-    "rang": 74,
+    "rang": 73,
     "ptMoy": 18
   },
   {
@@ -73465,7 +73378,7 @@ export let ranking2025 =
     "nom": "BESTEL Angelique",
     "points": 18,
     "nbCourses": 1,
-    "rang": 75,
+    "rang": 74,
     "ptMoy": 18
   },
   {
@@ -73474,7 +73387,7 @@ export let ranking2025 =
     "nom": "COMPERE Amandine",
     "points": 16,
     "nbCourses": 1,
-    "rang": 76,
+    "rang": 75,
     "ptMoy": 16
   },
   {
@@ -73483,7 +73396,7 @@ export let ranking2025 =
     "nom": "GIBERT Nathalie",
     "points": 16,
     "nbCourses": 1,
-    "rang": 77,
+    "rang": 76,
     "ptMoy": 16
   },
   {
@@ -73492,7 +73405,7 @@ export let ranking2025 =
     "nom": "HUBERT Sabrina",
     "points": 16,
     "nbCourses": 1,
-    "rang": 78,
+    "rang": 77,
     "ptMoy": 16
   },
   {
@@ -73501,7 +73414,7 @@ export let ranking2025 =
     "nom": "ANSELME Geraldine",
     "points": 14,
     "nbCourses": 1,
-    "rang": 79,
+    "rang": 78,
     "ptMoy": 14
   },
   {
@@ -73510,7 +73423,7 @@ export let ranking2025 =
     "nom": "CALAIS Frederique",
     "points": 14,
     "nbCourses": 1,
-    "rang": 80,
+    "rang": 79,
     "ptMoy": 14
   },
   {
@@ -74327,10 +74240,10 @@ export let ranking2025 =
     "num_athlete": 3419761,
     "categorie": "SE+M",
     "nom": "MARINTHE Ludwig",
-    "points": 196,
+    "points": 198,
     "nbCourses": 11,
     "rang": 10,
-    "ptMoy": 17.8
+    "ptMoy": 18
   },
   {
     "num_athlete": 3621232,
@@ -74702,12 +74615,21 @@ export let ranking2025 =
     "ptMoy": 16.8
   },
   {
+    "num_athlete": 3063449,
+    "categorie": "SE+M",
+    "nom": "RENARD Romain",
+    "points": 78,
+    "nbCourses": 7,
+    "rang": 52,
+    "ptMoy": 11.1
+  },
+  {
     "num_athlete": 3222368,
     "categorie": "SE+M",
     "nom": "DI MARCA Anthony",
     "points": 78,
     "nbCourses": 6,
-    "rang": 52,
+    "rang": 53,
     "ptMoy": 13
   },
   {
@@ -74716,7 +74638,7 @@ export let ranking2025 =
     "nom": "BLANCHARD Julien",
     "points": 76,
     "nbCourses": 4,
-    "rang": 53,
+    "rang": 54,
     "ptMoy": 19
   },
   {
@@ -74725,17 +74647,8 @@ export let ranking2025 =
     "nom": "CHAURE Benjamin",
     "points": 76,
     "nbCourses": 4,
-    "rang": 54,
-    "ptMoy": 19
-  },
-  {
-    "num_athlete": 3063449,
-    "categorie": "SE+M",
-    "nom": "RENARD Romain",
-    "points": 76,
-    "nbCourses": 7,
     "rang": 55,
-    "ptMoy": 10.9
+    "ptMoy": 19
   },
   {
     "num_athlete": 3392568,
@@ -75800,12 +75713,21 @@ export let ranking2025 =
     "ptMoy": 10
   },
   {
+    "num_athlete": 2478584,
+    "categorie": "SE+M",
+    "nom": "DELATOUR Florian",
+    "points": 10,
+    "nbCourses": 2,
+    "rang": 174,
+    "ptMoy": 5
+  },
+  {
     "num_athlete": 3119829,
     "categorie": "SE+M",
     "nom": "THIRY Maxime",
     "points": 10,
     "nbCourses": 1,
-    "rang": 174,
+    "rang": 175,
     "ptMoy": 10
   },
   {
@@ -75814,7 +75736,7 @@ export let ranking2025 =
     "nom": "MIMILLE Jonathan",
     "points": 10,
     "nbCourses": 1,
-    "rang": 175,
+    "rang": 176,
     "ptMoy": 10
   },
   {
@@ -75823,22 +75745,13 @@ export let ranking2025 =
     "nom": "LEMAIRE Clement",
     "points": 10,
     "nbCourses": 1,
-    "rang": 176,
+    "rang": 177,
     "ptMoy": 10
   },
   {
     "num_athlete": 3543331,
     "categorie": "SE+M",
     "nom": "BART Aurelien",
-    "points": 10,
-    "nbCourses": 1,
-    "rang": 177,
-    "ptMoy": 10
-  },
-  {
-    "num_athlete": 4358284,
-    "categorie": "SE+M",
-    "nom": "BOURGA Alexandre",
     "points": 10,
     "nbCourses": 1,
     "rang": 178,
@@ -75881,18 +75794,18 @@ export let ranking2025 =
     "ptMoy": 8
   },
   {
-    "num_athlete": 2478584,
+    "num_athlete": 3129758,
     "categorie": "SE+M",
-    "nom": "DELATOUR Florian",
+    "nom": "MARION Alexan",
     "points": 6,
     "nbCourses": 1,
     "rang": 183,
     "ptMoy": 6
   },
   {
-    "num_athlete": 3129758,
+    "num_athlete": 5204335,
     "categorie": "SE+M",
-    "nom": "MARION Alexan",
+    "nom": "NEMERY Maxence",
     "points": 6,
     "nbCourses": 1,
     "rang": 184,
@@ -75944,21 +75857,12 @@ export let ranking2025 =
     "ptMoy": 4
   },
   {
-    "num_athlete": 5204335,
-    "categorie": "SE+M",
-    "nom": "NEMERY Maxence",
-    "points": 4,
-    "nbCourses": 1,
-    "rang": 190,
-    "ptMoy": 4
-  },
-  {
     "num_athlete": 698987,
     "categorie": "SE+M",
     "nom": "HARDOUIN Quentin",
     "points": 4,
     "nbCourses": 1,
-    "rang": 191,
+    "rang": 190,
     "ptMoy": 4
   },
   {
@@ -76799,22 +76703,22 @@ export let ranking2025 =
     "ptMoy": 11.5
   },
   {
-    "num_athlete": 3288657,
+    "num_athlete": 2184450,
     "categorie": "TCM",
-    "nom": "CHAPELLIER Vincent",
+    "nom": "ROLAND Benjamin",
     "points": 46,
     "nbCourses": 4,
     "rang": 94,
     "ptMoy": 11.5
   },
   {
-    "num_athlete": 2184450,
+    "num_athlete": 3288657,
     "categorie": "TCM",
-    "nom": "ROLAND Benjamin",
-    "points": 44,
+    "nom": "CHAPELLIER Vincent",
+    "points": 46,
     "nbCourses": 4,
     "rang": 95,
-    "ptMoy": 11
+    "ptMoy": 11.5
   },
   {
     "num_athlete": 2984204,
@@ -77069,12 +76973,21 @@ export let ranking2025 =
     "ptMoy": 10.7
   },
   {
+    "num_athlete": 3028931,
+    "categorie": "TCM",
+    "nom": "FLECHEUX Xavier",
+    "points": 32,
+    "nbCourses": 3,
+    "rang": 124,
+    "ptMoy": 10.7
+  },
+  {
     "num_athlete": 624637,
     "categorie": "TCM",
     "nom": "CHAYOT Etienne",
     "points": 32,
     "nbCourses": 3,
-    "rang": 124,
+    "rang": 125,
     "ptMoy": 10.7
   },
   {
@@ -77083,7 +76996,7 @@ export let ranking2025 =
     "nom": "BRIARD Sebastien",
     "points": 31,
     "nbCourses": 2,
-    "rang": 125,
+    "rang": 126,
     "ptMoy": 15.5
   },
   {
@@ -77092,7 +77005,7 @@ export let ranking2025 =
     "nom": "DURIEUX Damien",
     "points": 31,
     "nbCourses": 2,
-    "rang": 126,
+    "rang": 127,
     "ptMoy": 15.5
   },
   {
@@ -77101,7 +77014,7 @@ export let ranking2025 =
     "nom": "MARTEAUX Brian",
     "points": 30,
     "nbCourses": 2,
-    "rang": 127,
+    "rang": 128,
     "ptMoy": 15
   },
   {
@@ -77110,7 +77023,7 @@ export let ranking2025 =
     "nom": "CHAPPE Matthieu",
     "points": 30,
     "nbCourses": 3,
-    "rang": 128,
+    "rang": 129,
     "ptMoy": 10
   },
   {
@@ -77119,17 +77032,8 @@ export let ranking2025 =
     "nom": "INGLESE Nicolas",
     "points": 30,
     "nbCourses": 2,
-    "rang": 129,
-    "ptMoy": 15
-  },
-  {
-    "num_athlete": 3028931,
-    "categorie": "TCM",
-    "nom": "FLECHEUX Xavier",
-    "points": 30,
-    "nbCourses": 3,
     "rang": 130,
-    "ptMoy": 10
+    "ptMoy": 15
   },
   {
     "num_athlete": 1412172,
@@ -77474,12 +77378,21 @@ export let ranking2025 =
     "ptMoy": 20
   },
   {
+    "num_athlete": 1301492,
+    "categorie": "TCM",
+    "nom": "LEJEUNE Matthieu",
+    "points": 20,
+    "nbCourses": 3,
+    "rang": 169,
+    "ptMoy": 6.7
+  },
+  {
     "num_athlete": 2060734,
     "categorie": "TCM",
     "nom": "BONNE Robin",
     "points": 20,
     "nbCourses": 1,
-    "rang": 169,
+    "rang": 170,
     "ptMoy": 20
   },
   {
@@ -77488,7 +77401,7 @@ export let ranking2025 =
     "nom": "CONSTANT Hugo",
     "points": 20,
     "nbCourses": 1,
-    "rang": 170,
+    "rang": 171,
     "ptMoy": 20
   },
   {
@@ -77497,7 +77410,7 @@ export let ranking2025 =
     "nom": "PIERRE Damien",
     "points": 20,
     "nbCourses": 2,
-    "rang": 171,
+    "rang": 172,
     "ptMoy": 10
   },
   {
@@ -77506,7 +77419,7 @@ export let ranking2025 =
     "nom": "BONNE Loic",
     "points": 20,
     "nbCourses": 1,
-    "rang": 172,
+    "rang": 173,
     "ptMoy": 20
   },
   {
@@ -77515,7 +77428,7 @@ export let ranking2025 =
     "nom": "DROUET Sebastien",
     "points": 20,
     "nbCourses": 2,
-    "rang": 173,
+    "rang": 174,
     "ptMoy": 10
   },
   {
@@ -77524,7 +77437,7 @@ export let ranking2025 =
     "nom": "CARUZZI Joan",
     "points": 20,
     "nbCourses": 2,
-    "rang": 174,
+    "rang": 175,
     "ptMoy": 10
   },
   {
@@ -77533,17 +77446,8 @@ export let ranking2025 =
     "nom": "ALEXANDRE Jose",
     "points": 18,
     "nbCourses": 1,
-    "rang": 175,
-    "ptMoy": 18
-  },
-  {
-    "num_athlete": 1301492,
-    "categorie": "TCM",
-    "nom": "LEJEUNE Matthieu",
-    "points": 18,
-    "nbCourses": 3,
     "rang": 176,
-    "ptMoy": 6
+    "ptMoy": 18
   },
   {
     "num_athlete": 1327699,
@@ -77753,21 +77657,12 @@ export let ranking2025 =
     "ptMoy": 16
   },
   {
-    "num_athlete": 2012143,
-    "categorie": "TCM",
-    "nom": "BAZIN Baptiste",
-    "points": 16,
-    "nbCourses": 1,
-    "rang": 200,
-    "ptMoy": 16
-  },
-  {
     "num_athlete": 2027222,
     "categorie": "TCM",
     "nom": "MANY Sebastien",
     "points": 16,
     "nbCourses": 1,
-    "rang": 201,
+    "rang": 200,
     "ptMoy": 16
   },
   {
@@ -77776,7 +77671,7 @@ export let ranking2025 =
     "nom": "BRIARD Alois",
     "points": 16,
     "nbCourses": 1,
-    "rang": 202,
+    "rang": 201,
     "ptMoy": 16
   },
   {
@@ -77785,7 +77680,7 @@ export let ranking2025 =
     "nom": "AIT-CHAOUCHE Kennan",
     "points": 16,
     "nbCourses": 1,
-    "rang": 203,
+    "rang": 202,
     "ptMoy": 16
   },
   {
@@ -77794,7 +77689,7 @@ export let ranking2025 =
     "nom": "CAZIN Gregory",
     "points": 16,
     "nbCourses": 1,
-    "rang": 204,
+    "rang": 203,
     "ptMoy": 16
   },
   {
@@ -77803,7 +77698,7 @@ export let ranking2025 =
     "nom": "KRUPA Christophe",
     "points": 16,
     "nbCourses": 1,
-    "rang": 205,
+    "rang": 204,
     "ptMoy": 16
   },
   {
@@ -77812,7 +77707,7 @@ export let ranking2025 =
     "nom": "PLATEAU Patrick",
     "points": 16,
     "nbCourses": 2,
-    "rang": 206,
+    "rang": 205,
     "ptMoy": 8
   },
   {
@@ -77821,7 +77716,7 @@ export let ranking2025 =
     "nom": "DI MARCA Anthony",
     "points": 16,
     "nbCourses": 2,
-    "rang": 207,
+    "rang": 206,
     "ptMoy": 8
   },
   {
@@ -77830,7 +77725,7 @@ export let ranking2025 =
     "nom": "BERTHE Quentin",
     "points": 16,
     "nbCourses": 2,
-    "rang": 208,
+    "rang": 207,
     "ptMoy": 8
   },
   {
@@ -77839,7 +77734,7 @@ export let ranking2025 =
     "nom": "CARRASCOSA Rafael",
     "points": 16,
     "nbCourses": 1,
-    "rang": 209,
+    "rang": 208,
     "ptMoy": 16
   },
   {
@@ -77848,7 +77743,7 @@ export let ranking2025 =
     "nom": "FELS Andy",
     "points": 16,
     "nbCourses": 1,
-    "rang": 210,
+    "rang": 209,
     "ptMoy": 16
   },
   {
@@ -77857,7 +77752,7 @@ export let ranking2025 =
     "nom": "CAUTY Bruno",
     "points": 16,
     "nbCourses": 1,
-    "rang": 211,
+    "rang": 210,
     "ptMoy": 16
   },
   {
@@ -77866,7 +77761,7 @@ export let ranking2025 =
     "nom": "KRETZMEYER Blaise",
     "points": 16,
     "nbCourses": 1,
-    "rang": 212,
+    "rang": 211,
     "ptMoy": 16
   },
   {
@@ -77875,7 +77770,7 @@ export let ranking2025 =
     "nom": "GANDOUIN Jeremy",
     "points": 16,
     "nbCourses": 1,
-    "rang": 213,
+    "rang": 212,
     "ptMoy": 16
   },
   {
@@ -77884,7 +77779,7 @@ export let ranking2025 =
     "nom": "LEFEVRE Bruno",
     "points": 14,
     "nbCourses": 1,
-    "rang": 214,
+    "rang": 213,
     "ptMoy": 14
   },
   {
@@ -77893,7 +77788,7 @@ export let ranking2025 =
     "nom": "REMY Nicolas",
     "points": 14,
     "nbCourses": 1,
-    "rang": 215,
+    "rang": 214,
     "ptMoy": 14
   },
   {
@@ -77902,7 +77797,7 @@ export let ranking2025 =
     "nom": "ROCHON Bruno",
     "points": 14,
     "nbCourses": 1,
-    "rang": 216,
+    "rang": 215,
     "ptMoy": 14
   },
   {
@@ -77911,7 +77806,7 @@ export let ranking2025 =
     "nom": "FERREIRINHA Jorge",
     "points": 14,
     "nbCourses": 1,
-    "rang": 217,
+    "rang": 216,
     "ptMoy": 14
   },
   {
@@ -77920,7 +77815,7 @@ export let ranking2025 =
     "nom": "BRICAU Aristide",
     "points": 14,
     "nbCourses": 1,
-    "rang": 218,
+    "rang": 217,
     "ptMoy": 14
   },
   {
@@ -77929,7 +77824,7 @@ export let ranking2025 =
     "nom": "MANCENALEZ Julien",
     "points": 14,
     "nbCourses": 2,
-    "rang": 219,
+    "rang": 218,
     "ptMoy": 7
   },
   {
@@ -77938,7 +77833,7 @@ export let ranking2025 =
     "nom": "THEISS David",
     "points": 14,
     "nbCourses": 1,
-    "rang": 220,
+    "rang": 219,
     "ptMoy": 14
   },
   {
@@ -77947,7 +77842,7 @@ export let ranking2025 =
     "nom": "SANDRIN Jean-Luc",
     "points": 14,
     "nbCourses": 1,
-    "rang": 221,
+    "rang": 220,
     "ptMoy": 14
   },
   {
@@ -77956,7 +77851,7 @@ export let ranking2025 =
     "nom": "VILLA Maxime",
     "points": 14,
     "nbCourses": 1,
-    "rang": 222,
+    "rang": 221,
     "ptMoy": 14
   },
   {
@@ -77965,8 +77860,17 @@ export let ranking2025 =
     "nom": "DEVREEZE Sebastien",
     "points": 14,
     "nbCourses": 2,
-    "rang": 223,
+    "rang": 222,
     "ptMoy": 7
+  },
+  {
+    "num_athlete": 3265403,
+    "categorie": "TCM",
+    "nom": "THIEBAULT John",
+    "points": 14,
+    "nbCourses": 1,
+    "rang": 223,
+    "ptMoy": 14
   },
   {
     "num_athlete": 3270558,
@@ -78122,12 +78026,21 @@ export let ranking2025 =
     "ptMoy": 12
   },
   {
+    "num_athlete": 2923967,
+    "categorie": "TCM",
+    "nom": "HENRY Samuel",
+    "points": 12,
+    "nbCourses": 1,
+    "rang": 241,
+    "ptMoy": 12
+  },
+  {
     "num_athlete": 2948099,
     "categorie": "TCM",
     "nom": "SCHOEFFRE Sebastien",
     "points": 12,
     "nbCourses": 2,
-    "rang": 241,
+    "rang": 242,
     "ptMoy": 6
   },
   {
@@ -78136,22 +78049,13 @@ export let ranking2025 =
     "nom": "MARCZAK Anthony",
     "points": 12,
     "nbCourses": 1,
-    "rang": 242,
+    "rang": 243,
     "ptMoy": 12
   },
   {
     "num_athlete": 3144712,
     "categorie": "TCM",
     "nom": "BLANDIN Nicolas",
-    "points": 12,
-    "nbCourses": 1,
-    "rang": 243,
-    "ptMoy": 12
-  },
-  {
-    "num_athlete": 3265403,
-    "categorie": "TCM",
-    "nom": "THIEBAULT John",
     "points": 12,
     "nbCourses": 1,
     "rang": 244,
@@ -78320,21 +78224,12 @@ export let ranking2025 =
     "ptMoy": 10
   },
   {
-    "num_athlete": 2923967,
-    "categorie": "TCM",
-    "nom": "HENRY Samuel",
-    "points": 10,
-    "nbCourses": 1,
-    "rang": 263,
-    "ptMoy": 10
-  },
-  {
     "num_athlete": 2943182,
     "categorie": "TCM",
     "nom": "LENOBLE Thomas",
     "points": 10,
     "nbCourses": 1,
-    "rang": 264,
+    "rang": 263,
     "ptMoy": 10
   },
   {
@@ -78343,7 +78238,7 @@ export let ranking2025 =
     "nom": "DIACRE Pierre-Mareen",
     "points": 10,
     "nbCourses": 1,
-    "rang": 265,
+    "rang": 264,
     "ptMoy": 10
   },
   {
@@ -78352,7 +78247,7 @@ export let ranking2025 =
     "nom": "HURBAIN Anthony",
     "points": 10,
     "nbCourses": 1,
-    "rang": 266,
+    "rang": 265,
     "ptMoy": 10
   },
   {
@@ -78361,7 +78256,7 @@ export let ranking2025 =
     "nom": "HERIOT Arthur",
     "points": 10,
     "nbCourses": 1,
-    "rang": 267,
+    "rang": 266,
     "ptMoy": 10
   },
   {
@@ -78370,7 +78265,7 @@ export let ranking2025 =
     "nom": "FONGARNAND Dimitri",
     "points": 10,
     "nbCourses": 1,
-    "rang": 268,
+    "rang": 267,
     "ptMoy": 10
   },
   {
@@ -78379,7 +78274,7 @@ export let ranking2025 =
     "nom": "GAZENGEL Julien",
     "points": 10,
     "nbCourses": 2,
-    "rang": 269,
+    "rang": 268,
     "ptMoy": 5
   },
   {
@@ -78388,7 +78283,7 @@ export let ranking2025 =
     "nom": "CAPITAINE Geraud",
     "points": 10,
     "nbCourses": 1,
-    "rang": 270,
+    "rang": 269,
     "ptMoy": 10
   },
   {
@@ -78397,7 +78292,7 @@ export let ranking2025 =
     "nom": "PILARDEAU Etienne",
     "points": 10,
     "nbCourses": 1,
-    "rang": 271,
+    "rang": 270,
     "ptMoy": 10
   },
   {
@@ -78406,7 +78301,7 @@ export let ranking2025 =
     "nom": "LEROY Nicolas",
     "points": 8,
     "nbCourses": 1,
-    "rang": 272,
+    "rang": 271,
     "ptMoy": 8
   },
   {
@@ -78415,7 +78310,7 @@ export let ranking2025 =
     "nom": "COLLET Frederic",
     "points": 8,
     "nbCourses": 1,
-    "rang": 273,
+    "rang": 272,
     "ptMoy": 8
   },
   {
@@ -78424,7 +78319,7 @@ export let ranking2025 =
     "nom": "MARTIN Michel",
     "points": 8,
     "nbCourses": 1,
-    "rang": 274,
+    "rang": 273,
     "ptMoy": 8
   },
   {
@@ -78433,7 +78328,7 @@ export let ranking2025 =
     "nom": "RAIMBEAUX Aldo",
     "points": 8,
     "nbCourses": 1,
-    "rang": 275,
+    "rang": 274,
     "ptMoy": 8
   },
   {
@@ -78442,7 +78337,7 @@ export let ranking2025 =
     "nom": "CADOT Alexandre",
     "points": 8,
     "nbCourses": 1,
-    "rang": 276,
+    "rang": 275,
     "ptMoy": 8
   },
   {
@@ -78451,7 +78346,7 @@ export let ranking2025 =
     "nom": "FECHEROLLES Alexis",
     "points": 8,
     "nbCourses": 1,
-    "rang": 277,
+    "rang": 276,
     "ptMoy": 8
   },
   {
@@ -78460,7 +78355,7 @@ export let ranking2025 =
     "nom": "SAINTHUILE Lucas",
     "points": 8,
     "nbCourses": 1,
-    "rang": 278,
+    "rang": 277,
     "ptMoy": 8
   },
   {
@@ -78469,7 +78364,7 @@ export let ranking2025 =
     "nom": "HUART Noan",
     "points": 8,
     "nbCourses": 1,
-    "rang": 279,
+    "rang": 278,
     "ptMoy": 8
   },
   {
@@ -78478,7 +78373,7 @@ export let ranking2025 =
     "nom": "BAILLY Aurelien",
     "points": 8,
     "nbCourses": 1,
-    "rang": 280,
+    "rang": 279,
     "ptMoy": 8
   },
   {
@@ -78487,7 +78382,7 @@ export let ranking2025 =
     "nom": "LAMBERT Martin",
     "points": 8,
     "nbCourses": 2,
-    "rang": 281,
+    "rang": 280,
     "ptMoy": 4
   },
   {
@@ -78496,7 +78391,7 @@ export let ranking2025 =
     "nom": "GLOD Sylvain",
     "points": 8,
     "nbCourses": 1,
-    "rang": 282,
+    "rang": 281,
     "ptMoy": 8
   },
   {
@@ -78505,7 +78400,7 @@ export let ranking2025 =
     "nom": "BARDIAUX Kevin",
     "points": 8,
     "nbCourses": 1,
-    "rang": 283,
+    "rang": 282,
     "ptMoy": 8
   },
   {
@@ -78514,7 +78409,7 @@ export let ranking2025 =
     "nom": "SAUVIGNON Alain",
     "points": 8,
     "nbCourses": 1,
-    "rang": 284,
+    "rang": 283,
     "ptMoy": 8
   },
   {
@@ -78523,7 +78418,7 @@ export let ranking2025 =
     "nom": "TANGHE Gregory",
     "points": 8,
     "nbCourses": 1,
-    "rang": 285,
+    "rang": 284,
     "ptMoy": 8
   },
   {
@@ -78532,7 +78427,7 @@ export let ranking2025 =
     "nom": "CIMINELLI Quentin",
     "points": 8,
     "nbCourses": 1,
-    "rang": 286,
+    "rang": 285,
     "ptMoy": 8
   },
   {
@@ -78541,7 +78436,7 @@ export let ranking2025 =
     "nom": "LAGNIER Julien",
     "points": 8,
     "nbCourses": 1,
-    "rang": 287,
+    "rang": 286,
     "ptMoy": 8
   },
   {
@@ -78550,7 +78445,7 @@ export let ranking2025 =
     "nom": "PECHEUX Pierre",
     "points": 8,
     "nbCourses": 2,
-    "rang": 288,
+    "rang": 287,
     "ptMoy": 4
   },
   {
@@ -78559,7 +78454,7 @@ export let ranking2025 =
     "nom": "ANTOINE Christophe",
     "points": 8,
     "nbCourses": 1,
-    "rang": 289,
+    "rang": 288,
     "ptMoy": 8
   },
   {
@@ -78568,7 +78463,7 @@ export let ranking2025 =
     "nom": "FINCK Christophe",
     "points": 8,
     "nbCourses": 1,
-    "rang": 290,
+    "rang": 289,
     "ptMoy": 8
   },
   {
@@ -78577,7 +78472,7 @@ export let ranking2025 =
     "nom": "BOISSON-HALLET Anthyme",
     "points": 8,
     "nbCourses": 1,
-    "rang": 291,
+    "rang": 290,
     "ptMoy": 8
   },
   {
@@ -78586,7 +78481,7 @@ export let ranking2025 =
     "nom": "LEJEUNE Gauthier",
     "points": 8,
     "nbCourses": 1,
-    "rang": 292,
+    "rang": 291,
     "ptMoy": 8
   },
   {
@@ -78595,7 +78490,7 @@ export let ranking2025 =
     "nom": "ROSELIER Jonathan",
     "points": 8,
     "nbCourses": 1,
-    "rang": 293,
+    "rang": 292,
     "ptMoy": 8
   },
   {
@@ -78604,7 +78499,7 @@ export let ranking2025 =
     "nom": "SAUVAGE Axel",
     "points": 8,
     "nbCourses": 1,
-    "rang": 294,
+    "rang": 293,
     "ptMoy": 8
   },
   {
@@ -78613,7 +78508,7 @@ export let ranking2025 =
     "nom": "MORENO Alberto",
     "points": 8,
     "nbCourses": 1,
-    "rang": 295,
+    "rang": 294,
     "ptMoy": 8
   },
   {
@@ -78622,7 +78517,7 @@ export let ranking2025 =
     "nom": "GROSSELIN Christophe",
     "points": 6,
     "nbCourses": 1,
-    "rang": 296,
+    "rang": 295,
     "ptMoy": 6
   },
   {
@@ -78631,7 +78526,7 @@ export let ranking2025 =
     "nom": "SERVAIS Cody",
     "points": 6,
     "nbCourses": 1,
-    "rang": 297,
+    "rang": 296,
     "ptMoy": 6
   },
   {
@@ -78640,7 +78535,7 @@ export let ranking2025 =
     "nom": "DETHIERE Frederic",
     "points": 6,
     "nbCourses": 1,
-    "rang": 298,
+    "rang": 297,
     "ptMoy": 6
   },
   {
@@ -78649,7 +78544,7 @@ export let ranking2025 =
     "nom": "HOULMONT Olivier",
     "points": 6,
     "nbCourses": 1,
-    "rang": 299,
+    "rang": 298,
     "ptMoy": 6
   },
   {
@@ -78658,7 +78553,7 @@ export let ranking2025 =
     "nom": "TROTTIER Etienne",
     "points": 6,
     "nbCourses": 1,
-    "rang": 300,
+    "rang": 299,
     "ptMoy": 6
   },
   {
@@ -78667,7 +78562,7 @@ export let ranking2025 =
     "nom": "DECOUT Denis",
     "points": 6,
     "nbCourses": 1,
-    "rang": 301,
+    "rang": 300,
     "ptMoy": 6
   },
   {
@@ -78676,7 +78571,7 @@ export let ranking2025 =
     "nom": "MEUNIER Pascal",
     "points": 6,
     "nbCourses": 1,
-    "rang": 302,
+    "rang": 301,
     "ptMoy": 6
   },
   {
@@ -78685,7 +78580,7 @@ export let ranking2025 =
     "nom": "JULLIEN David",
     "points": 6,
     "nbCourses": 1,
-    "rang": 303,
+    "rang": 302,
     "ptMoy": 6
   },
   {
@@ -78694,7 +78589,7 @@ export let ranking2025 =
     "nom": "GAUTIER Mael",
     "points": 6,
     "nbCourses": 1,
-    "rang": 304,
+    "rang": 303,
     "ptMoy": 6
   },
   {
@@ -78703,7 +78598,7 @@ export let ranking2025 =
     "nom": "MOHIMONT Franck",
     "points": 6,
     "nbCourses": 1,
-    "rang": 305,
+    "rang": 304,
     "ptMoy": 6
   },
   {
@@ -78712,7 +78607,7 @@ export let ranking2025 =
     "nom": "DELANNOY Nicolas",
     "points": 6,
     "nbCourses": 1,
-    "rang": 306,
+    "rang": 305,
     "ptMoy": 6
   },
   {
@@ -78721,7 +78616,7 @@ export let ranking2025 =
     "nom": "GUEPE Olivier",
     "points": 6,
     "nbCourses": 1,
-    "rang": 307,
+    "rang": 306,
     "ptMoy": 6
   },
   {
@@ -78730,7 +78625,7 @@ export let ranking2025 =
     "nom": "GISQUET Julien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 308,
+    "rang": 307,
     "ptMoy": 6
   },
   {
@@ -78739,7 +78634,7 @@ export let ranking2025 =
     "nom": "VEGA Jean-Michel",
     "points": 6,
     "nbCourses": 1,
-    "rang": 309,
+    "rang": 308,
     "ptMoy": 6
   },
   {
@@ -78748,7 +78643,7 @@ export let ranking2025 =
     "nom": "MORIEUX Julien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 310,
+    "rang": 309,
     "ptMoy": 6
   },
   {
@@ -78757,7 +78652,7 @@ export let ranking2025 =
     "nom": "CHARTIER Michel",
     "points": 6,
     "nbCourses": 1,
-    "rang": 311,
+    "rang": 310,
     "ptMoy": 6
   },
   {
@@ -78766,7 +78661,7 @@ export let ranking2025 =
     "nom": "RODRIGUEZ Sebastien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 312,
+    "rang": 311,
     "ptMoy": 6
   },
   {
@@ -78775,7 +78670,7 @@ export let ranking2025 =
     "nom": "JARZAGUET Romain",
     "points": 6,
     "nbCourses": 1,
-    "rang": 313,
+    "rang": 312,
     "ptMoy": 6
   },
   {
@@ -78784,7 +78679,7 @@ export let ranking2025 =
     "nom": "BLANCHARD Fabrice",
     "points": 6,
     "nbCourses": 1,
-    "rang": 314,
+    "rang": 313,
     "ptMoy": 6
   },
   {
@@ -78793,7 +78688,7 @@ export let ranking2025 =
     "nom": "FONTAINE Nicolas",
     "points": 6,
     "nbCourses": 1,
-    "rang": 315,
+    "rang": 314,
     "ptMoy": 6
   },
   {
@@ -78802,7 +78697,7 @@ export let ranking2025 =
     "nom": "PERGENT Corentin",
     "points": 6,
     "nbCourses": 1,
-    "rang": 316,
+    "rang": 315,
     "ptMoy": 6
   },
   {
@@ -78811,13 +78706,22 @@ export let ranking2025 =
     "nom": "PAMBOUC Frederic",
     "points": 6,
     "nbCourses": 1,
-    "rang": 317,
+    "rang": 316,
     "ptMoy": 6
   },
   {
     "num_athlete": 3714865,
     "categorie": "TCM",
     "nom": "GOELLER Charly",
+    "points": 6,
+    "nbCourses": 1,
+    "rang": 317,
+    "ptMoy": 6
+  },
+  {
+    "num_athlete": 999547,
+    "categorie": "TCM",
+    "nom": "BLAVIER Eric",
     "points": 6,
     "nbCourses": 1,
     "rang": 318,
@@ -78887,12 +78791,21 @@ export let ranking2025 =
     "ptMoy": 4
   },
   {
+    "num_athlete": 2507266,
+    "categorie": "TCM",
+    "nom": "DARDENNE Kevin",
+    "points": 4,
+    "nbCourses": 1,
+    "rang": 326,
+    "ptMoy": 4
+  },
+  {
     "num_athlete": 2513286,
     "categorie": "TCM",
     "nom": "HENRY Pascal",
     "points": 4,
     "nbCourses": 1,
-    "rang": 326,
+    "rang": 327,
     "ptMoy": 4
   },
   {
@@ -78901,7 +78814,7 @@ export let ranking2025 =
     "nom": "DESJARDINS Philippe",
     "points": 4,
     "nbCourses": 1,
-    "rang": 327,
+    "rang": 328,
     "ptMoy": 4
   },
   {
@@ -78910,7 +78823,7 @@ export let ranking2025 =
     "nom": "RANVE Jerome",
     "points": 4,
     "nbCourses": 1,
-    "rang": 328,
+    "rang": 329,
     "ptMoy": 4
   },
   {
@@ -78919,7 +78832,7 @@ export let ranking2025 =
     "nom": "TAVERNIER Vincent",
     "points": 4,
     "nbCourses": 1,
-    "rang": 329,
+    "rang": 330,
     "ptMoy": 4
   },
   {
@@ -78928,7 +78841,7 @@ export let ranking2025 =
     "nom": "BRAQUET Emilien",
     "points": 4,
     "nbCourses": 1,
-    "rang": 330,
+    "rang": 331,
     "ptMoy": 4
   },
   {
@@ -78937,7 +78850,7 @@ export let ranking2025 =
     "nom": "DRANCOURT Emmanuel",
     "points": 4,
     "nbCourses": 1,
-    "rang": 331,
+    "rang": 332,
     "ptMoy": 4
   },
   {
@@ -78946,7 +78859,7 @@ export let ranking2025 =
     "nom": "DARDENNE Anthony",
     "points": 4,
     "nbCourses": 1,
-    "rang": 332,
+    "rang": 333,
     "ptMoy": 4
   },
   {
@@ -78955,7 +78868,7 @@ export let ranking2025 =
     "nom": "BOUDESOCQUE Elisee",
     "points": 4,
     "nbCourses": 1,
-    "rang": 333,
+    "rang": 334,
     "ptMoy": 4
   },
   {
@@ -78964,7 +78877,7 @@ export let ranking2025 =
     "nom": "CANTIN Christopher",
     "points": 4,
     "nbCourses": 1,
-    "rang": 334,
+    "rang": 335,
     "ptMoy": 4
   },
   {
@@ -78973,7 +78886,7 @@ export let ranking2025 =
     "nom": "SENECHAL Aymrik",
     "points": 4,
     "nbCourses": 1,
-    "rang": 335,
+    "rang": 336,
     "ptMoy": 4
   },
   {
@@ -78982,7 +78895,7 @@ export let ranking2025 =
     "nom": "DARSTEIN Nicolas",
     "points": 4,
     "nbCourses": 1,
-    "rang": 336,
+    "rang": 337,
     "ptMoy": 4
   },
   {
@@ -78991,7 +78904,7 @@ export let ranking2025 =
     "nom": "PAQUET Gregory",
     "points": 4,
     "nbCourses": 1,
-    "rang": 337,
+    "rang": 338,
     "ptMoy": 4
   },
   {
@@ -79000,7 +78913,7 @@ export let ranking2025 =
     "nom": "CARQUIN Augustin",
     "points": 4,
     "nbCourses": 1,
-    "rang": 338,
+    "rang": 339,
     "ptMoy": 4
   },
   {
@@ -79009,7 +78922,7 @@ export let ranking2025 =
     "nom": "HALLAERT Ludovic",
     "points": 4,
     "nbCourses": 1,
-    "rang": 339,
+    "rang": 340,
     "ptMoy": 4
   },
   {
@@ -79018,7 +78931,7 @@ export let ranking2025 =
     "nom": "BINAUT Sebastien",
     "points": 4,
     "nbCourses": 1,
-    "rang": 340,
+    "rang": 341,
     "ptMoy": 4
   },
   {
@@ -79027,7 +78940,7 @@ export let ranking2025 =
     "nom": "DERVIN Julien",
     "points": 4,
     "nbCourses": 1,
-    "rang": 341,
+    "rang": 342,
     "ptMoy": 4
   },
   {
@@ -79036,7 +78949,7 @@ export let ranking2025 =
     "nom": "ESTERMANN Mathieu",
     "points": 4,
     "nbCourses": 1,
-    "rang": 342,
+    "rang": 343,
     "ptMoy": 4
   },
   {
@@ -79045,7 +78958,7 @@ export let ranking2025 =
     "nom": "GRUYER Jeremy",
     "points": 4,
     "nbCourses": 1,
-    "rang": 343,
+    "rang": 344,
     "ptMoy": 4
   },
   {
@@ -79054,7 +78967,7 @@ export let ranking2025 =
     "nom": "CHATEL Daniel",
     "points": 4,
     "nbCourses": 1,
-    "rang": 344,
+    "rang": 345,
     "ptMoy": 4
   },
   {
@@ -79063,22 +78976,13 @@ export let ranking2025 =
     "nom": "DOMINE Pascal",
     "points": 4,
     "nbCourses": 1,
-    "rang": 345,
+    "rang": 346,
     "ptMoy": 4
   },
   {
     "num_athlete": 894281,
     "categorie": "TCM",
     "nom": "MUSZALSKI Laurent",
-    "points": 4,
-    "nbCourses": 1,
-    "rang": 346,
-    "ptMoy": 4
-  },
-  {
-    "num_athlete": 999547,
-    "categorie": "TCM",
-    "nom": "BLAVIER Eric",
     "points": 4,
     "nbCourses": 1,
     "rang": 347,
@@ -79475,10 +79379,10 @@ export let ranking2025 =
     "num_athlete": 3028931,
     "categorie": "V1M",
     "nom": "FLECHEUX Xavier",
-    "points": 114,
+    "points": 116,
     "nbCourses": 10,
     "rang": 36,
-    "ptMoy": 11.4
+    "ptMoy": 11.6
   },
   {
     "num_athlete": 3260591,
@@ -79751,12 +79655,21 @@ export let ranking2025 =
     "ptMoy": 31
   },
   {
+    "num_athlete": 2154136,
+    "categorie": "V1M",
+    "nom": "CAPUANO Biagio",
+    "points": 60,
+    "nbCourses": 5,
+    "rang": 67,
+    "ptMoy": 12
+  },
+  {
     "num_athlete": 1873939,
     "categorie": "V1M",
     "nom": "OUALI Michael",
     "points": 59,
     "nbCourses": 2,
-    "rang": 67,
+    "rang": 68,
     "ptMoy": 29.5
   },
   {
@@ -79765,7 +79678,7 @@ export let ranking2025 =
     "nom": "CRANCEE Sebastien",
     "points": 59,
     "nbCourses": 3,
-    "rang": 68,
+    "rang": 69,
     "ptMoy": 19.7
   },
   {
@@ -79774,17 +79687,8 @@ export let ranking2025 =
     "nom": "LEJEUNE Olivier",
     "points": 58,
     "nbCourses": 3,
-    "rang": 69,
-    "ptMoy": 19.3
-  },
-  {
-    "num_athlete": 2154136,
-    "categorie": "V1M",
-    "nom": "CAPUANO Biagio",
-    "points": 58,
-    "nbCourses": 5,
     "rang": 70,
-    "ptMoy": 11.6
+    "ptMoy": 19.3
   },
   {
     "num_athlete": 2769144,
@@ -79886,12 +79790,21 @@ export let ranking2025 =
     "ptMoy": 24.5
   },
   {
+    "num_athlete": 2065072,
+    "categorie": "V1M",
+    "nom": "VERLAINE Jerome",
+    "points": 48,
+    "nbCourses": 4,
+    "rang": 82,
+    "ptMoy": 12
+  },
+  {
     "num_athlete": 3266939,
     "categorie": "V1M",
     "nom": "DARSTEIN Nicolas",
     "points": 48,
     "nbCourses": 3,
-    "rang": 82,
+    "rang": 83,
     "ptMoy": 16
   },
   {
@@ -79900,7 +79813,7 @@ export let ranking2025 =
     "nom": "BRION Gregory",
     "points": 48,
     "nbCourses": 5,
-    "rang": 83,
+    "rang": 84,
     "ptMoy": 9.6
   },
   {
@@ -79909,17 +79822,8 @@ export let ranking2025 =
     "nom": "BERTHE Quentin",
     "points": 48,
     "nbCourses": 3,
-    "rang": 84,
-    "ptMoy": 16
-  },
-  {
-    "num_athlete": 2065072,
-    "categorie": "V1M",
-    "nom": "VERLAINE Jerome",
-    "points": 46,
-    "nbCourses": 4,
     "rang": 85,
-    "ptMoy": 11.5
+    "ptMoy": 16
   },
   {
     "num_athlete": 3265390,
@@ -80174,12 +80078,21 @@ export let ranking2025 =
     "ptMoy": 17
   },
   {
+    "num_athlete": 3265403,
+    "categorie": "V1M",
+    "nom": "THIEBAULT John",
+    "points": 34,
+    "nbCourses": 2,
+    "rang": 114,
+    "ptMoy": 17
+  },
+  {
     "num_athlete": 3576325,
     "categorie": "V1M",
     "nom": "BRARD Julien",
     "points": 34,
     "nbCourses": 3,
-    "rang": 114,
+    "rang": 115,
     "ptMoy": 11.3
   },
   {
@@ -80188,7 +80101,7 @@ export let ranking2025 =
     "nom": "MOREAU Damien",
     "points": 32,
     "nbCourses": 2,
-    "rang": 115,
+    "rang": 116,
     "ptMoy": 16
   },
   {
@@ -80197,22 +80110,13 @@ export let ranking2025 =
     "nom": "RENAUDIN Cedric",
     "points": 32,
     "nbCourses": 5,
-    "rang": 116,
+    "rang": 117,
     "ptMoy": 6.4
   },
   {
     "num_athlete": 2178494,
     "categorie": "V1M",
     "nom": "HULOT Mikael",
-    "points": 32,
-    "nbCourses": 2,
-    "rang": 117,
-    "ptMoy": 16
-  },
-  {
-    "num_athlete": 3265403,
-    "categorie": "V1M",
-    "nom": "THIEBAULT John",
     "points": 32,
     "nbCourses": 2,
     "rang": 118,
@@ -80453,21 +80357,12 @@ export let ranking2025 =
     "ptMoy": 10
   },
   {
-    "num_athlete": 2012143,
-    "categorie": "V1M",
-    "nom": "BAZIN Baptiste",
-    "points": 20,
-    "nbCourses": 1,
-    "rang": 145,
-    "ptMoy": 20
-  },
-  {
     "num_athlete": 2956212,
     "categorie": "V1M",
     "nom": "TAVERNIER Vincent",
     "points": 20,
     "nbCourses": 2,
-    "rang": 146,
+    "rang": 145,
     "ptMoy": 10
   },
   {
@@ -80476,7 +80371,7 @@ export let ranking2025 =
     "nom": "WEBER Franck",
     "points": 20,
     "nbCourses": 2,
-    "rang": 147,
+    "rang": 146,
     "ptMoy": 10
   },
   {
@@ -80485,7 +80380,7 @@ export let ranking2025 =
     "nom": "DOUX Ludovic",
     "points": 20,
     "nbCourses": 2,
-    "rang": 148,
+    "rang": 147,
     "ptMoy": 10
   },
   {
@@ -80494,7 +80389,7 @@ export let ranking2025 =
     "nom": "WATRIN Fabien",
     "points": 20,
     "nbCourses": 2,
-    "rang": 149,
+    "rang": 148,
     "ptMoy": 10
   },
   {
@@ -80503,7 +80398,7 @@ export let ranking2025 =
     "nom": "BOINEL Frederic",
     "points": 20,
     "nbCourses": 1,
-    "rang": 150,
+    "rang": 149,
     "ptMoy": 20
   },
   {
@@ -80512,7 +80407,7 @@ export let ranking2025 =
     "nom": "DOUCET Jerome",
     "points": 20,
     "nbCourses": 1,
-    "rang": 151,
+    "rang": 150,
     "ptMoy": 20
   },
   {
@@ -80521,7 +80416,7 @@ export let ranking2025 =
     "nom": "MERIEUX Cedric",
     "points": 18,
     "nbCourses": 1,
-    "rang": 152,
+    "rang": 151,
     "ptMoy": 18
   },
   {
@@ -80530,7 +80425,7 @@ export let ranking2025 =
     "nom": "DOUCET Nicolas",
     "points": 18,
     "nbCourses": 1,
-    "rang": 153,
+    "rang": 152,
     "ptMoy": 18
   },
   {
@@ -80539,7 +80434,7 @@ export let ranking2025 =
     "nom": "THIERY Cedric",
     "points": 18,
     "nbCourses": 2,
-    "rang": 154,
+    "rang": 153,
     "ptMoy": 9
   },
   {
@@ -80548,7 +80443,7 @@ export let ranking2025 =
     "nom": "SANDRIN Jean-Luc",
     "points": 18,
     "nbCourses": 1,
-    "rang": 155,
+    "rang": 154,
     "ptMoy": 18
   },
   {
@@ -80557,7 +80452,7 @@ export let ranking2025 =
     "nom": "PAQUET Gregory",
     "points": 18,
     "nbCourses": 1,
-    "rang": 156,
+    "rang": 155,
     "ptMoy": 18
   },
   {
@@ -80566,7 +80461,7 @@ export let ranking2025 =
     "nom": "FINCK Christophe",
     "points": 18,
     "nbCourses": 1,
-    "rang": 157,
+    "rang": 156,
     "ptMoy": 18
   },
   {
@@ -80575,7 +80470,7 @@ export let ranking2025 =
     "nom": "DIEZ Valentin",
     "points": 16,
     "nbCourses": 2,
-    "rang": 158,
+    "rang": 157,
     "ptMoy": 8
   },
   {
@@ -80584,7 +80479,7 @@ export let ranking2025 =
     "nom": "GAUTIER Mael",
     "points": 16,
     "nbCourses": 1,
-    "rang": 159,
+    "rang": 158,
     "ptMoy": 16
   },
   {
@@ -80593,7 +80488,7 @@ export let ranking2025 =
     "nom": "NICOLAY Teddy",
     "points": 16,
     "nbCourses": 1,
-    "rang": 160,
+    "rang": 159,
     "ptMoy": 16
   },
   {
@@ -80602,7 +80497,7 @@ export let ranking2025 =
     "nom": "JACQUART Damien",
     "points": 16,
     "nbCourses": 2,
-    "rang": 161,
+    "rang": 160,
     "ptMoy": 8
   },
   {
@@ -80611,7 +80506,7 @@ export let ranking2025 =
     "nom": "CHAUDERLOT Xavier",
     "points": 16,
     "nbCourses": 1,
-    "rang": 162,
+    "rang": 161,
     "ptMoy": 16
   },
   {
@@ -80620,7 +80515,7 @@ export let ranking2025 =
     "nom": "LEMAIRE Thomas",
     "points": 16,
     "nbCourses": 1,
-    "rang": 163,
+    "rang": 162,
     "ptMoy": 16
   },
   {
@@ -80629,7 +80524,7 @@ export let ranking2025 =
     "nom": "RONDEAU Juanito",
     "points": 16,
     "nbCourses": 2,
-    "rang": 164,
+    "rang": 163,
     "ptMoy": 8
   },
   {
@@ -80638,7 +80533,7 @@ export let ranking2025 =
     "nom": "MANZINALI Julien",
     "points": 15,
     "nbCourses": 1,
-    "rang": 165,
+    "rang": 164,
     "ptMoy": 15
   },
   {
@@ -80647,7 +80542,7 @@ export let ranking2025 =
     "nom": "LOISEAU Fabien",
     "points": 14,
     "nbCourses": 2,
-    "rang": 166,
+    "rang": 165,
     "ptMoy": 7
   },
   {
@@ -80656,7 +80551,7 @@ export let ranking2025 =
     "nom": "HUART Teddy",
     "points": 14,
     "nbCourses": 2,
-    "rang": 167,
+    "rang": 166,
     "ptMoy": 7
   },
   {
@@ -80665,7 +80560,7 @@ export let ranking2025 =
     "nom": "GERAND Teddy",
     "points": 14,
     "nbCourses": 1,
-    "rang": 168,
+    "rang": 167,
     "ptMoy": 14
   },
   {
@@ -80674,7 +80569,7 @@ export let ranking2025 =
     "nom": "BILLAUDEL Jean-Philippe",
     "points": 14,
     "nbCourses": 1,
-    "rang": 169,
+    "rang": 168,
     "ptMoy": 14
   },
   {
@@ -80683,7 +80578,7 @@ export let ranking2025 =
     "nom": "LEMARCHAND Mickael",
     "points": 14,
     "nbCourses": 1,
-    "rang": 170,
+    "rang": 169,
     "ptMoy": 14
   },
   {
@@ -80692,7 +80587,7 @@ export let ranking2025 =
     "nom": "GAGNE Sebastien",
     "points": 14,
     "nbCourses": 1,
-    "rang": 171,
+    "rang": 170,
     "ptMoy": 14
   },
   {
@@ -80701,7 +80596,7 @@ export let ranking2025 =
     "nom": "THIERY Laurent",
     "points": 14,
     "nbCourses": 1,
-    "rang": 172,
+    "rang": 171,
     "ptMoy": 14
   },
   {
@@ -80710,7 +80605,7 @@ export let ranking2025 =
     "nom": "CHARLOT Nicolas",
     "points": 12,
     "nbCourses": 1,
-    "rang": 173,
+    "rang": 172,
     "ptMoy": 12
   },
   {
@@ -80719,7 +80614,7 @@ export let ranking2025 =
     "nom": "ROULOT Kevin",
     "points": 12,
     "nbCourses": 1,
-    "rang": 174,
+    "rang": 173,
     "ptMoy": 12
   },
   {
@@ -80728,7 +80623,7 @@ export let ranking2025 =
     "nom": "THERRY Yannick",
     "points": 12,
     "nbCourses": 1,
-    "rang": 175,
+    "rang": 174,
     "ptMoy": 12
   },
   {
@@ -80737,7 +80632,7 @@ export let ranking2025 =
     "nom": "DIERVILLE Kevin",
     "points": 12,
     "nbCourses": 1,
-    "rang": 176,
+    "rang": 175,
     "ptMoy": 12
   },
   {
@@ -80746,7 +80641,7 @@ export let ranking2025 =
     "nom": "CARRE Cedric",
     "points": 12,
     "nbCourses": 1,
-    "rang": 177,
+    "rang": 176,
     "ptMoy": 12
   },
   {
@@ -80755,7 +80650,7 @@ export let ranking2025 =
     "nom": "PRUDHOMME Vincent",
     "points": 12,
     "nbCourses": 1,
-    "rang": 178,
+    "rang": 177,
     "ptMoy": 12
   },
   {
@@ -80764,7 +80659,7 @@ export let ranking2025 =
     "nom": "DUCOFFRE Jean-Sebastien",
     "points": 10,
     "nbCourses": 1,
-    "rang": 179,
+    "rang": 178,
     "ptMoy": 10
   },
   {
@@ -80773,7 +80668,7 @@ export let ranking2025 =
     "nom": "LETISSIER Cedric",
     "points": 10,
     "nbCourses": 1,
-    "rang": 180,
+    "rang": 179,
     "ptMoy": 10
   },
   {
@@ -80782,7 +80677,7 @@ export let ranking2025 =
     "nom": "MENAGER Jean-Claude",
     "points": 10,
     "nbCourses": 1,
-    "rang": 181,
+    "rang": 180,
     "ptMoy": 10
   },
   {
@@ -80791,7 +80686,7 @@ export let ranking2025 =
     "nom": "CADOT Alexandre",
     "points": 10,
     "nbCourses": 1,
-    "rang": 182,
+    "rang": 181,
     "ptMoy": 10
   },
   {
@@ -80800,7 +80695,7 @@ export let ranking2025 =
     "nom": "DUPUY Jeremy",
     "points": 10,
     "nbCourses": 1,
-    "rang": 183,
+    "rang": 182,
     "ptMoy": 10
   },
   {
@@ -80809,7 +80704,7 @@ export let ranking2025 =
     "nom": "LEHEUTRE Romain",
     "points": 10,
     "nbCourses": 1,
-    "rang": 184,
+    "rang": 183,
     "ptMoy": 10
   },
   {
@@ -80818,7 +80713,7 @@ export let ranking2025 =
     "nom": "CUVELIER Alexandre",
     "points": 10,
     "nbCourses": 1,
-    "rang": 185,
+    "rang": 184,
     "ptMoy": 10
   },
   {
@@ -80827,7 +80722,7 @@ export let ranking2025 =
     "nom": "JUSTINE Francois",
     "points": 10,
     "nbCourses": 1,
-    "rang": 186,
+    "rang": 185,
     "ptMoy": 10
   },
   {
@@ -80836,7 +80731,7 @@ export let ranking2025 =
     "nom": "HAMOU Kalid",
     "points": 9,
     "nbCourses": 1,
-    "rang": 187,
+    "rang": 186,
     "ptMoy": 9
   },
   {
@@ -80845,7 +80740,7 @@ export let ranking2025 =
     "nom": "IAICHOUCHEN Samir",
     "points": 8,
     "nbCourses": 1,
-    "rang": 188,
+    "rang": 187,
     "ptMoy": 8
   },
   {
@@ -80854,7 +80749,7 @@ export let ranking2025 =
     "nom": "ALEXANDRE Gauthier",
     "points": 8,
     "nbCourses": 1,
-    "rang": 189,
+    "rang": 188,
     "ptMoy": 8
   },
   {
@@ -80863,7 +80758,7 @@ export let ranking2025 =
     "nom": "THIEBAUX Michael",
     "points": 8,
     "nbCourses": 1,
-    "rang": 190,
+    "rang": 189,
     "ptMoy": 8
   },
   {
@@ -80872,7 +80767,7 @@ export let ranking2025 =
     "nom": "NICOLAS Guillaume",
     "points": 8,
     "nbCourses": 1,
-    "rang": 191,
+    "rang": 190,
     "ptMoy": 8
   },
   {
@@ -80881,7 +80776,7 @@ export let ranking2025 =
     "nom": "VASSE Nicolas",
     "points": 8,
     "nbCourses": 1,
-    "rang": 192,
+    "rang": 191,
     "ptMoy": 8
   },
   {
@@ -80890,7 +80785,7 @@ export let ranking2025 =
     "nom": "LEJEUNE Aurelien",
     "points": 8,
     "nbCourses": 1,
-    "rang": 193,
+    "rang": 192,
     "ptMoy": 8
   },
   {
@@ -80899,7 +80794,7 @@ export let ranking2025 =
     "nom": "LECART Blaise",
     "points": 8,
     "nbCourses": 1,
-    "rang": 194,
+    "rang": 193,
     "ptMoy": 8
   },
   {
@@ -80908,7 +80803,7 @@ export let ranking2025 =
     "nom": "FAVRIEL Julien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 195,
+    "rang": 194,
     "ptMoy": 6
   },
   {
@@ -80917,7 +80812,7 @@ export let ranking2025 =
     "nom": "VALET Mathieu",
     "points": 6,
     "nbCourses": 1,
-    "rang": 196,
+    "rang": 195,
     "ptMoy": 6
   },
   {
@@ -80926,7 +80821,7 @@ export let ranking2025 =
     "nom": "COLLOT Sebastien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 197,
+    "rang": 196,
     "ptMoy": 6
   },
   {
@@ -80935,7 +80830,7 @@ export let ranking2025 =
     "nom": "NOEL Jerome",
     "points": 6,
     "nbCourses": 1,
-    "rang": 198,
+    "rang": 197,
     "ptMoy": 6
   },
   {
@@ -80944,7 +80839,7 @@ export let ranking2025 =
     "nom": "DUCARMES Mickael",
     "points": 6,
     "nbCourses": 1,
-    "rang": 199,
+    "rang": 198,
     "ptMoy": 6
   },
   {
@@ -80953,7 +80848,7 @@ export let ranking2025 =
     "nom": "DRUART Aurelien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 200,
+    "rang": 199,
     "ptMoy": 6
   },
   {
@@ -80962,7 +80857,7 @@ export let ranking2025 =
     "nom": "BERRY Jeremy",
     "points": 6,
     "nbCourses": 1,
-    "rang": 201,
+    "rang": 200,
     "ptMoy": 6
   },
   {
@@ -80971,7 +80866,7 @@ export let ranking2025 =
     "nom": "LAMBERT Baptiste",
     "points": 4,
     "nbCourses": 1,
-    "rang": 202,
+    "rang": 201,
     "ptMoy": 4
   },
   {
@@ -80980,7 +80875,7 @@ export let ranking2025 =
     "nom": "BENARD Emeric",
     "points": 4,
     "nbCourses": 1,
-    "rang": 203,
+    "rang": 202,
     "ptMoy": 4
   },
   {
@@ -80989,7 +80884,7 @@ export let ranking2025 =
     "nom": "COCHARD Morgan",
     "points": 4,
     "nbCourses": 1,
-    "rang": 204,
+    "rang": 203,
     "ptMoy": 4
   },
   {
@@ -80998,7 +80893,7 @@ export let ranking2025 =
     "nom": "CHAMPION Nicolas",
     "points": 4,
     "nbCourses": 1,
-    "rang": 205,
+    "rang": 204,
     "ptMoy": 4
   },
   {
@@ -81007,7 +80902,7 @@ export let ranking2025 =
     "nom": "NO Gregory",
     "points": 4,
     "nbCourses": 1,
-    "rang": 206,
+    "rang": 205,
     "ptMoy": 4
   },
   {
@@ -81794,12 +81689,21 @@ export let ranking2025 =
     "ptMoy": 13.3
   },
   {
+    "num_athlete": 2353814,
+    "categorie": "V2M",
+    "nom": "PRZYBYLA Christophe",
+    "points": 40,
+    "nbCourses": 4,
+    "rang": 88,
+    "ptMoy": 10
+  },
+  {
     "num_athlete": 2773988,
     "categorie": "V2M",
     "nom": "DESJARDINS Philippe",
     "points": 40,
     "nbCourses": 3,
-    "rang": 88,
+    "rang": 89,
     "ptMoy": 13.3
   },
   {
@@ -81808,7 +81712,7 @@ export let ranking2025 =
     "nom": "MALJEAN Thierry",
     "points": 40,
     "nbCourses": 3,
-    "rang": 89,
+    "rang": 90,
     "ptMoy": 13.3
   },
   {
@@ -81817,7 +81721,7 @@ export let ranking2025 =
     "nom": "BILLAUDEL Remy",
     "points": 39,
     "nbCourses": 2,
-    "rang": 90,
+    "rang": 91,
     "ptMoy": 19.5
   },
   {
@@ -81826,17 +81730,8 @@ export let ranking2025 =
     "nom": "DAVRIL Vincent",
     "points": 38,
     "nbCourses": 3,
-    "rang": 91,
-    "ptMoy": 12.7
-  },
-  {
-    "num_athlete": 2353814,
-    "categorie": "V2M",
-    "nom": "PRZYBYLA Christophe",
-    "points": 38,
-    "nbCourses": 4,
     "rang": 92,
-    "ptMoy": 9.5
+    "ptMoy": 12.7
   },
   {
     "num_athlete": 3270667,
@@ -82022,10 +81917,10 @@ export let ranking2025 =
     "num_athlete": 3482746,
     "categorie": "V2M",
     "nom": "PAMBOUC Frederic",
-    "points": 26,
+    "points": 28,
     "nbCourses": 2,
     "rang": 113,
-    "ptMoy": 13
+    "ptMoy": 14
   },
   {
     "num_athlete": 819636,
@@ -82235,21 +82130,12 @@ export let ranking2025 =
     "ptMoy": 18
   },
   {
-    "num_athlete": 1357941,
-    "categorie": "V2M",
-    "nom": "PERNELET Benjamin",
-    "points": 16,
-    "nbCourses": 1,
-    "rang": 137,
-    "ptMoy": 16
-  },
-  {
     "num_athlete": 1411523,
     "categorie": "V2M",
     "nom": "GALICHET Christophe",
     "points": 16,
     "nbCourses": 1,
-    "rang": 138,
+    "rang": 137,
     "ptMoy": 16
   },
   {
@@ -82258,7 +82144,7 @@ export let ranking2025 =
     "nom": "GILLET Yannick",
     "points": 16,
     "nbCourses": 2,
-    "rang": 139,
+    "rang": 138,
     "ptMoy": 8
   },
   {
@@ -82267,7 +82153,7 @@ export let ranking2025 =
     "nom": "PERIGNON Hubert",
     "points": 16,
     "nbCourses": 1,
-    "rang": 140,
+    "rang": 139,
     "ptMoy": 16
   },
   {
@@ -82276,7 +82162,7 @@ export let ranking2025 =
     "nom": "GENIN Jean",
     "points": 16,
     "nbCourses": 1,
-    "rang": 141,
+    "rang": 140,
     "ptMoy": 16
   },
   {
@@ -82285,7 +82171,7 @@ export let ranking2025 =
     "nom": "ROSSI Frederic",
     "points": 16,
     "nbCourses": 2,
-    "rang": 142,
+    "rang": 141,
     "ptMoy": 8
   },
   {
@@ -82294,8 +82180,17 @@ export let ranking2025 =
     "nom": "MALLET Stephane",
     "points": 16,
     "nbCourses": 1,
-    "rang": 143,
+    "rang": 142,
     "ptMoy": 16
+  },
+  {
+    "num_athlete": 1867271,
+    "categorie": "V2M",
+    "nom": "SOHIER Lionnel",
+    "points": 14,
+    "nbCourses": 1,
+    "rang": 143,
+    "ptMoy": 14
   },
   {
     "num_athlete": 2988119,
@@ -82325,27 +82220,27 @@ export let ranking2025 =
     "ptMoy": 12
   },
   {
-    "num_athlete": 1867271,
-    "categorie": "V2M",
-    "nom": "SOHIER Lionnel",
-    "points": 12,
-    "nbCourses": 1,
-    "rang": 147,
-    "ptMoy": 12
-  },
-  {
     "num_athlete": 1464149,
     "categorie": "V2M",
     "nom": "LEMONT Xavier",
     "points": 10,
     "nbCourses": 1,
-    "rang": 148,
+    "rang": 147,
     "ptMoy": 10
   },
   {
     "num_athlete": 1585769,
     "categorie": "V2M",
     "nom": "ROBERT Cyril",
+    "points": 10,
+    "nbCourses": 1,
+    "rang": 148,
+    "ptMoy": 10
+  },
+  {
+    "num_athlete": 1851038,
+    "categorie": "V2M",
+    "nom": "GEORGIN Arnaud",
     "points": 10,
     "nbCourses": 1,
     "rang": 149,
@@ -82388,21 +82283,12 @@ export let ranking2025 =
     "ptMoy": 10
   },
   {
-    "num_athlete": 1851038,
-    "categorie": "V2M",
-    "nom": "GEORGIN Arnaud",
-    "points": 8,
-    "nbCourses": 1,
-    "rang": 154,
-    "ptMoy": 8
-  },
-  {
     "num_athlete": 540474,
     "categorie": "V2M",
     "nom": "ROUYER Jean-Philippe",
     "points": 8,
     "nbCourses": 1,
-    "rang": 155,
+    "rang": 154,
     "ptMoy": 8
   },
   {
@@ -82411,7 +82297,7 @@ export let ranking2025 =
     "nom": "LAFORET Sebastien",
     "points": 6,
     "nbCourses": 1,
-    "rang": 156,
+    "rang": 155,
     "ptMoy": 6
   },
   {
@@ -82420,7 +82306,7 @@ export let ranking2025 =
     "nom": "LEONARD Christophe",
     "points": 6,
     "nbCourses": 1,
-    "rang": 157,
+    "rang": 156,
     "ptMoy": 6
   },
   {
@@ -82429,7 +82315,7 @@ export let ranking2025 =
     "nom": "DUBOIS Virgile",
     "points": 6,
     "nbCourses": 1,
-    "rang": 158,
+    "rang": 157,
     "ptMoy": 6
   },
   {
@@ -82438,7 +82324,7 @@ export let ranking2025 =
     "nom": "LANNUZEL Gerald",
     "points": 6,
     "nbCourses": 1,
-    "rang": 159,
+    "rang": 158,
     "ptMoy": 6
   },
   {
@@ -82447,7 +82333,7 @@ export let ranking2025 =
     "nom": "HAGUETTE Jean-Paul",
     "points": 4,
     "nbCourses": 1,
-    "rang": 160,
+    "rang": 159,
     "ptMoy": 4
   },
   {
@@ -82456,7 +82342,7 @@ export let ranking2025 =
     "nom": "DUBOIS Sylvain",
     "points": 4,
     "nbCourses": 1,
-    "rang": 161,
+    "rang": 160,
     "ptMoy": 4
   },
   {
@@ -82667,18 +82553,18 @@ export let ranking2025 =
     "ptMoy": 26.2
   },
   {
-    "num_athlete": 1149544,
-    "categorie": "V3+M",
-    "nom": "ISTACE Xavier",
-    "points": 128,
-    "nbCourses": 8,
-    "rang": 24,
-    "ptMoy": 16
-  },
-  {
     "num_athlete": 898857,
     "categorie": "V3+M",
     "nom": "BRUNOIS Jacques",
+    "points": 130,
+    "nbCourses": 8,
+    "rang": 24,
+    "ptMoy": 16.2
+  },
+  {
+    "num_athlete": 1149544,
+    "categorie": "V3+M",
+    "nom": "ISTACE Xavier",
     "points": 128,
     "nbCourses": 8,
     "rang": 25,
@@ -83297,22 +83183,13 @@ export let ranking2025 =
     "ptMoy": 14
   },
   {
-    "num_athlete": 1576130,
+    "num_athlete": 1806316,
     "categorie": "V3+M",
-    "nom": "DELPEUT Philippe",
+    "nom": "PELLERIN Eric",
     "points": 14,
     "nbCourses": 1,
     "rang": 94,
     "ptMoy": 14
-  },
-  {
-    "num_athlete": 1806316,
-    "categorie": "V3+M",
-    "nom": "PELLERIN Eric",
-    "points": 12,
-    "nbCourses": 1,
-    "rang": 95,
-    "ptMoy": 12
   },
   {
     "num_athlete": 188464,
@@ -83320,7 +83197,7 @@ export let ranking2025 =
     "nom": "THIRY Patrice",
     "points": 12,
     "nbCourses": 1,
-    "rang": 96,
+    "rang": 95,
     "ptMoy": 12
   },
   {
@@ -83329,7 +83206,7 @@ export let ranking2025 =
     "nom": "VIET Francis",
     "points": 12,
     "nbCourses": 1,
-    "rang": 97,
+    "rang": 96,
     "ptMoy": 12
   },
   {
@@ -83338,7 +83215,7 @@ export let ranking2025 =
     "nom": "MENAGER Jean-Claude",
     "points": 12,
     "nbCourses": 1,
-    "rang": 98,
+    "rang": 97,
     "ptMoy": 12
   },
   {
@@ -83347,13 +83224,22 @@ export let ranking2025 =
     "nom": "BOUCHET Bruno",
     "points": 12,
     "nbCourses": 1,
-    "rang": 99,
+    "rang": 98,
     "ptMoy": 12
   },
   {
     "num_athlete": 531594,
     "categorie": "V3+M",
     "nom": "LECRONT Philippe",
+    "points": 12,
+    "nbCourses": 1,
+    "rang": 99,
+    "ptMoy": 12
+  },
+  {
+    "num_athlete": 612948,
+    "categorie": "V3+M",
+    "nom": "BONHENRY Olivier",
     "points": 12,
     "nbCourses": 1,
     "rang": 100,
@@ -83378,21 +83264,12 @@ export let ranking2025 =
     "ptMoy": 10
   },
   {
-    "num_athlete": 612948,
-    "categorie": "V3+M",
-    "nom": "BONHENRY Olivier",
-    "points": 10,
-    "nbCourses": 1,
-    "rang": 103,
-    "ptMoy": 10
-  },
-  {
     "num_athlete": 1210403,
     "categorie": "V3+M",
     "nom": "DUBOIS Jean-Louis",
     "points": 6,
     "nbCourses": 1,
-    "rang": 104,
+    "rang": 103,
     "ptMoy": 6
   }
 ]
