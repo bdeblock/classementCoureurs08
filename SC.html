@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+  <title>Challenge coureurs Ardennes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+  <div id="app" class="mx-auto p-2" style="max-width: 900px">
+  <nav class="navbar navbar-light">
+    <div class="container-fluid">
+	    <button class="navbar-toggler" type="button" @click="showNavbar=!showNavbar;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <h4>Inscrits SC 2026</h4>
+      <div class="collapse navbar-collapse" :class="{ show: showNavbar }" id="navbar">
+        <div class="navbar-nav" @click="showNavbar=!showNavbar">
+          <a class="nav-link">Classement 2026 / 2027, à venir ...</a>
+          <a class="nav-link active" href="index.html">Classement 2025 / 2026</a>
+          <a class="nav-link active" href="https://www.athle.fr/bases/liste.aspx?frmpostback=true&frmbase=calendrier&frmmode=1&frmdate1=2026-09-01&frmdate2=2027-08-31&frmdepartement=008" target="_blank">Calendrier / résultats</a>
+          <a class="nav-link active" href="https://drive.google.com/drive/folders/1qem0x7hX3VsSFzezGTfbqCIaG_imQAkA" target="_blank">Règlement / Challenge clubs</a>
+          <a class="nav-link">Aide, à venir ...</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+    <div class="mb-2">  
+      <br v-if="width < 420"/>
+      <select name="cat" v-model="catSelect" class="me-2">
+        <option value="">Catégorie</option>
+        <option value="JU">Juniors</option>
+        <option value="ES">Espoirs</option>
+        <option value="SE">Séniors</option>
+        <option value="M0">Masters 0</option>
+        <option value="M1">Masters 1</option>
+        <option value="M2">Masters 2</option>
+        <option value="M3">Masters 3</option>
+        <option value="M4">Masters 4</option>
+        <option value="M5">Masters 5</option>
+        <option value="M6">Masters 6</option>
+        <option value="M7">Masters 7</option>
+        <option value="M8">Masters 8</option>
+        <option value="M9">Masters 9</option>
+        <option value="M10">Masters 10</option>
+      </select>
+      <select name="sexe" v-model="sexeSelect">
+        <option value="">Sexe</option>
+        <option value="F">F</option>
+        <option value="M">M</option>
+      </select>
+    </div>
+    
+
+    
+<!--##########################################ByRace#########################"-->
+	<div style="width: fit-content">
+	  <input v-model.lazy="searchName" type="text" id="searchNameInput" placeholder="Recherche ..." @keyup="filterByName()" style="min-width: 300px"/> 
+      <div style="position: relative; z-index: 2">
+        <div class="myDropdown names">
+          <div v-for="(line, index) in inscritsSC" :key="index" @click="nameClick(line);">
+			  {{ line.nom }}
+		  </div>
+        </div>
+      </div>
+      <br/>
+    </div>
+    
+
+	<table class="table table-striped">
+	  <thead>
+        <tr>
+          <th scope="col" class="clickable" @click="myList = myList.slice().reverse()">Nom</th>
+          <th scope="col">Cat<span v-if="width > 575">égorie</span><span v-else>.</span></th>
+          <th scope="col">Sexe<span v-if="width > 575"></span><span v-else></span></th>
+          <!--th scope="col"><span v-if="width > 575">Dossard</span><span v-else>Pts</span></th-->
+        </tr>
+	  </thead>
+	  <tbody>
+		<tr v-if = "searchName">
+		  <td>{{ uniqueLine.nom }}</td>
+          <td>{{ uniqueLine.categorie }}</td>
+          <td>{{ uniqueLine.sexe }}</td>
+          <!--td>{{ line.sexe }}</td-->
+		</tr>
+        <tr
+          v-else 
+          v-for="(line, index) in myList"
+          :key="index"
+        >
+          <td>{{ line.nom }}</td>
+          <td>{{ line.categorie }}</td>
+          <td>{{ line.sexe }}</td>
+          <!--td>{{ line.sexe }}</td-->
+        </tr>	
+      </tbody>
+    </table>
+    
+  </div>
+</body>
+</html>
+
+<script type="module">
+  import { createApp, ref, computed, watch, onMounted, onUnmounted } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
+  import { inscritsSC } from "./liste_inscrits_SC.js";
+  console.log(inscritsSC[0].nom);
+
+  createApp({
+    setup() {
+      const myList = ref(inscritsSC)
+      const searchName = ref('')
+      const uniqueLine = ref({})
+      const showNavbar = ref(true)
+      const catSelect = ref('')
+      const sexeSelect = ref('')
+      const typeTri = ref('')
+      const width = ref(window.innerWidth)
+      const numLien = ref('');
+      const syncWidth = () => {width.value = window.innerWidth; console.log(width.value);}
+      
+      watch(catSelect, () => { selectLine()  })
+      watch(sexeSelect, () => { selectLine()  })
+         
+      function selectLine(val){
+	    if (catSelect.value == '' && sexeSelect.value == '') {
+		  myList.value = inscritsSC
+		}else{
+		  let t=[]
+		  if (catSelect.value != '' && sexeSelect.value != '') {
+            for (let line of inscritsSC){
+		      if (line.categorie == catSelect.value && line.sexe == sexeSelect.value) t.push(line);
+		    }
+		  }else if (catSelect.value != ''){
+			for (let line of inscritsSC){
+		      if (line.categorie == catSelect.value) t.push(line);
+		    }
+		  }else{
+			for (let line of inscritsSC){
+		      if (line.sexe == sexeSelect.value) t.push(line);
+		    }
+		  } 
+		  myList.value = t;
+	    }
+	  }
+        
+      function nameClick(line){
+        uniqueLine.value = line;
+        searchName.value = line.nom;
+        filterByName('all');
+      }
+     
+      function filterByName(all) {
+        let searchNameInput = document.getElementById("searchNameInput");
+        if (searchNameInput){
+          let filter = searchNameInput.value.toUpperCase();
+          let  dropdowns = document.querySelectorAll(".myDropdown.names div");    
+          for (const drpd of dropdowns) {
+            let txtValue = drpd.textContent || drpd.innerText;
+            if (filter && !all && txtValue.toUpperCase().indexOf(filter) > -1) {
+              drpd.style.display = "block";
+            } else {
+              drpd.style.display = "none";
+            }
+          }
+        }
+      }
+   
+      async function sleep(ms) {
+        return new Promise((resolve) => setTimeout(resolve, ms));
+      }
+            
+      onMounted( async () => {
+		console.log(typeof(myList.value));
+	    showNavbar.value = false;
+	    window.addEventListener('resize', syncWidth);
+	    await sleep(10000);
+	  })
+	  
+	  onUnmounted(() => window.removeEventListener('resize', syncWidth));
+          
+      return {
+        myList,
+        searchName,
+        uniqueLine,
+        showNavbar,
+        catSelect,
+        sexeSelect,
+        filterByName,
+        nameClick,
+        width,
+        numLien,
+        inscritsSC,
+      }
+    },
+
+    mounted() {
+    },
+  }).mount('#app')
+</script>
+<style>
+.clickable {
+  cursor: pointer;
+}	
+	
+.myDropdown {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ddd;
+  z-index: 1;
+  background-color: white;
+}
+
+.myDropdown div {
+  display: none;
+  cursor: pointer;
+  color: black;
+  padding: 0px 10px;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.myDropdown div:hover {background-color: gainsboro}
+
+//.row:nth-child(even) {background-color: gainsboro}
+
+.rowColor {background-color: gainsboro}
+
+    .marquee-container {
+        overflow: hidden;
+    }
+
+    .marquee-content {
+        padding: 10px;
+        animation: marquee 3s linear infinite;
+    }
+
+    @keyframes marquee {
+        0% { transform: translateX(60%); }
+        100% { transform: translateX(-60%); }
+    }
+</style>
+<script>
+  console.log('hello');
+      /*race = {
+  "numero": "294509001",
+  "date": "14/09/25",
+  "lieu": "CHARLEVILLE MEZIERES",
+  "competition": "Prix pédestre de Mézières",
+  "epreuve": " 75 éme Prix pédestre Mézières / TCX",
+  "coeff": "1",
+  "pts+": "2",
+  "nbResultats": "146",
+  "url": "https://www.athle.fr/bases/liste.aspx?frmbase=resultats&frmmode=1&frmespace=0&frmcompetition=294509&frmepreuve=75+%c3%a9me+Prix+p%c3%a9destre+M%c3%a9zi%c3%a8res+%2f+TCX"
+}*/
+  
+	    /*tableaux d'objet datas: {
+  "nom": "PINHEIRO Ambre",
+  "place": "50",
+  "categorie": "M0",
+  "pl./cat.": "2",
+  "cat.": "TCF",
+  "points": "18",
+  "epreuve": "301729001",
+  "num_athlete": "1743340"
+}
+	   ranking:
+	   {
+  "num_athlete": "2561489",
+  "categorie": "CAF",
+  "nom": "BRICHET Lea",
+  "points": "218",
+  "nbCourses": "10",
+  "rang": "2",
+  "ptMoy": "21.8"
+} */
+
+//let input = document.getElementById("myInput");
+        //let filter = input.value.toUpperCase();
+        //let dropdown = document.getElementById("myDropdown");
+        //let div = dropdown.getElementsByTagName("div");
+
+        /*if (dropdowns.length > 0) {
+          dropdowns.forEach((dropdown) => {
+            console.log(dropdown.textContent);
+          });
+        }*/
+               
+        /*for (let i = 0; i < div.length; i++) {
+          let txtValue = div[i].textContent || div[i].innerText;
+          if (filter && txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "block";
+          } else {
+            div[i].style.display = "none";
+          }
+        }*/
+  
+//variante vue
+/*      const getFileFromUrl = async (url) => {
+        const response = await fetch(url)
+        const data = await response.blob()
+        let reader = new FileReader()
+        reader.onload = function(e) {
+           processDataAsObj(e.target.result)
+        }
+        reader.readAsText(data)
+      }
+      
+      const processDataAsObj = (csv) => {
+        let allTextLines = csv.split(/\r\n|\n/)
+        let lines = []
+	
+        //first line of csv
+        let keys = allTextLines.shift().split(',')
+	
+        while (allTextLines.length) {
+          let arr = allTextLines.shift().split(',')
+          let obj = {}
+          for(let i = 0; i < keys.length; i++){
+              obj[keys[i]] = arr[i]
+	      }
+          lines.push(obj)
+        }
+        //console.log(lines)
+        myDatas.value = lines
+      }
+      //obligatoirement après la déclaration des fonctions
+      getFileFromUrl('bdd.csv')*/
+//Fin variante      
+  
+/*  async function getFileFromUrl(url){
+    const response = await fetch(url);
+    const data = await response.blob();
+    var reader = new FileReader();
+    reader.onload = function(e) {
+       processDataAsObj(e.target.result);
+    };
+    reader.readAsText(data)
+  }
+  
+  function processDataAsObj(csv){
+    var allTextLines = csv.split(/\r\n|\n/);
+    var lines = [];
+	
+    //first line of csv
+    var keys = allTextLines.shift().split(',');
+	
+    while (allTextLines.length) {
+        var arr = allTextLines.shift().split(',');
+        var obj = {};
+        for(var i = 0; i < keys.length; i++){
+            obj[keys[i]] = arr[i];
+	}
+        lines.push(obj);
+    }
+        console.log(lines);
+    return lines
+	//drawOutputAsObj(lines);
+}
+  
+  const myDatas = getFileFromUrl('bdd.csv');*/
+</script>
