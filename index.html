@@ -193,7 +193,7 @@
 		<!--/div myDatas-->
       </div>
       <div 
-        v-for="(line, index) in tabByName"
+        v-for="(line, index) in tabByEntry"
         :key="index"
         class="row"
         :class="{ rowColor: detailRowChoice[index] % 2 }"
@@ -299,6 +299,16 @@
         choixEpreuve.value = {};
         searchName.value = line.nom;
         numLien.value = line.num_athlete;
+        for (let line of myDatas.value){
+		  if (line.nom == searchName.value && line['cat.'].slice(0,2) != "TC"){ 
+			  if(line['cat.'].slice(2,3) == "+"){catSelect.value = line['cat.'].slice(0,3);}
+			  else{catSelect.value = line['cat.'].slice(0,2);};
+			  sexeSelect.value = line['cat.'].slice(-1);
+			  console.log(catSelect.value);
+			  console.log(line['cat.'].slice(0,2));
+			  break;
+		  };
+	    };
         filterByName('all');
         //console.log(line);
       }
@@ -314,7 +324,7 @@
 	    };
       }
       
-      const tabByName = computed(() => {
+      const tabByEntry = computed(() => {
 		let tab=[];
 		let tabTC = [];
 		let bool=true;
@@ -335,7 +345,7 @@
 		let tab=[];
 		let bool=true;
 		let i = 1;
-	    for (let line of tabByName.value){//myDatas
+	    for (let line of tabByEntry.value){//myDatas
 		  bool = (line.nom == searchName.value || !searchName.value)
 		  bool = bool && (line['epreuve'] == choixEpreuve.value['numero'] || !searchRace.value);
 		  //bool = bool && (line['cat.'].slice(0,2) == catSelect.value.slice(0,2) || !catSelect.value);
@@ -527,7 +537,7 @@
         width,
         numLien,
         uploadFiles,
-        tabByName,
+        tabByEntry,
         marquee,
       }
     },
