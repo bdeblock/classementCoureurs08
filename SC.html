@@ -16,11 +16,9 @@
       <h4>Inscrits SC 2026</h4>
       <div class="collapse navbar-collapse" :class="{ show: showNavbar }" id="navbar">
         <div class="navbar-nav" @click="showNavbar=!showNavbar">
-          <a class="nav-link">Classement 2026 / 2027, à venir ...</a>
-          <a class="nav-link active" href="index.html">Classement 2025 / 2026</a>
+          <a class="nav-link active" href="index.html">Retour</a>
           <a class="nav-link active" href="https://www.athle.fr/bases/liste.aspx?frmpostback=true&frmbase=calendrier&frmmode=1&frmdate1=2026-09-01&frmdate2=2027-08-31&frmdepartement=008" target="_blank">Calendrier / résultats</a>
           <a class="nav-link active" href="https://drive.google.com/drive/folders/1qem0x7hX3VsSFzezGTfbqCIaG_imQAkA" target="_blank">Règlement / Challenge clubs</a>
-          <a class="nav-link">Aide, à venir ...</a>
         </div>
       </div>
     </div>
@@ -75,7 +73,7 @@
 	<table class="table table-striped">
 	  <thead>
         <tr>
-          <th scope="col" class="clickable" @click="myList = myList.slice().reverse()">Nom</th>
+          <th scope="col" class="clickable" @click="myList = myList.slice().reverse(); order = !order">Nom</th>
           <th scope="col">Cat<span v-if="width > 575">égorie</span><span v-else>.</span></th>
           <th scope="col">Sexe<span v-if="width > 575"></span><span v-else></span></th>
           <!--th scope="col"><span v-if="width > 575">Dossard</span><span v-else>Pts</span></th-->
@@ -112,6 +110,7 @@
   createApp({
     setup() {
       const myList = ref(inscritsSC)
+      const order = ref(true)
       const searchName = ref('')
       const uniqueLine = ref({})
       const showNavbar = ref(true)
@@ -151,6 +150,10 @@
         
       async function nameClick(line){
         //uniqueLine.value = line;
+        if (!order.value) {
+			myList.value = myList.value.slice().reverse();
+			order. value = true;
+	    }
         if (catSelect.value != '' || sexeSelect.value != ''){
           catSelect.value = '';
           sexeSelect.value = '';
@@ -219,6 +222,7 @@
         width,
         numLien,
         inscritsSC,
+        order,
       }
     },
 
