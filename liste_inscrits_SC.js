@@ -15,6 +15,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ACCATI Cedric",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ADAM Aurelie",
     "sexe": "F",
     "categorie": "M2",
@@ -85,10 +92,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "AGESILAS Rémi",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "MARNE ET GONDOIRE ATHLETISME",
+    "pays": "FRA"
+  },
+  {
     "nom": "AGON David",
     "sexe": "M",
     "categorie": "M3",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AIMONT Raphaël",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AISSAT Mohamed",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "AS SOMMER",
     "pays": "FRA"
   },
   {
@@ -253,6 +281,13 @@ export let inscritsSC =
     "pays": "ESP"
   },
   {
+    "nom": "ALKAOUI Hamid",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "[CMA ATHLE]-S/L RUNNING CLUB CAROLO-MONTCEEN",
+    "pays": "FRA"
+  },
+  {
     "nom": "ALLAIS Emilie",
     "sexe": "F",
     "categorie": "M1",
@@ -288,6 +323,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ALLART Maxence",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ALLOT Regis",
     "sexe": "M",
     "categorie": "M1",
@@ -299,6 +341,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AMIRAULT Simon",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "ASPTT ORLEANS RUNNING",
     "pays": "FRA"
   },
   {
@@ -379,17 +428,17 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ANDRÉ Lilly",
+    "sexe": "F",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ANDREUX Alexis",
     "sexe": "M",
     "categorie": "SE",
     "club": "Grac",
-    "pays": "FRA"
-  },
-  {
-    "nom": "ANDRIANONY Luc",
-    "sexe": "M",
-    "categorie": "M2",
-    "club": "",
     "pays": "FRA"
   },
   {
@@ -423,6 +472,13 @@ export let inscritsSC =
   {
     "nom": "ANNE-ROBERTINE Eve",
     "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ANONYME Anonyme",
+    "sexe": "M",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
@@ -494,6 +550,13 @@ export let inscritsSC =
     "nom": "ANTOINE Virginie",
     "sexe": "F",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AOUDI Bilel",
+    "sexe": "M",
+    "categorie": "ES",
     "club": "",
     "pays": "FRA"
   },
@@ -600,6 +663,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ARTUS Valentin",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "RETHEL COURIR",
     "pays": "FRA"
   },
   {
@@ -757,6 +827,34 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "AUTHEMAN Jean-valentin",
+    "sexe": "M",
+    "categorie": "M8",
+    "club": "Provençal",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AUTHESERRE Matthieu",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AVELANGE Emmanuel",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "AVET Florie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "AVRIL Damien",
     "sexe": "M",
     "categorie": "SE",
@@ -799,6 +897,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BA Mattis",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BABA Aïssatou",
     "sexe": "F",
     "categorie": "M0",
@@ -809,6 +914,13 @@ export let inscritsSC =
     "nom": "BABA-AHMED Mourad",
     "sexe": "M",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BABILLOT Thomas",
+    "sexe": "M",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -852,6 +964,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M4",
     "club": "[EFS REIMS]-S/L ESA WITRY",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BACCHUS Sacha",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "1168525",
     "pays": "FRA"
   },
   {
@@ -918,6 +1037,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BAILLY Aurélien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BAILLY Charles",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BAILLY Ludovic",
     "sexe": "M",
     "categorie": "M4",
@@ -949,6 +1082,13 @@ export let inscritsSC =
     "nom": "BAINIER Pierre - louis",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BALAN Christophe",
+    "sexe": "M",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -1107,10 +1247,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BARBOTTE Nicolas",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "Mac DO",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BARDIAUX Anthony",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BARDIN Gaële",
     "sexe": "F",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BARDOT Nicolas",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "PERONNE ATHLETISME CLUB",
     "pays": "FRA"
   },
   {
@@ -1166,6 +1327,13 @@ export let inscritsSC =
     "nom": "BARRÉ Nicolas",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BARRIÈRE Ines",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -1345,6 +1513,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BAUDRILLARD Ludovic",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BAUER Audrey",
     "sexe": "F",
     "categorie": "M1",
@@ -1436,6 +1611,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BAZILLON Cyril",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BAZIN Guillaume",
     "sexe": "M",
     "categorie": "M2",
@@ -1450,7 +1632,14 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "BEAUPÉRIN Christian",
+    "nom": "BEAUDON Axelle",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BEAUPERIN Christian",
     "sexe": "M",
     "categorie": "M5",
     "club": "LONDAIS ATHLETIC MEDITERRANEEN",
@@ -1499,6 +1688,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BECOURT Christophe",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BECUWE Mickael",
     "sexe": "M",
     "categorie": "M3",
@@ -1513,9 +1709,37 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BEDDIAF Nabil",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "Sport évent",
+    "pays": "FRA"
+  },
+  {
     "nom": "BEDRANE Sonia",
     "sexe": "F",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BEGHIN Christelle",
+    "sexe": "F",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BEGORRE Noémie",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BÉGORRE Pauline",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -1583,9 +1807,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BELINGUIER Jordan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BELLAGHMA Mathias",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BELLAGHMA Sidi mohamed",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -1642,6 +1880,20 @@ export let inscritsSC =
     "nom": "BEN AMAR Karim",
     "sexe": "M",
     "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BEN AMOR Abdeljabar",
+    "sexe": "M",
+    "categorie": "M8",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BENADELA Amine",
+    "sexe": "M",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -1730,9 +1982,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BERGER Maxime",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BERNARD Aurélien",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BERNARD Nina",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -1884,6 +2150,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BERTRAND Maxime",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
     "nom": "BERTRAND Romain",
     "sexe": "M",
     "categorie": "M1",
@@ -1929,20 +2202,6 @@ export let inscritsSC =
     "nom": "BESSAQUE Willy",
     "sexe": "M",
     "categorie": "M1",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
-    "nom": "BESSON Gerard",
-    "sexe": "M",
-    "categorie": "M6",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
-    "nom": "BESSON Muriel",
-    "sexe": "F",
-    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
@@ -2010,6 +2269,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BILLAUT Clément",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BILLECOCQ Julien",
     "sexe": "M",
     "categorie": "JU",
@@ -2059,6 +2325,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BISTON Amandine",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BISTON Camille",
     "sexe": "M",
     "categorie": "M1",
@@ -2094,8 +2367,22 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BLAISE Mélanie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BLAISE Océane",
     "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BLAISE Thibault",
+    "sexe": "M",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
@@ -2143,10 +2430,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BLANCHARD Dorian",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BLANCHARD Fabrice",
     "sexe": "M",
     "categorie": "M4",
     "club": "[GRAC]-S/L GRAC NOUZONVILLE BOGNY/MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BLANCHARD Julien",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -2192,6 +2493,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BLIN Jerome",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BLIN Laurence",
     "sexe": "F",
     "categorie": "M4",
@@ -2217,6 +2525,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "MOUZON RUN",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BLONDEAU Felix",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -2262,6 +2577,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BOCQUILLON Sebastien",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BODIN David",
     "sexe": "M",
     "categorie": "M3",
@@ -2272,6 +2594,13 @@ export let inscritsSC =
     "nom": "BODSON Amandine",
     "sexe": "F",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BOILEAU Chloé",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -2328,6 +2657,13 @@ export let inscritsSC =
     "nom": "BOISSON Johan",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BOISSON Maxence",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -2419,6 +2755,13 @@ export let inscritsSC =
     "nom": "BONANNO Gabriel",
     "sexe": "M",
     "categorie": "M6",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BONARINI Guewen",
+    "sexe": "M",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -2535,6 +2878,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BORET Cedric",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "Mac DO",
+    "pays": "FRA"
+  },
+  {
     "nom": "BORGNET Alice",
     "sexe": "F",
     "categorie": "M2",
@@ -2557,6 +2907,13 @@ export let inscritsSC =
   },
   {
     "nom": "BOSQUART Rémy",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BOSQUET Nicolas",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
@@ -2640,9 +2997,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BOUCHER Jeremy",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BOUCHER Joanna",
     "sexe": "F",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BOUCHER Mathilde",
+    "sexe": "F",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -2780,13 +3151,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "BOUKEROUI Yanis",
-    "sexe": "M",
-    "categorie": "SE",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "BOULANGER Dominique",
     "sexe": "M",
     "categorie": "SE",
@@ -2798,6 +3162,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M4",
     "club": "FC LAON",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BOURA Fayoum",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -2871,7 +3242,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "BOURGEOIS Loïc",
+    "nom": "BOURGEOIS Loic",
     "sexe": "M",
     "categorie": "M2",
     "club": "AMICALE NEUFCHATEL ATHLETISME",
@@ -2906,6 +3277,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BOURGERY Nicolas",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BOURGIS Sebastien",
     "sexe": "M",
     "categorie": "M3",
@@ -2928,6 +3306,13 @@ export let inscritsSC =
   },
   {
     "nom": "BOURGOIN THOMÉ Victor",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BOURGOIS Antonin",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
@@ -3214,10 +3599,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BRIARD Nolan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BRICAU Anne-laure",
     "sexe": "F",
     "categorie": "M2",
     "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BRICAU Ludovic",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
     "pays": "FRA"
   },
   {
@@ -3246,6 +3645,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "LUMES COURIR",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BRIGADEIRO Anthony",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -3294,6 +3700,13 @@ export let inscritsSC =
     "nom": "BRION Julien",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BRIOSO Celine",
+    "sexe": "F",
+    "categorie": "M3",
     "club": "",
     "pays": "FRA"
   },
@@ -3361,13 +3774,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "BROQUARD Valérie",
-    "sexe": "F",
-    "categorie": "M2",
-    "club": "TEAM TRAIL CHALONS EN CHAMPAGNE",
-    "pays": "FRA"
-  },
-  {
     "nom": "BROST Henri",
     "sexe": "M",
     "categorie": "M1",
@@ -3417,6 +3823,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BRUNEAUX Thomas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "BRUNEEL Samuel",
     "sexe": "M",
     "categorie": "M1",
@@ -3438,16 +3851,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "BRUNET Claire",
-    "sexe": "F",
-    "categorie": "M4",
-    "club": "SNSE",
-    "pays": "FRA"
-  },
-  {
     "nom": "BRUNET Eric",
     "sexe": "M",
     "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BRUNGARD Valentin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BRUNNQUELL Simon",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -3508,6 +3928,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "BUCCHIOTTY Camille",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "BUCEK Christophe",
     "sexe": "M",
     "categorie": "M5",
@@ -3519,6 +3946,20 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "Osmose",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BUFFET Maxime",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "BUFFET Nicolas",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "Cta",
     "pays": "FRA"
   },
   {
@@ -3562,6 +4003,13 @@ export let inscritsSC =
     "categorie": "M1",
     "club": "",
     "pays": "FRA"
+  },
+  {
+    "nom": "BURLI Frédéric",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "SUI"
   },
   {
     "nom": "BÜRLI Judith",
@@ -3610,6 +4058,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CADOT Frederic",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "FJEP ATTIGNY COURSE A PIED",
     "pays": "FRA"
   },
   {
@@ -3683,6 +4138,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CALVY Camille",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CALVY Melvin",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CAMUS Antoine",
     "sexe": "M",
     "categorie": "M2",
@@ -3732,7 +4201,21 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CANCILLERI Alice",
+    "sexe": "F",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CANCILLERI Enzo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CANCILLERI Mathias",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
@@ -3851,6 +4334,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CAPITAINE Julien",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
+    "pays": "FRA"
+  },
+  {
     "nom": "CAPITAINE Lucie",
     "sexe": "F",
     "categorie": "SE",
@@ -3876,6 +4366,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M1",
     "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CAQUELOT Mathis",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -3942,9 +4439,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CARON Alicia",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
     "nom": "CARON Johann",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CARPENT Dylan",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -3956,9 +4467,30 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CARRASSET Marie",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CARRÉ Nicolas",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CARRE Yves",
     "sexe": "M",
     "categorie": "M7",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CARRÈRE-GÉE Julie",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -4047,6 +4579,27 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CAUNOIS Philippe",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CAUNOIS Séverine",
+    "sexe": "F",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CAUTY Bruno",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "SPORT EVENTS 08",
+    "pays": "FRA"
+  },
+  {
     "nom": "CAZÉ Tony",
     "sexe": "M",
     "categorie": "M1",
@@ -4068,7 +4621,35 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CENDEBEE Sebastien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CENSIER Lea",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CERVANTES CASADO Hugo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CESAR Guillaume",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHAGAAR Riann",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
@@ -4096,6 +4677,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CHAMBERLIN Solene",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "CHAMBRU Charlotte",
     "sexe": "F",
     "categorie": "M0",
@@ -4106,13 +4694,6 @@ export let inscritsSC =
     "nom": "CHAMON Mickael",
     "sexe": "M",
     "categorie": "M1",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
-    "nom": "CHAMPEYROUX Aurélie",
-    "sexe": "F",
-    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -4236,6 +4817,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CHARBONNIER Florian",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CHARBONNIER Jérôme",
     "sexe": "M",
     "categorie": "M1",
@@ -4247,6 +4835,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M3",
     "club": "VOUZIERS OXYGENE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARDENAL Arnaud",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -4273,6 +4868,20 @@ export let inscritsSC =
   {
     "nom": "CHARLES Marine",
     "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARLES Nicolas",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARLES Romain",
+    "sexe": "M",
     "categorie": "M0",
     "club": "",
     "pays": "FRA"
@@ -4306,6 +4915,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CHARLIER Jerôme",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARLIER Johann",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CHARLIER Renaud",
     "sexe": "M",
     "categorie": "M1",
@@ -4334,10 +4957,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CHARLOT Peggy",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARLOT Thierry",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CHARPENTIER Benjamin",
     "sexe": "M",
     "categorie": "M0",
     "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARRIEAU Benoit",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "Chimay Couvin Sharks Triathlon Club",
     "pays": "FRA"
   },
   {
@@ -4352,6 +4996,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHARTIER Michel",
+    "sexe": "M",
+    "categorie": "M6",
+    "club": "LUMES COURIR",
     "pays": "FRA"
   },
   {
@@ -4460,6 +5111,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CHECKMOUGAMMADOU Sulayman",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CHEDAILLE Mickaël",
     "sexe": "M",
     "categorie": "M2",
@@ -4484,6 +5142,13 @@ export let inscritsSC =
     "nom": "CHENET Stéphanie",
     "sexe": "F",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHENIN Anne",
+    "sexe": "F",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -4544,6 +5209,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CHICAUT Christophe",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHILLA Clement",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "[CMA ATHLE]-S/L RUNNING CLUB CAROLO-MONTCEEN",
+    "pays": "FRA"
+  },
+  {
     "nom": "CHILLA Jordan",
     "sexe": "M",
     "categorie": "M1",
@@ -4568,6 +5247,13 @@ export let inscritsSC =
     "nom": "CHIPON Jonathan",
     "sexe": "M",
     "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CHIROUZE Sandra",
+    "sexe": "F",
+    "categorie": "M3",
     "club": "",
     "pays": "FRA"
   },
@@ -4719,6 +5405,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CLAUDE Cyril",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "CLAUDE Geoffroy",
     "sexe": "M",
     "categorie": "SE",
@@ -4796,10 +5489,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CLERCY Vincent",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CLÉRIN Aline",
     "sexe": "F",
     "categorie": "M2",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CLESEN Ingrid",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "FOOTING LOISIR GUIGNICOURTOIS ET LAONNOIS",
     "pays": "FRA"
   },
   {
@@ -4817,9 +5524,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CLOSSON Bastien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CLOUTIER David",
     "sexe": "M",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "COCHARD Laetitia",
+    "sexe": "F",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -4834,6 +5555,13 @@ export let inscritsSC =
     "nom": "COELHO Kenzo",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "COGNO Giuliano",
+    "sexe": "M",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -4856,6 +5584,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "[GRAC]-GRAC ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
+    "nom": "COLAS Evelyne",
+    "sexe": "F",
+    "categorie": "M6",
+    "club": "TEAM HEUBI",
     "pays": "FRA"
   },
   {
@@ -4915,6 +5650,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "COLLARD Claire",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "SPORT EVENTS 08",
+    "pays": "FRA"
+  },
+  {
     "nom": "COLLARD Elodie",
     "sexe": "F",
     "categorie": "M0",
@@ -4940,6 +5682,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "COLLET Mathias",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "Leclerc sedan",
     "pays": "FRA"
   },
   {
@@ -5069,6 +5818,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CONROUX Clément",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CONROUX Louis",
     "sexe": "M",
     "categorie": "ES",
@@ -5079,6 +5835,13 @@ export let inscritsSC =
     "nom": "CONTAL Liliane",
     "sexe": "F",
     "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "COPINE Johan",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -5107,6 +5870,13 @@ export let inscritsSC =
     "nom": "CORBELLARI Lola",
     "sexe": "F",
     "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CORCHETE Vidal",
+    "sexe": "M",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -5160,6 +5930,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CORNET Nicolas",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CORNU Aurélie",
     "sexe": "F",
     "categorie": "M1",
@@ -5202,6 +5979,20 @@ export let inscritsSC =
     "pays": "BEL"
   },
   {
+    "nom": "COTHENET Romain",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "COTRET Valentin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "COTTEL Christophe",
     "sexe": "M",
     "categorie": "M4",
@@ -5233,7 +6024,7 @@ export let inscritsSC =
     "nom": "COTTREZ Anthony",
     "sexe": "M",
     "categorie": "M2",
-    "club": "NAM ALNM",
+    "club": "[NAM]-S/L AL NEUVES MAISON",
     "pays": "FRA"
   },
   {
@@ -5286,7 +6077,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "COULON Loïs",
+    "nom": "COULON Lois",
     "sexe": "M",
     "categorie": "ES",
     "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
@@ -5531,6 +6322,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CROUET Emily",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "CROUET Gaëtan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CROUET Gauthier",
     "sexe": "M",
     "categorie": "SE",
@@ -5608,6 +6413,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "CURY Gregory",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "CUVELIER Alexandre",
     "sexe": "M",
     "categorie": "M1",
@@ -5657,6 +6469,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DA COSTA E SILVA Fabio andre",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DA ENCARNACAO Sebastien",
     "sexe": "M",
     "categorie": "M2",
@@ -5685,10 +6504,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DACON Chryss",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DAHM Patrick",
     "sexe": "M",
     "categorie": "M4",
     "club": "ALNM neuves maisons athlétisme",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DAINE Patrick",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
     "pays": "FRA"
   },
   {
@@ -5741,9 +6574,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DAMIEN Valerie",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "BEL"
+  },
+  {
     "nom": "DAMOISEAU Jeremie",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DAMOISY Antoine",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -5762,7 +6609,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "DAN Vlad",
+    "nom": "DAMYLKOW Valérian",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
@@ -5874,6 +6721,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DARGENT Franck",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DARGENT Jean-pierre",
     "sexe": "M",
     "categorie": "M5",
@@ -5885,6 +6739,20 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DARGENT Melanie",
+    "sexe": "F",
+    "categorie": "M3",
+    "club": "Conseil Régional",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DARGENT Nicolas",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "Conseil Régional",
     "pays": "FRA"
   },
   {
@@ -5909,6 +6777,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DARVILLE Julien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "VOUSFINANCER",
+    "pays": "FRA"
+  },
+  {
     "nom": "DASNOY Sophie",
     "sexe": "F",
     "categorie": "M2",
@@ -5926,6 +6801,13 @@ export let inscritsSC =
     "nom": "DASSIGNY Virginie",
     "sexe": "F",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DAUBY Nicolas",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -6004,6 +6886,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "Osmose",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DAVESNE Florine",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -6091,10 +6980,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DE BERNARDINI Jessy",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DE BLOCK Benjamin",
     "sexe": "M",
     "categorie": "M2",
     "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DE CHEVIGNÉ Martin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -6154,9 +7057,30 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DE OLIVEIRA Juan",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "MARNE ET GONDOIRE ATHLETISME",
+    "pays": "FRA"
+  },
+  {
     "nom": "DE POLLI Olivier",
     "sexe": "M",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DE RUBEIS Honorine",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DE RUBEIS Pascal",
+    "sexe": "M",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -6210,6 +7134,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DEAUCOURT Louis",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DEBATY Emmanuel",
     "sexe": "M",
     "categorie": "M4",
@@ -6222,6 +7153,13 @@ export let inscritsSC =
     "categorie": "ES",
     "club": "",
     "pays": "FRA"
+  },
+  {
+    "nom": "DEBITTE Eddy",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "DEBLOCK Louise",
@@ -6336,20 +7274,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "DEFLORENNE Karine",
-    "sexe": "F",
-    "categorie": "M2",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
-    "nom": "DEFOIS Ingrid",
-    "sexe": "F",
-    "categorie": "M1",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "DEFOOZ Barbara",
     "sexe": "F",
     "categorie": "M3",
@@ -6437,6 +7361,13 @@ export let inscritsSC =
     "nom": "DEHOUL Aurélie",
     "sexe": "F",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DEHOUL Fabien",
+    "sexe": "M",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -6623,6 +7554,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DELETANG Thomas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DELFOLIE Alexandre",
     "sexe": "M",
     "categorie": "M1",
@@ -6633,6 +7571,13 @@ export let inscritsSC =
     "nom": "DELFORGE Robin",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DELIEGE Michael",
+    "sexe": "M",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -6686,6 +7631,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DELOBEL Quentin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DELOECKER Maxime",
     "sexe": "M",
     "categorie": "M1",
@@ -6707,6 +7659,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DELORME Quentin",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DELPEUT ARBAL Manon",
     "sexe": "F",
     "categorie": "M0",
@@ -6718,6 +7677,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M1",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DELVAUX Émilie",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
   {
@@ -6763,6 +7729,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DEMARS Cédric",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "Charleville triathlon Ardennes",
+    "pays": "FRA"
+  },
+  {
     "nom": "DEMELIN Ludivine",
     "sexe": "F",
     "categorie": "M3",
@@ -6794,7 +7767,7 @@ export let inscritsSC =
     "nom": "DEMIN Gwendoline",
     "sexe": "F",
     "categorie": "SE",
-    "club": "ASPTT",
+    "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
   {
@@ -6973,9 +7946,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DEQUENNE Denis",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "[CMA ATHLE]-CHARLEVILLE MEZIERES ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
     "nom": "DEQUENNE Jennifer",
     "sexe": "F",
     "categorie": "M1",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DEQUENNE Quentin",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
@@ -7071,9 +8058,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DESJARDIN Maud",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "ERRANCE REIMS EUROPE CLUB",
+    "pays": "FRA"
+  },
+  {
     "nom": "DESLOOVERE Thibaut",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DESNOUVEAUX Hugo",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -7225,6 +8226,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DEVAUX Benoit",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DEVAUX Gilles",
     "sexe": "M",
     "categorie": "M5",
@@ -7253,6 +8261,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DEVIENNE Anthony",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DEVILLEZ Oceane",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DEVIN Lucile",
     "sexe": "F",
     "categorie": "SE",
@@ -7263,6 +8285,13 @@ export let inscritsSC =
     "nom": "DEVOGELAERE Katia",
     "sexe": "F",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DEVOS Pauline",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -7323,6 +8352,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DI GIACOMO Dimitri",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DI IORIO Cindy",
     "sexe": "F",
     "categorie": "M1",
@@ -7340,6 +8376,13 @@ export let inscritsSC =
     "nom": "DI SALVO Victor",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DIANCOURT Michaël",
+    "sexe": "M",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -7400,6 +8443,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DIELS Sylvain",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DIEM Pierre",
     "sexe": "M",
     "categorie": "M2",
@@ -7438,6 +8488,13 @@ export let inscritsSC =
     "nom": "DIGUERT Maxime",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DIGUET Quentin",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -7481,6 +8538,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "FOOTING LOISIR GUIGNICOURTOIS ET LAONNOIS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DIOUANE Bouchaib",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -7582,6 +8646,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DONATO Dominique",
+    "sexe": "M",
+    "categorie": "M6",
+    "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
+    "pays": "FRA"
+  },
+  {
     "nom": "DONATO-DURAND Aurelien",
     "sexe": "M",
     "categorie": "M0",
@@ -7593,6 +8664,20 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "Rethel sud Ardennes triathlon",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DONNET Fabrice",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DONNET Quentin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -7645,6 +8730,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DOS SANTOS David",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "Mac DO",
+    "pays": "FRA"
+  },
+  {
     "nom": "DOS SANTOS DIAS Matthieu",
     "sexe": "M",
     "categorie": "SE",
@@ -7664,6 +8756,13 @@ export let inscritsSC =
     "categorie": "M2",
     "club": "",
     "pays": "BEL"
+  },
+  {
+    "nom": "DOUARRE Greg",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
   },
   {
     "nom": "DOUBLET Émilie",
@@ -7827,9 +8926,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DROGUEST Gaetan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DRON Elise",
     "sexe": "F",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DROUAINE Benoit",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -7960,6 +9073,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DUCARMES Mickael",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
     "nom": "DUCARNE Christine",
     "sexe": "F",
     "categorie": "M1",
@@ -8006,6 +9126,20 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "[GRAC]-S/L GRAC NOUZONVILLE BOGNY/MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DUCOFFRE Carine",
+    "sexe": "F",
+    "categorie": "M3",
+    "club": "SPORT EVENTS 08",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DUCOFFRE Jean sebastien",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "SPORT EVENTS 08",
     "pays": "FRA"
   },
   {
@@ -8240,6 +9374,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DUPONT Julien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "DUPONT Noé",
     "sexe": "M",
     "categorie": "SE",
@@ -8296,9 +9437,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "DUPUIS Jerome",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "[DAC REIMS]-DAC REIMS*",
+    "pays": "FRA"
+  },
+  {
     "nom": "DUPUIS Maxence",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DUPUIT Armand",
+    "sexe": "M",
+    "categorie": "JU",
     "club": "",
     "pays": "FRA"
   },
@@ -8355,6 +9510,13 @@ export let inscritsSC =
     "nom": "DURAND. Yohan",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "DURDZINSKI Franck",
+    "sexe": "M",
+    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
@@ -8471,6 +9633,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ECCLI Nicolas",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ECHEVIN Laurent",
     "sexe": "M",
     "categorie": "M0",
@@ -8506,9 +9675,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "EL KAMEL Hicham",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ELBAZE Tariq",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ELIE Arthur",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -8566,6 +9749,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ERICHE Patrice",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "AS SOMMER",
     "pays": "FRA"
   },
   {
@@ -8646,8 +9836,8 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "EVEN Alexandre",
-    "sexe": "M",
+    "nom": "FABER Elise",
+    "sexe": "F",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
@@ -8723,10 +9913,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FASSI Sébastien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "FATMI Pascal",
     "sexe": "M",
     "categorie": "M5",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FAUVEL Olivier",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "Team toc runners",
     "pays": "FRA"
   },
   {
@@ -8849,6 +10053,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FERAUGE Taous",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "FERBEZAR Francis",
     "sexe": "M",
     "categorie": "M6",
@@ -8926,6 +10137,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FERRIGHETTO Méloé",
+    "sexe": "F",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "FERRON Jules",
     "sexe": "M",
     "categorie": "SE",
@@ -8961,8 +10179,29 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FESSARD Adrien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "FÉVRIER Vincent",
     "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FEY Damien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FEY Laure",
+    "sexe": "F",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
@@ -9045,6 +10284,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FLAMANT Melanie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "Mac DO",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FLAMENT Tristan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "FLANDRE Mickael",
     "sexe": "M",
     "categorie": "M3",
@@ -9084,6 +10337,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M6",
     "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FLIPO Guillaume",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -9332,6 +10592,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FOURDRINIER Andy",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FOURDRINIER Cyril",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "FOURMEAU Elodie",
     "sexe": "F",
     "categorie": "M2",
@@ -9364,6 +10638,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FOURNIER Carolane",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
   {
@@ -9469,6 +10750,20 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FRANCOIS Elodie",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "FRANCOIS Geoffrey",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -9633,6 +10928,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FRICOTTEAU Bastien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "LES PIEDS A LA RETOURNE DE JUNIVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "FRITSCHE Antoine",
     "sexe": "M",
     "categorie": "SE",
@@ -9678,7 +10980,7 @@ export let inscritsSC =
     "nom": "FUCHO Diego",
     "sexe": "M",
     "categorie": "SE",
-    "club": "",
+    "club": "Grac",
     "pays": "FRA"
   },
   {
@@ -9710,9 +11012,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "FUSIL Eric",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
     "nom": "FUZELLIER Solène",
     "sexe": "F",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GA Bastien",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -9759,6 +11075,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GADRET Axel",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "MUTIRUN",
+    "pays": "FRA"
+  },
+  {
     "nom": "GADRET Christophe",
     "sexe": "M",
     "categorie": "M3",
@@ -9794,6 +11117,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GAGNÉ Sébastien",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
     "nom": "GAIN Lucas",
     "sexe": "M",
     "categorie": "SE",
@@ -9811,6 +11141,13 @@ export let inscritsSC =
     "nom": "GAIOTTI Stéphane",
     "sexe": "M",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GAJECKI Maxime",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -9920,6 +11257,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GAMBIER Virginie",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GAMBINO Philippe",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "US VALENCIENNES ATHLETISME",
+    "pays": "FRA"
+  },
+  {
     "nom": "GANCHEGUI Yann",
     "sexe": "M",
     "categorie": "ES",
@@ -9950,6 +11301,13 @@ export let inscritsSC =
   {
     "nom": "GARCIA Lisa",
     "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GARCIA Lorenzo",
+    "sexe": "M",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
@@ -10046,6 +11404,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GAUDÉ Pascal",
+    "sexe": "M",
+    "categorie": "M7",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GAUDION Stephane",
     "sexe": "M",
     "categorie": "M4",
@@ -10064,6 +11429,20 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "LES FOULEES MUIZONNAISES",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GAUTHIER Fredy",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GAUTIER Mael",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -10147,6 +11526,13 @@ export let inscritsSC =
     "nom": "GENNESSEAUX Fabien",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GENNESSEAUX Pascal",
+    "sexe": "M",
+    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
@@ -10249,6 +11635,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GERARD Victorien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GÉRARDIN Béatrice",
+    "sexe": "F",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GERBEAU Lysian",
     "sexe": "M",
     "categorie": "M2",
@@ -10305,6 +11705,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GERVAISE Marina",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GESSON Océane",
     "sexe": "F",
     "categorie": "ES",
@@ -10326,6 +11733,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GIBERT François",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "RETHEL COURIR",
+    "pays": "FRA"
+  },
+  {
     "nom": "GIBERT Léo",
     "sexe": "M",
     "categorie": "SE",
@@ -10333,10 +11747,10 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "GIBIER Anais",
+    "nom": "GIBERT Nathalie",
     "sexe": "F",
-    "categorie": "SE",
-    "club": "",
+    "categorie": "M4",
+    "club": "RETHEL COURIR",
     "pays": "FRA"
   },
   {
@@ -10480,9 +11894,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GILLOT Lambert",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GILLOT Yoann",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GILTAIRE Amandine",
+    "sexe": "F",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -10543,6 +11971,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GISSELBRECHT Rudy",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "Team From Trail",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GISSELBRECHT Tony",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "Team From Trail",
+    "pays": "FRA"
+  },
+  {
     "nom": "GIZZI Aurelien",
     "sexe": "M",
     "categorie": "M0",
@@ -10594,6 +12036,13 @@ export let inscritsSC =
   {
     "nom": "GOBERT Virgile",
     "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GOBRON Emilie",
+    "sexe": "F",
     "categorie": "M1",
     "club": "",
     "pays": "FRA"
@@ -10655,10 +12104,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GODART Valentin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GODET Daniel",
     "sexe": "M",
     "categorie": "M6",
     "club": "SNC",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GODET Pauline",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -10816,6 +12279,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GOSSELIN Clémence",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GOSSELIN Jules",
     "sexe": "M",
     "categorie": "SE",
@@ -10833,6 +12303,13 @@ export let inscritsSC =
     "nom": "GOUBET Florian",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GOUBY Natacha",
+    "sexe": "F",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -10855,6 +12332,20 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M6",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GOUPILLEAU Emmanuelle",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "LOCAL CLUB MONTHERME",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GOUPILLEAU Jonathan",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "LOCAL CLUB MONTHERME",
     "pays": "FRA"
   },
   {
@@ -10921,6 +12412,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GRABOWECKI Fabien",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "FestiPrezlaCerleau",
+    "pays": "FRA"
+  },
+  {
     "nom": "GRADEL Fabrice",
     "sexe": "M",
     "categorie": "M4",
@@ -10938,6 +12436,13 @@ export let inscritsSC =
     "nom": "GRAJEZYK Thomas",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GRALA Jonathan",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -11047,6 +12552,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GRÈS Julien",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GRESSIER Virginie",
     "sexe": "F",
     "categorie": "M1",
@@ -11086,6 +12598,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GROSDIDIER Marie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "FONTE ARDENNAISE ATHLETISME",
     "pays": "FRA"
   },
   {
@@ -11155,6 +12674,13 @@ export let inscritsSC =
     "nom": "GRUYEZ Clément",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GUELASSE Ahssi",
+    "sexe": "M",
+    "categorie": "M3",
     "club": "",
     "pays": "FRA"
   },
@@ -11232,7 +12758,7 @@ export let inscritsSC =
     "nom": "GUILHOT François",
     "sexe": "M",
     "categorie": "SE",
-    "club": "",
+    "club": "[DUC]-DIJON UC*",
     "pays": "FRA"
   },
   {
@@ -11247,6 +12773,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "GUILLAUME Camille",
+    "sexe": "F",
+    "categorie": "ES",
+    "club": "MOUZON RUN",
     "pays": "FRA"
   },
   {
@@ -11341,6 +12874,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "GUILLOT Clémence",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "GUILLOTON Jean-noel",
     "sexe": "M",
     "categorie": "SE",
@@ -11404,6 +12944,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "HABAI Fabien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "HABART Sonny",
     "sexe": "M",
     "categorie": "ES",
@@ -11436,6 +12983,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "HACHEZ Jennifer",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "[CMA ATHLE]-CHARLEVILLE MEZIERES ATHLETISME*",
     "pays": "FRA"
   },
   {
@@ -11684,7 +13238,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "HEGO kevinKévin",
+    "nom": "HEGO kevin",
     "sexe": "M",
     "categorie": "M0",
     "club": "RETHEL COURIR",
@@ -11761,6 +13315,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "HENRION Pierre",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "HENRIOT Elodie",
     "sexe": "F",
     "categorie": "M3",
@@ -11793,6 +13354,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "RETHEL COURIR",
+    "pays": "FRA"
+  },
+  {
+    "nom": "HENRY Frédéric",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -12146,6 +13714,13 @@ export let inscritsSC =
     "pays": "NED"
   },
   {
+    "nom": "HUARD Noémie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "HUART Jerome",
     "sexe": "M",
     "categorie": "M3",
@@ -12163,7 +13738,7 @@ export let inscritsSC =
     "nom": "HUBERT Alexandre",
     "sexe": "M",
     "categorie": "SE",
-    "club": "Local Club Monthermé",
+    "club": "LOCAL CLUB MONTHERME",
     "pays": "FRA"
   },
   {
@@ -12307,6 +13882,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "HUREAUX Soan",
+    "sexe": "M",
+    "categorie": "JU",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "HUREL Justine",
     "sexe": "F",
     "categorie": "M1",
@@ -12447,6 +14029,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "IMBERT Valérie",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "INGLESE Nicolas",
     "sexe": "M",
     "categorie": "M1",
@@ -12464,6 +14053,13 @@ export let inscritsSC =
     "nom": "INGRET Antoine",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "IRIGOYEN Mathieu",
+    "sexe": "M",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -12569,7 +14165,7 @@ export let inscritsSC =
     "nom": "JACQUEMIN Clément",
     "sexe": "M",
     "categorie": "M1",
-    "club": "",
+    "club": "Mouzon run",
     "pays": "FRA"
   },
   {
@@ -12611,13 +14207,6 @@ export let inscritsSC =
     "nom": "JACQUES Helene",
     "sexe": "F",
     "categorie": "M2",
-    "club": "ATHLETIC BELAIR CLUB",
-    "pays": "FRA"
-  },
-  {
-    "nom": "JACQUES Julie",
-    "sexe": "F",
-    "categorie": "SE",
     "club": "ATHLETIC BELAIR CLUB",
     "pays": "FRA"
   },
@@ -12682,6 +14271,20 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "JACQUINOT Baptiste",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "[EFS REIMS]-EFS REIMS A. *",
+    "pays": "FRA"
+  },
+  {
+    "nom": "JACQUINOT Jade",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "[EFS REIMS]-EFS REIMS A. *",
     "pays": "FRA"
   },
   {
@@ -12776,6 +14379,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "JANIK Christelle",
+    "sexe": "F",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "JARLOT Corentin",
     "sexe": "M",
     "categorie": "SE",
@@ -12784,6 +14394,13 @@ export let inscritsSC =
   },
   {
     "nom": "JARLOT Faustine",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "JAROMIJ Camille",
     "sexe": "F",
     "categorie": "SE",
     "club": "",
@@ -12808,6 +14425,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "[CMA ATHLE]-CHARLEVILLE MEZIERES ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
+    "nom": "JAY Nicolas",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -12836,6 +14460,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "JEANNIN Alexandre",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "[EFS REIMS]-EFS REIMS A. *",
     "pays": "FRA"
   },
   {
@@ -12942,6 +14573,13 @@ export let inscritsSC =
     "categorie": "M6",
     "club": "",
     "pays": "FRA"
+  },
+  {
+    "nom": "JONET Sophie",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "JONNIAUX Benjamin",
@@ -13070,6 +14708,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "JULLION Willy",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "JUNG Jean philippe",
     "sexe": "M",
     "categorie": "M1",
@@ -13112,6 +14757,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "JUST Clément",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "Fan club de Marie Bozon",
+    "pays": "FRA"
+  },
+  {
     "nom": "JUSTINE Gaëtan",
     "sexe": "M",
     "categorie": "SE",
@@ -13130,6 +14782,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "KAEPPLER Martin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "[CMA ATHLE]-S/L RUNNING CLUB CAROLO-MONTCEEN",
     "pays": "FRA"
   },
   {
@@ -13154,6 +14813,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "KANGNI Sebastien",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "KAPPEL Laureline",
     "sexe": "F",
     "categorie": "M0",
@@ -13168,13 +14834,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "KARMUSIK Eva",
-    "sexe": "F",
-    "categorie": "SE",
-    "club": "Club sportif covema",
-    "pays": "FRA"
-  },
-  {
     "nom": "KARZIANI Aziz",
     "sexe": "M",
     "categorie": "M0",
@@ -13186,6 +14845,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M5",
     "club": "[GRAC]-GRAC ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
+    "nom": "KELLERBOURGEOIS Ludric",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -13231,9 +14897,30 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "KHIARI Selim",
+    "sexe": "M",
+    "categorie": "M7",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "KHOUCHANE Reda",
     "sexe": "M",
     "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "KIELPINSKI Frédéric",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "KIELPINSKI Mathis",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -13280,6 +14967,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "KOCZWARA Bernadetta",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "KODINGER Fabien",
     "sexe": "M",
     "categorie": "M3",
@@ -13301,6 +14995,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "KONIECZNY Stephane",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "KONIUSHOK Pierre",
     "sexe": "M",
     "categorie": "M2",
@@ -13311,6 +15012,13 @@ export let inscritsSC =
     "nom": "KONTINO Leon",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "KOSTYK Dimitri",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -13343,6 +15051,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "KRAWIEC Anthony",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "KREB Maxime",
     "sexe": "M",
     "categorie": "ES",
@@ -13361,6 +15076,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M2",
     "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "KUCA Laurie",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -13385,6 +15107,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "L'HERMINE André",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LA LUNA Camille",
     "sexe": "F",
     "categorie": "M0",
@@ -13396,6 +15125,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "[NAM]-S/L AL NEUVES MAISON",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LABANT Romeo",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -13441,9 +15177,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LABOURIER Jimmy",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "LIGUE EST FSPN",
+    "pays": "FRA"
+  },
+  {
     "nom": "LABROCHE Leo",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LACROIX Alexandre",
+    "sexe": "M",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -13490,6 +15240,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LAFOSSE Michel",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LAFRANCE Gregory",
     "sexe": "M",
     "categorie": "M1",
@@ -13508,6 +15265,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAGASSE Anthony",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
   {
@@ -13577,13 +15341,27 @@ export let inscritsSC =
     "nom": "LAHSAINI Martine",
     "sexe": "F",
     "categorie": "M3",
-    "club": "",
+    "club": "[NAM]-S/L AL NEUVES MAISON",
     "pays": "FRA"
   },
   {
     "nom": "LAIGLE Arthur",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAINÉ Eve",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAINÉ Yannick",
+    "sexe": "M",
+    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
@@ -13595,10 +15373,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "LAIRÉ Perrine",
+    "nom": "LAIRÉ Charlotte",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAIRE Perrine",
     "sexe": "F",
     "categorie": "SE",
     "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAIRET James",
+    "sexe": "M",
+    "categorie": "M6",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAIRET Mickaël",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -13607,6 +15406,20 @@ export let inscritsSC =
     "categorie": "M0",
     "club": "ULTEAMTRAIL ARDENNES TERRE DE TRAIL",
     "pays": "FRA"
+  },
+  {
+    "nom": "LALAOUNA Adeline",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LALLEMAND Nicolas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "LALLEMENT Amélie",
@@ -13756,6 +15569,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LAMBERT Romane",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LAMBERT Sabine",
     "sexe": "F",
     "categorie": "M0",
@@ -13795,6 +15615,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAMBLOT Baptiste",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "Leclerc sedan",
     "pays": "FRA"
   },
   {
@@ -13861,6 +15688,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LANCERAUX Damien",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LANDRIN Baptiste",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LANDRY Layla",
     "sexe": "F",
     "categorie": "SE",
@@ -13893,6 +15734,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LANGLADE Yannick",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "K RAID ARDENNES",
     "pays": "FRA"
   },
   {
@@ -13969,7 +15817,7 @@ export let inscritsSC =
     "nom": "LAPEYRONIE Capucine",
     "sexe": "F",
     "categorie": "SE",
-    "club": "",
+    "club": "[DAC REIMS]-DAC REIMS*",
     "pays": "FRA"
   },
   {
@@ -14033,6 +15881,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M0",
     "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LARGEN Christophe",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -14127,6 +15982,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LATOURNERIE Alexis",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "SPORT EVENTS 08",
+    "pays": "FRA"
+  },
+  {
     "nom": "LATREILLE Leo",
     "sexe": "M",
     "categorie": "SE",
@@ -14145,6 +16007,20 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAUNOIS Caroline",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LAURANT Olivier",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "AS SOMMER",
     "pays": "FRA"
   },
   {
@@ -14246,6 +16122,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LE BIHAN Dorothée",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LE BORGNE Alexandre",
     "sexe": "M",
     "categorie": "SE",
@@ -14260,16 +16143,16 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "LE BRECK Laurine",
-    "sexe": "F",
-    "categorie": "ES",
+    "nom": "LE CALLOCH Herve",
+    "sexe": "M",
+    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
   {
-    "nom": "LE CALLOCH Herve",
+    "nom": "LE CAM Simon",
     "sexe": "M",
-    "categorie": "M5",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -14348,13 +16231,6 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M0",
     "club": "",
-    "pays": "FRA"
-  },
-  {
-    "nom": "LEBEAUX Priscilia",
-    "sexe": "F",
-    "categorie": "M0",
-    "club": "FJEP ATTIGNY COURSE A PIED",
     "pays": "FRA"
   },
   {
@@ -14456,6 +16332,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LECHAT Hugo",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LECHENE Helene",
     "sexe": "F",
     "categorie": "M1",
@@ -14547,17 +16430,17 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "LECONTE Thomas",
+    "nom": "LECOMTE Paul",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
   {
-    "nom": "LECRONT Philippe",
+    "nom": "LECONTE Thomas",
     "sexe": "M",
-    "categorie": "M7",
-    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -14638,6 +16521,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LEFEVRE Arnaud",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "SPORT EVENTS 08",
+    "pays": "FRA"
+  },
+  {
     "nom": "LEFEVRE Bruno",
     "sexe": "M",
     "categorie": "M6",
@@ -14704,6 +16594,13 @@ export let inscritsSC =
     "nom": "LEFLON Jean-louis",
     "sexe": "M",
     "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LEFLON Joffrey",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -14827,6 +16724,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LEGROS Séverine",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LEGROUX Blandine",
     "sexe": "F",
     "categorie": "M2",
@@ -14879,7 +16783,21 @@ export let inscritsSC =
     "nom": "LEJEUNE Lucas",
     "sexe": "M",
     "categorie": "JU",
-    "club": "Pédale Suippass",
+    "club": "VOUZIERS OXYGENE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LEJEUNE Matthieu",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "Sport events 08",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LEJEUNE Olivier",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
     "pays": "FRA"
   },
   {
@@ -14893,7 +16811,7 @@ export let inscritsSC =
     "nom": "LELARGE ODIENNE Amaury",
     "sexe": "M",
     "categorie": "SE",
-    "club": "",
+    "club": "FJEP ATTIGNY COURSE A PIED",
     "pays": "FRA"
   },
   {
@@ -14953,6 +16871,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LEMAITRE Pascal",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "Fcha",
+    "pays": "BEL"
+  },
+  {
     "nom": "LEMAITRE Perrine",
     "sexe": "F",
     "categorie": "SE",
@@ -14978,13 +16903,6 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M2",
     "club": "AS SOMMER",
-    "pays": "FRA"
-  },
-  {
-    "nom": "LEMARIE Sandra",
-    "sexe": "F",
-    "categorie": "M1",
-    "club": "",
     "pays": "FRA"
   },
   {
@@ -15065,10 +16983,10 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "LEONARD Aurore",
-    "sexe": "F",
-    "categorie": "M3",
-    "club": "Absports",
+    "nom": "LÉONARD Christophe",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "[GRAC]-GRAC ATHLETISME*",
     "pays": "FRA"
   },
   {
@@ -15107,10 +17025,38 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LEPERS Amaury",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LEPEZEL Sylvain",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "[ATHLE 55]-S/L ASPTT VERDUN",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LEPINASSE Théo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LEQUEUX Lisa",
     "sexe": "F",
     "categorie": "SE",
     "club": "Runin’Gaume",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LERICHE Morgan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -15177,6 +17123,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LEROUX Leo",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "PEUGEOT CITROEN AC CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "LEROUX Matthieu",
     "sexe": "M",
     "categorie": "M2",
@@ -15226,6 +17179,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LEROY Gratien",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LEROY Lison",
     "sexe": "F",
     "categorie": "SE",
@@ -15237,6 +17197,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M1",
     "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LEROY Olivier",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -15278,6 +17245,13 @@ export let inscritsSC =
     "nom": "LESSIRE Teddy",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LESTIENNE Damien",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -15373,13 +17347,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "LEVENT Ludovic",
-    "sexe": "M",
-    "categorie": "M0",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "LEVEQUE Guillaume",
     "sexe": "M",
     "categorie": "M0",
@@ -15398,6 +17365,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M2",
     "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LHOTE Christophe",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "Sedan sprint club",
     "pays": "FRA"
   },
   {
@@ -15425,6 +17399,27 @@ export let inscritsSC =
     "nom": "LIEBEAUX Christal",
     "sexe": "F",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LIEBGOTT Nicolas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "Conseil Régional",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LIEFFRIG Loic",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "BEL"
+  },
+  {
+    "nom": "LIGERON Franck",
+    "sexe": "M",
+    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
@@ -15502,7 +17497,7 @@ export let inscritsSC =
     "nom": "LIOTARD Aurore",
     "sexe": "F",
     "categorie": "M2",
-    "club": "",
+    "club": "MOUZON RUN",
     "pays": "FRA"
   },
   {
@@ -15524,6 +17519,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LOBREAUX Alexis",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -15590,6 +17592,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LOISELET Élodie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LOISELET Emilie",
     "sexe": "F",
     "categorie": "SE",
@@ -15601,6 +17610,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "RETHEL COURIR",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LOMBART Anthony",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -15646,6 +17662,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LOPEZ Robin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LOR-MATHE Frederic",
     "sexe": "M",
     "categorie": "M2",
@@ -15679,6 +17702,13 @@ export let inscritsSC =
     "categorie": "M2",
     "club": "FCHA",
     "pays": "BEL"
+  },
+  {
+    "nom": "LORIN Thibaut",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
   },
   {
     "nom": "LORRIETTE Cedric",
@@ -15751,9 +17781,30 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "LOUIS Nathan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "LOUIS Quentin",
     "sexe": "M",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LOUIS Serge",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LOUIS Téo",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -15794,6 +17845,27 @@ export let inscritsSC =
   },
   {
     "nom": "LUC Lauriane",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LUCAS Julie",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LUCAS Quentin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "LUCY Fanie",
     "sexe": "F",
     "categorie": "SE",
     "club": "",
@@ -15891,6 +17963,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MAGE Florent",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "[EFS REIMS]-EFS REIMS A. *",
+    "pays": "FRA"
+  },
+  {
     "nom": "MAGET Adam",
     "sexe": "M",
     "categorie": "SE",
@@ -15966,6 +18045,13 @@ export let inscritsSC =
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
+  },
+  {
+    "nom": "MAHIEU Justin",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "MAHIEU Theo",
@@ -16094,6 +18180,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MAIZIERES Mathis",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MAJED Marcus",
     "sexe": "M",
     "categorie": "SE",
@@ -16133,6 +18226,20 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MALHOMME Celine",
+    "sexe": "F",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MALICET Alexandre",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
     "pays": "FRA"
   },
   {
@@ -16210,6 +18317,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MANDELLI Cindy",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -16402,6 +18516,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MARCZAK Anthony",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
     "nom": "MARE Nicolas",
     "sexe": "M",
     "categorie": "SE",
@@ -16437,6 +18558,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MARECHAL Tibery",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MAREIGNER Florian",
     "sexe": "M",
     "categorie": "M2",
@@ -16447,6 +18575,13 @@ export let inscritsSC =
     "nom": "MAREIGNER Leo",
     "sexe": "M",
     "categorie": "JU",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MARESCA Kloe",
+    "sexe": "F",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -16479,6 +18614,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MARIN Nicolas",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MARINKOVIC Sinisa",
     "sexe": "M",
     "categorie": "M3",
@@ -16490,6 +18632,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M1",
     "club": "RETHEL COURIR",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MARION Ugo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -16640,11 +18789,25 @@ export let inscritsSC =
     "pays": "BEL"
   },
   {
+    "nom": "MARTIN Marie-claude",
+    "sexe": "F",
+    "categorie": "M6",
+    "club": "FJEP ATTIGNY COURSE A PIED",
+    "pays": "FRA"
+  },
+  {
     "nom": "MARTIN Romain",
     "sexe": "M",
     "categorie": "M1",
     "club": "RUNNING TRAIL THIERACHE",
     "pays": "FRA"
+  },
+  {
+    "nom": "MARTIN Sébastien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "MARTIN Theo",
@@ -16691,6 +18854,20 @@ export let inscritsSC =
   {
     "nom": "MARTIN.. Nicolas",
     "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MARTINELLI Baptiste",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MARTINET Lydie",
+    "sexe": "F",
     "categorie": "M0",
     "club": "",
     "pays": "FRA"
@@ -16755,7 +18932,7 @@ export let inscritsSC =
     "nom": "MARY Eugenie",
     "sexe": "F",
     "categorie": "SE",
-    "club": "LUMES COURIR",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -16812,6 +18989,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M2",
     "club": "[GRAC]-GRAC ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MASSON John",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -16878,6 +19062,13 @@ export let inscritsSC =
     "pays": "BEL"
   },
   {
+    "nom": "MATHEO Villiere",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MATHIEU Arnould",
     "sexe": "M",
     "categorie": "M2",
@@ -16890,6 +19081,13 @@ export let inscritsSC =
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
+  },
+  {
+    "nom": "MATHIEU Pauline",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "MATHIEU Samuel",
@@ -16913,16 +19111,16 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "MATHOT Nicolas",
-    "sexe": "M",
-    "categorie": "M3",
-    "club": "CHAMONIX MONT BLANC MARATHON",
-    "pays": "FRA"
-  },
-  {
     "nom": "MATTE Laurence",
     "sexe": "F",
     "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MATTEI Marc-aurèle",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -16997,6 +19195,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MAYNE Gregory",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "BEL"
+  },
+  {
     "nom": "MAZAN Samir",
     "sexe": "M",
     "categorie": "M0",
@@ -17007,6 +19212,13 @@ export let inscritsSC =
     "nom": "MAZIERS Audrey",
     "sexe": "F",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MECHINEAU Stéphane",
+    "sexe": "M",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -17022,6 +19234,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M4",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MEDJKOUNE Mokrane",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
   {
@@ -17060,13 +19279,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "MELI Rei",
-    "sexe": "M",
-    "categorie": "ES",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "MELIN Jessica",
     "sexe": "F",
     "categorie": "M1",
@@ -17076,6 +19288,13 @@ export let inscritsSC =
   {
     "nom": "MELNYK Virginie",
     "sexe": "F",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MELOT Gaël",
+    "sexe": "M",
     "categorie": "M3",
     "club": "",
     "pays": "FRA"
@@ -17099,6 +19318,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "AS CRS 23",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MENIS Bruno",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -17196,7 +19422,7 @@ export let inscritsSC =
     "nom": "MERLHES Maxime",
     "sexe": "M",
     "categorie": "M1",
-    "club": "",
+    "club": "ATHLETIC CLUB DIEPPE VEULES",
     "pays": "FRA"
   },
   {
@@ -17340,6 +19566,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MICHAUT Dominique",
+    "sexe": "M",
+    "categorie": "M6",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MICHEL Basile",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "[ATHLE 55]-S/L ATHLETISME SAINT-MIHIEL CROSS",
+    "pays": "FRA"
+  },
+  {
     "nom": "MICHEL Karine",
     "sexe": "F",
     "categorie": "M3",
@@ -17410,6 +19650,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MIGNE Léna",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MIGNE Pierre-yves",
     "sexe": "M",
     "categorie": "M1",
@@ -17418,6 +19665,13 @@ export let inscritsSC =
   },
   {
     "nom": "MIGNEAUX Jordane",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MIGNEAUX Yvain",
     "sexe": "M",
     "categorie": "M0",
     "club": "",
@@ -17445,14 +19699,14 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "MILLÉ Agathe",
+    "nom": "MILLE Agathe",
     "sexe": "F",
     "categorie": "SE",
     "club": "[GRAC]-S/L GRAC RENWEZ",
     "pays": "FRA"
   },
   {
-    "nom": "MILLÉ Olivier",
+    "nom": "MILLE Olivier",
     "sexe": "M",
     "categorie": "M4",
     "club": "[GRAC]-S/L GRAC RENWEZ",
@@ -17462,6 +19716,13 @@ export let inscritsSC =
     "nom": "MILLERET Benjamin",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MILLET Noé",
+    "sexe": "M",
+    "categorie": "ES",
     "club": "",
     "pays": "FRA"
   },
@@ -17522,6 +19783,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MINOTTE Dany",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MINOTTE Florian",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MIQUEL Aurore",
     "sexe": "F",
     "categorie": "M3",
@@ -17550,10 +19825,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "MOBUCHON Cécilia",
+    "nom": "MISSET Lola",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MOBIAN Fabien",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MOBUCHON Cecilia",
     "sexe": "F",
     "categorie": "M1",
     "club": "ASCO INTER ATLAS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MODAINE Estelle",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "SPORT EVENTS 08",
     "pays": "FRA"
   },
   {
@@ -17585,9 +19881,23 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MOHAMED Moustoifidhou",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MOINET Jerome",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MOLINARO Eros",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -17603,6 +19913,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MONCLIN Maxime",
+    "sexe": "M",
+    "categorie": "JU",
+    "club": "ABsport",
     "pays": "FRA"
   },
   {
@@ -17630,6 +19947,13 @@ export let inscritsSC =
     "nom": "MONNEVEUX Rodolphe",
     "sexe": "M",
     "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MONNOIS Loic",
+    "sexe": "M",
+    "categorie": "JU",
     "club": "",
     "pays": "FRA"
   },
@@ -17879,6 +20203,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MORIN Enzo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "MORLET Gwenael",
     "sexe": "M",
     "categorie": "M2",
@@ -17896,6 +20227,13 @@ export let inscritsSC =
     "nom": "MORONVAL Margaux",
     "sexe": "F",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MORTIER Nicolas",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -17998,6 +20336,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "MOZET Élisa",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "[EFS REIMS]-EFS REIMS A. *",
+    "pays": "FRA"
+  },
+  {
     "nom": "MOZET Megan",
     "sexe": "F",
     "categorie": "M0",
@@ -18029,6 +20374,13 @@ export let inscritsSC =
     "nom": "MUNO Xavier",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "MURAT Jerome",
+    "sexe": "M",
+    "categorie": "M2",
     "club": "",
     "pays": "FRA"
   },
@@ -18159,6 +20511,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "NAUDIN Philippe",
+    "sexe": "M",
+    "categorie": "M7",
+    "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
     "nom": "NAVACCHIA Marie",
     "sexe": "F",
     "categorie": "M1",
@@ -18204,6 +20563,13 @@ export let inscritsSC =
     "nom": "NEMBRINI Magali",
     "sexe": "F",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "NEMERY Clement",
+    "sexe": "M",
+    "categorie": "ES",
     "club": "",
     "pays": "FRA"
   },
@@ -18376,6 +20742,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "NIETHEN Nicolas",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "PEUGEOT CITROEN AC CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "NIHOTTE Jules",
     "sexe": "M",
     "categorie": "SE",
@@ -18530,6 +20903,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "NOIROT Romain",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "NOIZET David",
     "sexe": "M",
     "categorie": "M4",
@@ -18569,13 +20949,6 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
-    "pays": "FRA"
-  },
-  {
-    "nom": "NOTTE Pauline",
-    "sexe": "F",
-    "categorie": "M0",
-    "club": "AS SOMMER",
     "pays": "FRA"
   },
   {
@@ -18663,6 +21036,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "OMÉ Thomas",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ONRAEDT Melanie",
     "sexe": "F",
     "categorie": "M2",
@@ -18673,6 +21053,13 @@ export let inscritsSC =
     "nom": "OOSTERBAAN Ingrid",
     "sexe": "F",
     "categorie": "M2",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "OOSTERBAAN LOCATELLI Paul-louis",
+    "sexe": "M",
+    "categorie": "JU",
     "club": "ASPTT CHARLEVILLE",
     "pays": "FRA"
   },
@@ -18694,6 +21081,13 @@ export let inscritsSC =
     "nom": "ORTEGA-DUBOIS Sébastien",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ORTILLON Jean-françois",
+    "sexe": "M",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -18838,6 +21232,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PACHINS Sébastien",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "Mac DO",
+    "pays": "FRA"
+  },
+  {
     "nom": "PAGEOT Julien",
     "sexe": "M",
     "categorie": "SE",
@@ -18859,10 +21260,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PAILLAS Alexis",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "ULTEAMTRAIL ARDENNES TERRE DE TRAIL",
+    "pays": "FRA"
+  },
+  {
     "nom": "PAILLAS Vincent",
     "sexe": "M",
     "categorie": "M1",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PAINEAU Nicolas",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "MARNE ET GONDOIRE ATHLETISME",
     "pays": "FRA"
   },
   {
@@ -18880,10 +21295,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PALMOT-ANTIOPE Emelyne",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PANDREAU Bryan",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PANKOW Kevin",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PANTIERS INGRET Aurélie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "Retourne Courir",
     "pays": "FRA"
   },
   {
@@ -18926,6 +21362,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M2",
     "club": "Leclerc sedan",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PARAPEL Mathis",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "RETHEL COURIR",
     "pays": "FRA"
   },
   {
@@ -19048,6 +21491,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PAULET Louis",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "MOUZON RUN",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PAULY Nicolas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PAY Hélène",
     "sexe": "F",
     "categorie": "M2",
@@ -19066,6 +21523,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M4",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PAYER Camelia",
+    "sexe": "F",
+    "categorie": "ES",
+    "club": "FJEP ATTIGNY COURSE A PIED",
     "pays": "FRA"
   },
   {
@@ -19143,6 +21607,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M2",
     "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PELTIEZ Jacques",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
     "pays": "FRA"
   },
   {
@@ -19272,13 +21743,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "PEREZ Jonathan",
-    "sexe": "M",
-    "categorie": "SE",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "PEREZ Paul",
     "sexe": "M",
     "categorie": "SE",
@@ -19335,6 +21799,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PERIN Sébastien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PERIQUET Frederic",
     "sexe": "M",
     "categorie": "M4",
@@ -19363,7 +21834,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "PERON Anaïs",
+    "nom": "PERON anais",
     "sexe": "F",
     "categorie": "SE",
     "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
@@ -19391,7 +21862,14 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "PERRET Lucas",
+    "nom": "PERRET Hugo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PERRET noa",
     "sexe": "M",
     "categorie": "SE",
     "club": "",
@@ -19402,6 +21880,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M4",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PERRIN Coralie",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "MOUZON RUN",
     "pays": "FRA"
   },
   {
@@ -19468,6 +21953,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PETIT Damien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "SPORT EVENTS 08",
+    "pays": "FRA"
+  },
+  {
     "nom": "PETIT DIT DUHAL Lucie",
     "sexe": "F",
     "categorie": "M1",
@@ -19514,6 +22006,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PETITBON Maxime",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -19594,6 +22093,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PHILIPPE Florian",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PHILIPPE Guillaume",
     "sexe": "M",
     "categorie": "M0",
@@ -19604,6 +22110,13 @@ export let inscritsSC =
     "nom": "PHILIPPOTEAUX Didier",
     "sexe": "M",
     "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PHULPIN Titouan",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -19706,6 +22219,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PIERMÉE Romaric",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PIERMEE Sébastien",
     "sexe": "M",
     "categorie": "M2",
@@ -19738,6 +22258,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M1",
     "club": "[GRAC]-GRAC ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PIERRE Gwendal",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "CCVSA",
     "pays": "FRA"
   },
   {
@@ -19832,6 +22359,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PIERSON Patrick",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PIGOROT Flavie",
     "sexe": "F",
     "categorie": "ES",
@@ -19856,6 +22390,13 @@ export let inscritsSC =
     "nom": "PILATI Amélie",
     "sexe": "F",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PILEGGI Anthony",
+    "sexe": "M",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
@@ -19895,6 +22436,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PILLON Priscillia",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PILLOY Kateline",
     "sexe": "F",
     "categorie": "M0",
@@ -19923,10 +22471,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PINEAU Mario",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PINHEIRO Claude",
     "sexe": "M",
     "categorie": "M5",
     "club": "VOUZIERS OXYGENE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PINTEAUX Elodie",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
     "pays": "FRA"
   },
   {
@@ -19975,6 +22537,13 @@ export let inscritsSC =
     "nom": "PIOT Julien",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PIRAS Isabelle",
+    "sexe": "F",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -20067,6 +22636,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M3",
     "club": "PLANETE RUNNING AND WALKING",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PLATEAU Patrick",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
     "pays": "FRA"
   },
   {
@@ -20182,6 +22758,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "POINTEL Clement",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "POIRSON Stephane",
     "sexe": "M",
     "categorie": "M4",
@@ -20224,6 +22807,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "POLETTI Lorenzo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "POLLET Malorie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "ASPTT CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
     "nom": "POMMIER Julie",
     "sexe": "F",
     "categorie": "SE",
@@ -20242,6 +22839,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M5",
     "club": "PEUGEOT CITROEN AC CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PONSARD Arnaud",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -20273,10 +22877,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PONSART Julian",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "APtraining",
+    "pays": "FRA"
+  },
+  {
     "nom": "PONSART Maxence",
     "sexe": "M",
     "categorie": "ES",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "PONSIGNON Océane",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "FC ANGECOURT",
     "pays": "FRA"
   },
   {
@@ -20364,6 +22982,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "POSTIAUX Mathieu",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "POT Cédric",
     "sexe": "M",
     "categorie": "M2",
@@ -20406,6 +23031,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "POTINIERE Julie",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "POTRIQUET Céline",
     "sexe": "F",
     "categorie": "SE",
@@ -20417,6 +23049,20 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M0",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "POTTIER Anthony",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "POTTIER Justine",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
     "pays": "FRA"
   },
   {
@@ -20453,6 +23099,20 @@ export let inscritsSC =
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
+  },
+  {
+    "nom": "POULIN Clementin",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "POUPART Maud",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "BEL"
   },
   {
     "nom": "POURNIN Odile",
@@ -20630,6 +23290,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "PRIOLO Raphael",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "PRONNIER Laurent",
     "sexe": "M",
     "categorie": "M5",
@@ -20728,6 +23395,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "QUETIER Ludovic",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "Nexans",
+    "pays": "FRA"
+  },
+  {
+    "nom": "QUÉVA William",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "QUEVAL Nathan",
     "sexe": "M",
     "categorie": "SE",
@@ -20742,10 +23423,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "RABATE LANDMANN Celine",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "US CHEMINOTS NOUVION SUR MEUSE",
+    "pays": "FRA"
+  },
+  {
     "nom": "RACOILLET Stéphane",
     "sexe": "M",
     "categorie": "M2",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "RADO Jean-marie",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "Relax!",
     "pays": "FRA"
   },
   {
@@ -20770,9 +23465,30 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "RAHIER Liesenka",
+    "sexe": "F",
+    "categorie": "M3",
+    "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
+    "nom": "RAIFI Euran",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "RAILLA Thomas",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "RAIMBEAUX Aldo",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -21022,6 +23738,27 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "REMOND Andre",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "REMY Chloé",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "REMY Theo",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "REMY Théo",
     "sexe": "M",
     "categorie": "SE",
@@ -21141,6 +23878,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "RES Elodie",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "REVEIL Karine",
     "sexe": "F",
     "categorie": "M2",
@@ -21246,9 +23990,30 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "RICHARD Pascal",
+    "sexe": "M",
+    "categorie": "M7",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "RICHARD Solenn",
     "sexe": "F",
     "categorie": "SE",
+    "club": "ARDENNE METROPOLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "RICHART Alex",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "LOCAL CLUB MONTHERME",
+    "pays": "FRA"
+  },
+  {
+    "nom": "RICHART Jean-luc",
+    "sexe": "M",
+    "categorie": "M6",
     "club": "",
     "pays": "FRA"
   },
@@ -21351,10 +24116,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ROBACH Lucas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "CHOUCROUTE TEAM",
+    "pays": "FRA"
+  },
+  {
     "nom": "ROBERT Cyril",
     "sexe": "M",
     "categorie": "M3",
     "club": "SPORT HABITAT 08",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROBERT Emilie",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -21376,6 +24155,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROBERT Valerie",
+    "sexe": "F",
+    "categorie": "M3",
+    "club": "SPORT HABITAT 08",
     "pays": "FRA"
   },
   {
@@ -21442,6 +24228,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ROCHON Charlotte",
+    "sexe": "F",
+    "categorie": "M0",
+    "club": "FJEP ATTIGNY COURSE A PIED",
+    "pays": "FRA"
+  },
+  {
     "nom": "ROCHON Sylvain",
     "sexe": "M",
     "categorie": "M5",
@@ -21453,6 +24246,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
+    "pays": "FRA"
+  },
+  {
+    "nom": "RODIER Luiza",
+    "sexe": "F",
+    "categorie": "M1",
+    "club": "Mac DO",
     "pays": "FRA"
   },
   {
@@ -21533,6 +24333,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ROGER Pascal",
+    "sexe": "M",
+    "categorie": "M7",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROGER Thomas",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "ROGET Aurélie",
     "sexe": "F",
     "categorie": "M2",
@@ -21565,6 +24379,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "ES",
     "club": "Rethel Sud Ardennes Triathlon",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROGISTER Yannick",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -21701,13 +24522,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "ROSACE Thomas",
-    "sexe": "M",
-    "categorie": "SE",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "ROSCIGNI Jean-marc",
     "sexe": "M",
     "categorie": "M5",
@@ -21733,6 +24547,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "SE",
     "club": "Nancy Triathlon",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROSE Killian",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -21799,6 +24620,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ROSSIGNOL Ludovic",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "TARKETT",
+    "pays": "FRA"
+  },
+  {
     "nom": "ROSSIGNOL Renaud",
     "sexe": "M",
     "categorie": "M2",
@@ -21808,6 +24636,13 @@ export let inscritsSC =
   {
     "nom": "ROSSILLION Emelyne",
     "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROSSO Maxime",
+    "sexe": "M",
     "categorie": "SE",
     "club": "",
     "pays": "FRA"
@@ -21879,6 +24714,13 @@ export let inscritsSC =
     "nom": "ROUSSEL Virginie",
     "sexe": "F",
     "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ROUSSELLE François",
+    "sexe": "M",
+    "categorie": "M4",
     "club": "",
     "pays": "FRA"
   },
@@ -22023,6 +24865,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "SABOURIN Séverine",
+    "sexe": "F",
+    "categorie": "M4",
+    "club": "La fine équipe",
+    "pays": "FRA"
+  },
+  {
     "nom": "SAC Gabrielle",
     "sexe": "F",
     "categorie": "SE",
@@ -22121,6 +24970,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "SALLE Gerald",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "TARKETT",
+    "pays": "FRA"
+  },
+  {
     "nom": "SALMON Solenn",
     "sexe": "F",
     "categorie": "ES",
@@ -22138,6 +24994,20 @@ export let inscritsSC =
     "nom": "SAMSON Cindy",
     "sexe": "F",
     "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SANCHEZ Cédric",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SANCHEZ-LOPEZ Xavier",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -22293,6 +25163,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SAUVAGE Valérie",
+    "sexe": "F",
+    "categorie": "M5",
+    "club": "LES PIEDS A LA RETOURNE DE JUNIVILLE",
     "pays": "FRA"
   },
   {
@@ -22499,6 +25376,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "SCOTT Maxime",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "FCHA",
+    "pays": "BEL"
+  },
+  {
     "nom": "SCULFORT Rémi",
     "sexe": "M",
     "categorie": "M2",
@@ -22562,6 +25446,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "SELLA Kheloud",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "SEMBENI Aurelie",
     "sexe": "F",
     "categorie": "M3",
@@ -22590,7 +25481,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "SERAPHIN Francine",
+    "nom": "SÉRAPHIN Francine",
     "sexe": "F",
     "categorie": "M4",
     "club": "",
@@ -22615,6 +25506,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "SE",
     "club": "[CMA ATHLE]-CHARLEVILLE MEZIERES ATHLETISME*",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SERTLET REVAULT Louis",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "Argonne sport discovery",
     "pays": "FRA"
   },
   {
@@ -22664,6 +25562,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M1",
     "club": "[GRAC]-S/L ATHLETIC CLUB BOULZICOURT - VILLERS-SEM",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SFORZA Toni",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -22737,6 +25642,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "SIMÉON Bastien",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "SIMÉON Damien",
     "sexe": "M",
     "categorie": "SE",
@@ -22774,6 +25686,13 @@ export let inscritsSC =
   {
     "nom": "SIMON Olivier",
     "sexe": "M",
+    "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SIMON Olivier",
+    "sexe": "M",
     "categorie": "M4",
     "club": "P96DC99B1AE",
     "pays": "FRA"
@@ -22782,6 +25701,13 @@ export let inscritsSC =
     "nom": "SIMON Robin",
     "sexe": "M",
     "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SIMON Tanguy",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -22845,6 +25771,13 @@ export let inscritsSC =
     "nom": "SINGERY Alexis",
     "sexe": "M",
     "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SINGERY Camille",
+    "sexe": "M",
+    "categorie": "M0",
     "club": "",
     "pays": "FRA"
   },
@@ -22926,17 +25859,17 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "SOMVEILLE Antony",
-    "sexe": "M",
-    "categorie": "M3",
-    "club": "[CMA ATHLE]-S/L LA MACERIENNE (CHARLEVIL.)",
-    "pays": "FRA"
-  },
-  {
     "nom": "SOMVEILLE Sarah",
     "sexe": "F",
     "categorie": "SE",
     "club": "Spontané",
+    "pays": "FRA"
+  },
+  {
+    "nom": "SONNET Brennan",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "SYSTEM",
     "pays": "FRA"
   },
   {
@@ -22978,7 +25911,7 @@ export let inscritsSC =
     "nom": "SOUARE Sophie",
     "sexe": "F",
     "categorie": "M2",
-    "club": "FOOTING LOISIR GUIGNICOURTOIS ET LAONNOIS",
+    "club": "SPIRIT 0F RUN TAISSY-COMPETITION",
     "pays": "FRA"
   },
   {
@@ -23066,6 +25999,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "SOYEZ Aymar",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "SPONEM Ludovic",
     "sexe": "M",
     "categorie": "M2",
@@ -23118,6 +26058,13 @@ export let inscritsSC =
     "nom": "STELLA Estelle",
     "sexe": "F",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "STEPCZAK Emeric",
+    "sexe": "M",
+    "categorie": "SE",
     "club": "",
     "pays": "FRA"
   },
@@ -23192,7 +26139,7 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "SUSCILLON MARBAISE Lilou",
+    "nom": "SUSCILLON Lilou",
     "sexe": "F",
     "categorie": "ES",
     "club": "[DAC REIMS]-DAC REIMS*",
@@ -23213,6 +26160,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "TABOIN Kevin",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TAFLAN Volkan",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "TAILFER Cedric",
     "sexe": "M",
     "categorie": "M3",
@@ -23223,6 +26184,20 @@ export let inscritsSC =
     "nom": "TAILFER Stephanie",
     "sexe": "F",
     "categorie": "M3",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TAILLARD Aurelien",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TAILLARD Samuel",
+    "sexe": "M",
+    "categorie": "ES",
     "club": "",
     "pays": "FRA"
   },
@@ -23360,6 +26335,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "TAYMONT Marianne",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "TELLIER Julien",
     "sexe": "M",
     "categorie": "M0",
@@ -23400,13 +26382,6 @@ export let inscritsSC =
     "categorie": "M3",
     "club": "",
     "pays": "FRA"
-  },
-  {
-    "nom": "TERWAGNE Quentin",
-    "sexe": "M",
-    "categorie": "M1",
-    "club": "",
-    "pays": "BEL"
   },
   {
     "nom": "THAUVIN Ludovic",
@@ -23556,6 +26531,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "THIERCY Hippolyte",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "THIÉRION Jacky",
     "sexe": "M",
     "categorie": "M5",
@@ -23647,6 +26629,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "THIRY Sébastien",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "THOMAS Alicia",
     "sexe": "F",
     "categorie": "SE",
@@ -23679,6 +26668,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M2",
     "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "THOME Frederic",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "LOCAL CLUB MONTHERME",
     "pays": "FRA"
   },
   {
@@ -23745,6 +26741,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "TILLY Romain",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TILMONT Marc",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "TILQUIN Vanessa",
     "sexe": "F",
     "categorie": "M2",
@@ -23763,6 +26773,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M0",
     "club": "ATHLETIC BELAIR CLUB",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TISON David",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -23808,6 +26825,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "TISSOUX Antoine",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TISSOUX Remy",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "TITEUX Julia",
     "sexe": "F",
     "categorie": "SE",
@@ -23836,10 +26867,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "TOIVANEN Eliott",
+    "sexe": "M",
+    "categorie": "JU",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "TOIVANEN Jussi",
     "sexe": "M",
     "categorie": "M3",
     "club": "Les Traileurs de la Pointe",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TOMBEUR Dany",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -23916,7 +26961,14 @@ export let inscritsSC =
     "nom": "TOULAT Emma",
     "sexe": "F",
     "categorie": "SE",
-    "club": "UAO31Union athletique occitane 31*",
+    "club": "[UAO 31]-S/L UNION CLUB ATHLETIQUE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "TOUPET Stephane",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "Vousfinancer",
     "pays": "FRA"
   },
   {
@@ -24081,6 +27133,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "TRUILLARD David",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "TRULLARD Loris",
     "sexe": "M",
     "categorie": "SE",
@@ -24193,6 +27252,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "VACHOR Abdelghani",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "VADÉ Léo",
     "sexe": "M",
     "categorie": "SE",
@@ -24280,7 +27346,7 @@ export let inscritsSC =
     "nom": "VALLIET Romane",
     "sexe": "F",
     "categorie": "SE",
-    "club": "",
+    "club": "[GRAC]-S/L CLUB ATHLETIQUE VRIGNOIS",
     "pays": "FRA"
   },
   {
@@ -24345,6 +27411,20 @@ export let inscritsSC =
     "categorie": "SE",
     "club": "ACLO / Born to run",
     "pays": "BEL"
+  },
+  {
+    "nom": "VAN DER PERRE Nicolas",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "CLUB CHEMINOTS COURIR CHAMPAGNE-ARDENNE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "VAN HAESEBROECK Martin",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "[DSA]-S/L FECHAIN ATHLETIQUE CLUB",
+    "pays": "FRA"
   },
   {
     "nom": "VAN LUNTER Yannick",
@@ -24431,13 +27511,6 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "VANEGUE Cecile",
-    "sexe": "F",
-    "categorie": "SE",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
     "nom": "VANELLO Carla",
     "sexe": "F",
     "categorie": "SE",
@@ -24449,6 +27522,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M1",
     "club": "",
+    "pays": "BEL"
+  },
+  {
+    "nom": "VANHEES Jean",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "FCHA",
     "pays": "BEL"
   },
   {
@@ -24536,6 +27616,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "VASCHETTO Colin",
+    "sexe": "M",
+    "categorie": "ES",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "VASSAN Victorien",
     "sexe": "M",
     "categorie": "SE",
@@ -24592,10 +27679,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "VAUTHIER Matthias",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "VAUTRIN Clément",
     "sexe": "M",
     "categorie": "SE",
     "club": "TEAM TRAIL CHALONS EN CHAMPAGNE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "VAZQUEZ Herve",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "A.S.L. LA ROBERTSAU",
     "pays": "FRA"
   },
   {
@@ -24666,6 +27767,13 @@ export let inscritsSC =
     "sexe": "F",
     "categorie": "M2",
     "club": "LA FONTE ARDENNAISE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "VERNEL François -regis",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -24788,6 +27896,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "VIGUIE Alexandra",
+    "sexe": "F",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "VILFROY Tom",
     "sexe": "M",
     "categorie": "SE",
@@ -24805,13 +27920,6 @@ export let inscritsSC =
     "nom": "VILLA Romain",
     "sexe": "M",
     "categorie": "M1",
-    "club": "",
-    "pays": "FRA"
-  },
-  {
-    "nom": "VILLANI Antonio",
-    "sexe": "M",
-    "categorie": "M5",
     "club": "",
     "pays": "FRA"
   },
@@ -24837,6 +27945,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "VILLERET Franck",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "VILLERS Florian",
     "sexe": "M",
     "categorie": "SE",
@@ -24855,6 +27970,13 @@ export let inscritsSC =
     "sexe": "M",
     "categorie": "M7",
     "club": "PEUGEOT CITROEN AC CHARLEVILLE",
+    "pays": "FRA"
+  },
+  {
+    "nom": "VILLIERE Fabien",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "AS IBM LYON",
     "pays": "FRA"
   },
   {
@@ -24959,7 +28081,7 @@ export let inscritsSC =
     "nom": "VIZAN Maria",
     "sexe": "F",
     "categorie": "M3",
-    "club": "",
+    "club": "[NAM]-S/L AL NEUVES MAISON",
     "pays": "FRA"
   },
   {
@@ -25047,10 +28169,31 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "WALINE Nathan",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "WALLARIN Anastasia",
     "sexe": "F",
     "categorie": "M0",
     "club": "Asptt Verdun",
+    "pays": "FRA"
+  },
+  {
+    "nom": "WANLIN Jules",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "WARIN Antoine",
+    "sexe": "M",
+    "categorie": "M2",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -25064,7 +28207,7 @@ export let inscritsSC =
     "nom": "WARNIER Florian",
     "sexe": "M",
     "categorie": "M0",
-    "club": "[GRAC]-S/L GRAC NOUZONVILLE BOGNY/MEUSE",
+    "club": "LOCAL CLUB MONTHERME",
     "pays": "FRA"
   },
   {
@@ -25075,16 +28218,16 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
-    "nom": "WARZEE Gilles",
+    "nom": "WARSMANN Victor",
     "sexe": "M",
-    "categorie": "M6",
+    "categorie": "M1",
     "club": "",
     "pays": "FRA"
   },
   {
-    "nom": "WARZEE Ivana",
-    "sexe": "F",
-    "categorie": "SE",
+    "nom": "WARZEE Gilles",
+    "sexe": "M",
+    "categorie": "M6",
     "club": "",
     "pays": "FRA"
   },
@@ -25124,6 +28267,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "WATRIN Henri-pierre",
+    "sexe": "M",
+    "categorie": "M1",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "WATRIN Ludovic",
     "sexe": "M",
     "categorie": "M5",
@@ -25131,10 +28281,24 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "WATRIN Pierre olivier",
+    "sexe": "M",
+    "categorie": "M0",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
     "nom": "WAUTHIER Arnaud",
     "sexe": "M",
     "categorie": "M1",
     "club": "[CMA ATHLE]-S/L RUNNING CLUB CAROLO-MONTCEEN",
+    "pays": "FRA"
+  },
+  {
+    "nom": "WAVRANT Sébastien",
+    "sexe": "M",
+    "categorie": "M4",
+    "club": "",
     "pays": "FRA"
   },
   {
@@ -25313,6 +28477,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "WUILBERCQ Amélie",
+    "sexe": "F",
+    "categorie": "M2",
+    "club": "AS SOMMER",
+    "pays": "FRA"
+  },
+  {
     "nom": "WYN Jenny",
     "sexe": "F",
     "categorie": "M1",
@@ -25362,6 +28533,20 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ZACARIAS Laurent",
+    "sexe": "M",
+    "categorie": "M5",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ZAGAR Franck",
+    "sexe": "M",
+    "categorie": "M3",
+    "club": "ATHLETIC BELAIR CLUB",
+    "pays": "FRA"
+  },
+  {
     "nom": "ZAHM Angélique",
     "sexe": "F",
     "categorie": "M1",
@@ -25404,6 +28589,13 @@ export let inscritsSC =
     "pays": "FRA"
   },
   {
+    "nom": "ZEHAR Maxime",
+    "sexe": "M",
+    "categorie": "SE",
+    "club": "SparnaLutte",
+    "pays": "FRA"
+  },
+  {
     "nom": "ZEMIHI Nora",
     "sexe": "F",
     "categorie": "M5",
@@ -25421,6 +28613,13 @@ export let inscritsSC =
     "nom": "ZENNARO Franck",
     "sexe": "M",
     "categorie": "M2",
+    "club": "",
+    "pays": "FRA"
+  },
+  {
+    "nom": "ZERROUGUI Riyad",
+    "sexe": "M",
+    "categorie": "ES",
     "club": "",
     "pays": "FRA"
   },

@@ -20,21 +20,21 @@
           </div>
         </div>
       </div>
-      <h4>20{{season}} / 20{{season + 1}}</h4>
+      <h4>{{season}} / {{season + 1}}</h4>
       <div class="collapse navbar-collapse" :class="{ show: showNavbar }" id="navbar">
         <div class="navbar-nav" @click="showNavbar=!showNavbar">
-          <a class="nav-link">Classement 2026 / 2027, à venir ...</a>
-          <a class="nav-link active" href="#" @click="season = 25">Classement 2025 / 2026</a>
+          <a class="nav-link active" href="#" @click="click2026()">Classement 2026 / 2027</a>
+          <a class="nav-link active" href="#" @click="click2025()">Classement 2025 / 2026</a>
           <a class="nav-link active" href="https://www.athle.fr/bases/liste.aspx?frmpostback=true&frmbase=calendrier&frmmode=1&frmdate1=2026-09-01&frmdate2=2027-08-31&frmdepartement=008" target="_blank">Calendrier / résultats</a>
           <a class="nav-link active" href="https://drive.google.com/drive/folders/1qem0x7hX3VsSFzezGTfbqCIaG_imQAkA" target="_blank">Règlement / Challenge clubs</a>
           <a class="nav-link">Aide, à venir ...</a>
-          <a class="nav-link text-white" href="SC.html">SC</a>
+          <a class="nav-link" href="SC.html">SC</a>
         </div>
       </div>
     </div>
   </nav>
   
-	<h4 style="text-align:center">Nouvelle saison, bientôt disponible ...</h4>
+	<!--h4 style="text-align:center">Nouvelle saison, bientôt disponible ...</h4-->
 	  <!--select name="link" v-model="linkSelect" :class="{ 'float-end': width > 615 }">
       <option value="26">Classement 2026 / 2027</option>
       <option value="25">Classement 2025 / 2026</option>
@@ -235,7 +235,8 @@
 
 <script type="module">
   import { createApp, ref, computed, watch, onMounted, onUnmounted } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
-  import { datas2025, races2025, ranking2025 } from "./challenge_db.js";
+  import { datas2025, races2025, ranking2025 } from "./challenge2025.js";
+  import { datas2026, races2026, ranking2026 } from "./challenge2026.js";
   //import { races2025 } from "./liste_courses.js";
   //import { ranking2025 } from "./challenge_clst.js";
   //import { datas2025 } from "./challenge_db.json" assert { type: 'json' }; //non supporté
@@ -247,16 +248,16 @@
       const count = ref(0)
       const hello = (param) => console.log('hello world function' + param)
       const myFiles = ref({'ranking': 'challenge_clst.csv', 'races': 'liste_courses.csv', 'datas': 'bdd.csv'})
-      const myDatas = ref(datas2025)
-      const myRaces = ref(races2025)
-      const myRanking = ref(ranking2025)
+      const myDatas = ref(datas2026)
+      const myRaces = ref(races2026)
+      const myRanking = ref(ranking2026)
       const tabNames = ref([])
       const dictRaces = ref({})
       const searchName = ref('')
       const searchRace = ref('')
       const showNavbar = ref(true)
-      const linkSelect = ref('25')
-      const season = ref(25)
+      const linkSelect = ref('26')
+      const season = ref(2026)
       const catSelect = ref('')
       const sexeSelect = ref('')
       const choixEpreuve = ref({})
@@ -451,7 +452,7 @@
       function fillTabNames() {
 		let tabNamesTri = [];
 	    let tabTemp = [];
-	    let tab = [];
+	    tabNames.value = [];
 	    
 	    for (let data of myDatas.value){ 
 			tabNamesTri.push(data.nom);
@@ -475,14 +476,39 @@
 	    //console.log(tabNames.value); // [... new Set(tabNames.value)].sort();
 	    //console.log(myRaces.value);
 	    //choixEpreuve.value = myRaces.value.at(-1);
-	    //searchRace.value = choixEpreuve.value['competition']; 
+	    //searchRace.value = choixEpreuve.value['competition'];
+	    console.log("tabNames rempli");
       }
       
       function fillDictRaces() {
+		dictRaces.value = {};
 	    for (let race of myRaces.value){ 
 		  dictRaces.value[race['numero']] = {compet: race['competition'], epreuve: race.epreuve};
 		};
+		console.log("dictRaces rempli");
       }
+      
+      function click2025(){
+		myDatas.value = datas2025;
+        myRaces.value = races2025;
+        myRanking.value = ranking2025;
+		season.value = 2025;
+		linkSelect.value = '25';
+		typeTab.value = 'classement';
+		fillDictRaces();
+	    fillTabNames();
+	  }
+	  
+	  function click2026(){
+		myDatas.value = datas2026;
+        myRaces.value = races2026;
+        myRanking.value = ranking2026;
+		season.value = 2026;
+		linkSelect.value = '26';
+		typeTab.value = 'classement';
+		fillDictRaces();
+	    fillTabNames();
+	  }
       
       
             
@@ -539,6 +565,8 @@
         uploadFiles,
         tabByEntry,
         marquee,
+        click2025,
+        click2026,
       }
     },
 
