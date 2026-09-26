@@ -54,10 +54,7 @@
       </select>
     </div>
     
-
-    
-<!--##########################################ByRace#########################"-->
-	<div style="width: fit-content">
+	<div class="sticky-top" style="width: fit-content">
 	  <input v-model.lazy="searchName" type="text" id="searchNameInput" placeholder="Recherche ..." @keyup="filterByName()" style="min-width: 300px"/> 
       <div style="position: relative; z-index: 2">
         <div class="myDropdown names">
@@ -68,12 +65,11 @@
       </div>
       <br/>
     </div>
-    
 
 	<table class="table table-striped">
 	  <thead>
         <tr>
-          <th scope="col" class="clickable" @click="myList = myList.slice().reverse(); order = !order">Nom</th>
+          <th scope="col" class="clickable" @click="myList = myList.slice().reverse(); order = !order">Nom ⇅</th>
           <th scope="col">Cat<span v-if="width > 575">égorie</span><span v-else>.</span></th>
           <th scope="col">Sexe<span v-if="width > 575"></span><span v-else></span></th>
           <!--th scope="col"><span v-if="width > 575">Dossard</span><span v-else>Pts</span></th-->
