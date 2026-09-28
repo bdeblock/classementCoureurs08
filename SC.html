@@ -47,10 +47,15 @@
         <option value="M9">Masters 9</option>
         <option value="M10">Masters 10</option>
       </select>
-      <select name="sexe" v-model="sexeSelect">
+      <select name="sexe" v-model="sexeSelect" class="me-2">
         <option value="">Sexe</option>
         <option value="F">F</option>
         <option value="M">M</option>
+      </select>
+      <select name="course" v-model="raceSelect">
+        <option value="">Course</option>
+        <option value="SC">Sedan Charleville</option>
+        <option value="FR">Foulées Roses</option>
       </select>
     </div>
     
@@ -70,8 +75,9 @@
 	  <thead>
         <tr>
           <th scope="col" class="clickable" @click="myList = myList.slice().reverse(); order = !order">Nom ⇅</th>
-          <th scope="col">Cat<span v-if="width > 575">égorie</span><span v-else>.</span></th>
-          <th scope="col">Sexe<span v-if="width > 575"></span><span v-else></span></th>
+          <th scope="col" class="text-center">Cat<span v-if="width > 575">égorie</span><span v-else>.</span></th>
+          <th scope="col" class="text-center"><span v-if="width > 575">Sexe</span></th>
+          <th scope="col"class="text-center">Course</th>
           <!--th scope="col"><span v-if="width > 575">Dossard</span><span v-else>Pts</span></th-->
         </tr>
 	  </thead>
@@ -87,8 +93,9 @@
           :key="index"
         >
           <td>{{ line.nom }}</td>
-          <td>{{ line.categorie }}</td>
-          <td>{{ line.sexe }}</td>
+          <td class="text-center">{{ line.categorie }}</td>
+          <td class="text-center">{{ line.sexe }}</td>
+          <td :class="{'text-danger': line.course=='FR'}" class="text-center">{{ line.course }}</td>
           <!--td>{{ line.sexe }}</td-->
         </tr>	
       </tbody>
@@ -112,6 +119,7 @@
       const showNavbar = ref(true)
       const catSelect = ref('')
       const sexeSelect = ref('')
+      const raceSelect = ref('')
       const typeTri = ref('')
       const width = ref(window.innerWidth)
       const numLien = ref('');
@@ -119,27 +127,27 @@
       
       const syncWidth = () => {width.value = window.innerWidth; console.log(width.value);}
       
+      console.log(myList.value[1])
+      
       watch(catSelect, () => { selectLine()  })
       watch(sexeSelect, () => { selectLine()  })
+      watch(raceSelect, () => { selectLine()  })
          
       function selectLine(val){
-	    if (catSelect.value == '' && sexeSelect.value == '') {
+	    if (catSelect.value == '' && sexeSelect.value == '' && raceSelect.value == '') {
 		  myList.value = inscritsSC
 		}else{
 		  let t=[]
-		  if (catSelect.value != '' && sexeSelect.value != '') {
+		  console.log("hello");
+		  //if (catSelect.value != ''&& sexeSelect.value == '') {
             for (let line of inscritsSC){
-		      if (line.categorie == catSelect.value && line.sexe == sexeSelect.value) t.push(line);
+		      if (
+		        (catSelect.value == "" || line.categorie == catSelect.value) &&
+		        (sexeSelect.value == "" || line.sexe == sexeSelect.value) &&
+		        (raceSelect.value == "" || line.course == raceSelect.value) 
+		        ) t.push(line);
 		    }
-		  }else if (catSelect.value != ''){
-			for (let line of inscritsSC){
-		      if (line.categorie == catSelect.value) t.push(line);
-		    }
-		  }else{
-			for (let line of inscritsSC){
-		      if (line.sexe == sexeSelect.value) t.push(line);
-		    }
-		  } 
+		  //}
 		  myList.value = t;
 	    }
 	  }
@@ -150,9 +158,10 @@
 			myList.value = myList.value.slice().reverse();
 			order. value = true;
 	    }
-        if (catSelect.value != '' || sexeSelect.value != ''){
+        if (catSelect.value != '' || sexeSelect.value != '' || raceSelect.value != ''){
           catSelect.value = '';
           sexeSelect.value = '';
+          raceSelect.value = '';
           await sleep(200);
         }
         searchName.value = line.nom;
@@ -201,7 +210,10 @@
 		console.log(typeof(myList.value));
 	    showNavbar.value = false;
 	    window.addEventListener('resize', syncWidth);
-	    await sleep(1000);   
+	    await sleep(1000);
+	    const allTables = document.querySelectorAll("table");
+
+	      
 	  })
 	  
 	  onUnmounted(() => window.removeEventListener('resize', syncWidth));
@@ -213,6 +225,7 @@
         showNavbar,
         catSelect,
         sexeSelect,
+        raceSelect,
         filterByName,
         nameClick,
         width,
