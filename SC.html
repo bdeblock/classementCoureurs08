@@ -63,7 +63,7 @@
 	  <input v-model.lazy="searchName" type="text" id="searchNameInput" placeholder="Recherche ..." @keyup="filterByName()" style="min-width: 300px"/> 
       <div style="position: relative; z-index: 2">
         <div class="myDropdown names">
-          <div v-for="(line, index) in inscritsSC" :key="index" @click="nameClick(line);">
+          <div v-for="(line, index) in myList" :key="index" @click="nameClick(line);">
 			  {{ line.nom }}
 		  </div>
         </div>
@@ -123,7 +123,6 @@
       const typeTri = ref('')
       const width = ref(window.innerWidth)
       const numLien = ref('');
-      const myTable = ref(null);
       
       const syncWidth = () => {width.value = window.innerWidth; console.log(width.value);}
       
@@ -158,16 +157,16 @@
 			myList.value = myList.value.slice().reverse();
 			order. value = true;
 	    }
-        if (catSelect.value != '' || sexeSelect.value != '' || raceSelect.value != ''){
+        /*if (catSelect.value != '' || sexeSelect.value != '' || raceSelect.value != ''){
           catSelect.value = '';
           sexeSelect.value = '';
           raceSelect.value = '';
           await sleep(200);
-        }
+        }*/
         searchName.value = line.nom;
         filterByName('all');
         let i = 0;
-        for (const inscrit of inscritsSC) {
+        for (const inscrit of myList.value) {
           if (inscrit.nom == line.nom){
 		    let child = document.getElementById("myTable").children[i];
 		    child.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
