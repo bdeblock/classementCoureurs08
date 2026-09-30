@@ -225,6 +225,16 @@
         searchRace.value = '';
         if (val == 'classement') {searchName.value = ''; numLien.value = ''};
       })
+      watch(sexeSelect, (val) => {
+        try {
+          localStorage.setItem("sexe", val);
+        }catch(e){}
+      })
+      watch(catSelect, (val) => {
+        try {
+		  localStorage.setItem("cat", val);
+		}catch(e){}
+      })
       
       function nameClick(line){
         typeTri.value = 'coureur';
@@ -364,6 +374,10 @@
 	  }
                
       onMounted( async () => {
+		let cat = localStorage.getItem("cat");
+		let sexe = localStorage.getItem("sexe");
+		if (sexe) sexeSelect.value = sexe;
+		if (cat) catSelect.value = cat;
 		let t0 = performance.now();
 	    fillTables();
 	    let t1 = performance.now();
