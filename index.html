@@ -194,7 +194,7 @@
 </html>
 
 <script type="module">
-  import { createApp, ref, computed, watch, onMounted, onUnmounted } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
+  import { createApp, ref, computed, watch, onMounted, onUnmounted } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js';
   import { datas2025, races2025, ranking2025 } from "./challenge2025.js";
   import { datas2026, races2026, ranking2026 } from "./challenge2026.js";
 
@@ -318,49 +318,40 @@
       }
       
       
-      function fillTabNames() {
-		let tabNamesTri = [];
-	    let tabTemp = [];
+      function fillTables() {
+		let seen = new Set();
 	    tabNames.value = [];
-	    
+        dictRaces.value = {};
+
+		
 	    for (let data of myDatas.value){ 
-			tabNamesTri.push(data.nom);
-			tabTemp.push({nom: data.nom, num_athlete: data.num_athlete});
-		};
-	    //for (let data of myDatas.value){ tabNames.value.push(data.nom) };
-	    //A VOIR
-	    //for (let race of myRaces.value){ 
-		//  dictRaces.value[race['numero']] = {compet: race['competition'], epreuve: race.epreuve};
-		//};
-						
-	    tabNamesTri = [... new Set(tabNamesTri)].sort();    
-	    for (let name of tabNamesTri){
-	      for (let temp of tabTemp){
-		    if (temp.nom == name) {
-			  tabNames.value.push(temp);
-			  break;
-			}
-	      };
+		  let duplicate = seen.has(data.nom);
+		  seen.add(data.nom);
+	      if (!duplicate) { tabNames.value.push({nom: data.nom, num_athlete: data.num_athlete}) };
 	    };
-	    console.log("tabNames rempli");
-      }
-      
-      function fillDictRaces() {
-		dictRaces.value = {};
+
+	    tabNames.value = tabNames.value.sort((a, b) => {
+          const nameA = a.nom;
+          const nameB = b.nom;
+          if (nameA < nameB) { return -1; }
+          if (nameA > nameB) { return 1; }
+          return 0; // les noms sont égaux
+        });
+        
 	    for (let race of myRaces.value){ 
 		  dictRaces.value[race['numero']] = {compet: race['competition'], epreuve: race.epreuve};
 		};
-		console.log("dictRaces rempli");
+           
+	    console.log("Tables remplies");
       }
-      
+            
       function click2025(){
 		myDatas.value = datas2025;
         myRaces.value = races2025;
         myRanking.value = ranking2025;
 		season.value = 2025;
 		typeTab.value = 'classement';
-		fillDictRaces();
-	    fillTabNames();
+	    fillTables();
 	  }
 	  
 	  function click2026(){
@@ -369,14 +360,12 @@
         myRanking.value = ranking2026;
 		season.value = 2026;
 		typeTab.value = 'classement';
-		fillDictRaces();
-	    fillTabNames();
+	    fillTables();
 	  }
                
       onMounted( async () => {
 		let t0 = performance.now();
-		fillDictRaces();
-	    fillTabNames();
+	    fillTables();
 	    let t1 = performance.now();
         console.log("L'appel de fill a demandé " + (t1 - t0) + "ms");
 	    showNavbar.value = false;
