@@ -206,11 +206,10 @@
       }
             
       onMounted( async () => {
-		console.log(typeof(myList.value));
 	    showNavbar.value = false;
 	    window.addEventListener('resize', syncWidth);
 	    await sleep(1000);
-	    const allTables = document.querySelectorAll("table");
+	    /*const allTables = document.querySelectorAll("table");
 
 	    for (const table of allTables) {
 	      const tBody = table.tBodies[0];
@@ -231,7 +230,7 @@
       	    tBody.append(...rows);
     	    });
   	      }
-	    }  
+	    }*/  
 	  })
 	  
 	  onUnmounted(() => window.removeEventListener('resize', syncWidth));
