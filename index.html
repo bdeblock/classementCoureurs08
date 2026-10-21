@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
   </head>
   <body>
   <div id="app" class="mx-auto p-2" style="max-width: 900px">
@@ -176,9 +176,9 @@
         </thead>
         <tbody>
           <tr v-for="(line, index) in tabByEntry" :key="index">
-            <td class="clickable">
-			  <span v-if="typeTri == 'course'" @click="nameClick(line)"> {{ line.nom }}</span>
-			  <span v-if="typeTri == 'coureur'" @click="raceClick(line)">
+            <td class="clickable" @click="typeTri == 'course' ? nameClick(line) : raceClick(line)">
+			  <span v-if="typeTri == 'course'"> {{ line.nom }}</span>
+			  <span v-if="typeTri == 'coureur'">
 			    {{ dictRaces[line['epreuve']].compet }} <br/> {{ dictRaces[line['epreuve']].epreuve }}
 			  </span>
 		    </td>
